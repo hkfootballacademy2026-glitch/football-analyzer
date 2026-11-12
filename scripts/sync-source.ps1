@@ -27,5 +27,16 @@ $findings = @(& git grep --cached -I -l -E -e $secretPattern)
 if ($LASTEXITCODE -gt 1) { throw 'Secret check failed' }
 if ($findings.Count -gt 0) { throw ('Possible secret in: ' + ($findings -join ', ')) }
 if ($staged.Count -gt 0) { Git-Checked commit -m $Message }
-Git-Checked push origin main
+$previousToken=$env:GH_TOKEN
+try {
+ $ownerToken=& gh auth token --hostname github.com --user hkfootballacademy2026-glitch
+ if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($ownerToken)) { throw 'Sign in to GitHub CLI as hkfootballacademy2026-glitch before saving' }
+ $env:GH_TOKEN=$ownerToken.Trim()
+ $env:GIT_TERMINAL_PROMPT='0'
+ $env:GCM_INTERACTIVE='Never'
+ Git-Checked push origin main
+} finally {
+ $env:GH_TOKEN=$previousToken
+ $ownerToken=$null
+}
 Write-Output 'Source saved to GitHub. Match records and personal videos were not uploaded.'

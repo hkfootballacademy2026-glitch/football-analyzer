@@ -188,7 +188,7 @@ QR画像とホーム画面アイコンは public 内に同梱しています。�
 
 2026年11月12日の最新版を保存開始点とし、以後の修正をGitのコミットで記録します。それ以前の変更履歴は、この作業フォルダーにGit履歴がなかったため復元できません。
 
-Windowsでは `Save-source-to-GitHub.cmd` を実行すると、対象ソースを確認してコミットし、GitHubの `main` へ送信します。GitとGitHub CLIが必要です。失敗した場合は表示されたエラーを確認してください。送信成功前の変更はGitHubに保管されていません。自動実行や本番公開は行いません。
+Windowsでは `Save-source-to-GitHub.cmd` を実行すると、対象ソースを確認してコミットし、GitHubの `main` へ送信します。GitとGitHub CLI、および所有者アカウント `hkfootballacademy2026-glitch` のGitHub CLIへのログインが必要です。保存処理内だけ所有者の認証を使い、普段のアクティブアカウントは変更しません。失敗した場合は表示されたエラーを確認してください。送信成功前の変更はGitHubに保管されていません。自動実行や本番公開は行いません。
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync-source.ps1 -Preview
