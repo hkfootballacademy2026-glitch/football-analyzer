@@ -188,7 +188,7 @@ QR画像とホーム画面アイコンは public 内に同梱しています。�
 
 2026年11月12日の最新版を保存開始点とし、以後の修正をGitのコミットで記録します。それ以前の変更履歴は、この作業フォルダーにGit履歴がなかったため復元できません。
 
-Windowsでは `Save-source-to-GitHub.cmd` を実行すると、対象ソースを確認してコミットし、GitHubの `main` へ送信します。GitとGitHub CLI、および所有者アカウント `hkfootballacademy2026-glitch` のGitHub CLIへのログインが必要です。保存処理内だけ所有者の認証を使い、普段のアクティブアカウントは変更しません。失敗した場合は表示されたエラーを確認してください。送信成功前の変更はGitHubに保管されていません。自動実行や本番公開は行いません。
+Windowsでは `Save-source-to-GitHub.cmd` を実行すると、対象ソースを確認してコミットし、GitHubの `main` へ送信します。GitとGitHub CLI、および所有者アカウント `hkfootballacademy2026-glitch` のGitHub CLIへのログインが必要です。保存処理内だけ所有者の認証を使い、普段のアクティブアカウントは変更しません。失敗した場合は表示されたエラーを確認してください。送信成功前の変更はGitHubに保管されていません。保存コマンド自体は本番公開を行いません。GitHubへの送信後には自動検証が実行されます。
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync-source.ps1 -Preview
@@ -198,3 +198,24 @@ powershell -NoProfile -ExecutionPolicy Bypass -File scripts/sync-source.ps1 -Mes
 保存対象は `src`・`server`・`scripts`・`tests`・必要な公開素材・設定と技術資料です。環境変数の実値、`.projects`、秘密鍵、試合動画、ZIP、ビルド出力、端末内の試合・選手・戦術データは対象外です。FFmpeg・MediaPipeの生成物は `npm run build` で依存パッケージから再生成します。MediaPipeのモデルファイルはコードの再現に必要なため同梱します。
 
 別のPCではこのリポジトリをクローンし、Node.js 22以上で `npm ci` → `npm run build` を実行できます。本番の認証情報はGitHubに格納していないため、デプロイ先で別途設定してください。端末内の試合記録・動画のバックアップは、アプリのJSON書き出し・動画書き出しで別に行ってください。
+
+
+## 今後の開発と公開
+
+GitHubの main をソースコードの正本として扱います。今後の実装作業は、GitHubの最新版確認 → 修正と検証 → コミット・GitHubへの送信 → 公開を依頼された場合はその保存点から公開、という順に進めます。この方針を AGENTS.md に記録しています。
+
+GitHub Actionsの「Source verification」は main 更新・プルリクエスト時に自動実行されます。GitHub上の新しい環境で npm ci・型チェック・単体テスト・サーバーテスト・長押しの回帰検証・本番ビルドを行います。Actions画面から手動で再実行することもできます。成功したビルドはコミットID付きの成果物として14日間保管されます。恒久的に保管するのはソースとGit履歴で、成果物は再ビルドできます。
+
+開発用PCの故障やフォルダーの消失時は、次のようにGitHubから取得できます。保存先には # を含まないパスを使ってください。
+
+```powershell
+git clone https://github.com/hkfootballacademy2026-glitch/football-analyzer.git
+cd football-analyzer
+npm ci
+npm run build
+npm run dev
+```
+
+本番公開先は https://football-analyzer-hk-20261105.football-analyzer.workers.dev です。公開にはCloudflareのログイン権限が必要で、認証情報をGitソースへ含める必要はありません。新しいPCではアカウントに再ログインします。既存Workerのサーバー側シークレットはサービス側で管理します。Stripe Projects管理の外部サービスは既存のFootballanalyzerプロジェクトへ再接続して復元し、同名サービスを重複作成しないでください。
+
+GitHub更新と本番公開は別の状態です。Actionsの自動検証だけでは本番URLは更新されません。公開する際は成功したコミットを使い、旧アセットの互換性も保った上で配信内容を確認します。

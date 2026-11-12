@@ -12,12 +12,12 @@ if ($LASTEXITCODE -ne 0 -or $remote -ne $expectedRemote) { throw 'Unexpected ori
 $branch = & git branch --show-current
 if ($LASTEXITCODE -ne 0 -or $branch -ne 'main') { throw 'Switch to main before saving source' }
 if ($Preview) { Git-Checked status --short; return }
-$paths = @('src','server','scripts','tests','public','.gitignore','.env.example','AGENTS.md','README.md','CHANGELOG.md','FEATURE_STATUS.md','LICENSES.md','index.html','package.json','package-lock.json','eslint.config.js','tsconfig.json','vite.config.ts','vitest.config.ts','playwright.config.ts','wrangler.jsonc','wrangler.billing.example.jsonc','MOBILE_WORKSPACE_VALIDATION.md','MP4_SOURCE_VALIDATION.md','PITCH_WORKSPACE_VALIDATION.md','SAFARI_VALIDATION.md','SCENE_RECONSTRUCTION_VALIDATION.md','WORKSPACE_UPGRADE_VALIDATION.md','Save-source-to-GitHub.cmd')
+$paths = @('.github','src','server','scripts','tests','public','.gitignore','.env.example','AGENTS.md','README.md','CHANGELOG.md','FEATURE_STATUS.md','LICENSES.md','index.html','package.json','package-lock.json','eslint.config.js','tsconfig.json','vite.config.ts','vitest.config.ts','playwright.config.ts','wrangler.jsonc','wrangler.billing.example.jsonc','MOBILE_WORKSPACE_VALIDATION.md','MP4_SOURCE_VALIDATION.md','PITCH_WORKSPACE_VALIDATION.md','SAFARI_VALIDATION.md','SCENE_RECONSTRUCTION_VALIDATION.md','WORKSPACE_UPGRADE_VALIDATION.md','Save-source-to-GitHub.cmd')
 Git-Checked add -- @paths
 $staged = @(& git -c core.quotepath=false diff --cached --name-only)
 if ($LASTEXITCODE -ne 0) { throw 'Cannot inspect staged paths' }
 foreach ($file in $staged) {
- $allowed = ($paths -contains $file) -or ($file -match '^(src|server|scripts|tests|public)/')
+ $allowed = ($paths -contains $file) -or ($file -match '^(\.github|src|server|scripts|tests|public)/')
  if (-not $allowed -or $file -match '(^|/)(\.env($|\.)|\.projects/)|\.(pem|key|p12|pfx)$') {
   if ($file -ne '.env.example') { throw ('Excluded file is staged: ' + $file) }
  }
@@ -34,7 +34,7 @@ try {
  $env:GH_TOKEN=$ownerToken.Trim()
  $env:GIT_TERMINAL_PROMPT='0'
  $env:GCM_INTERACTIVE='Never'
- Git-Checked push origin main
+ Git-Checked -c 'credential.helper=' -c 'credential.helper=!gh auth git-credential' push origin main
 } finally {
  $env:GH_TOKEN=$previousToken
  $ownerToken=$null
