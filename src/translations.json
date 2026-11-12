@@ -5440,5 +5440,35 @@
     "Mostrar fotogramas y reproducción",
     "Mostrar quadros e reprodução",
     "显示帧和播放"
+  ],
+  "ボールの大きさ": [
+    "Ball size",
+    "Tamaño del balón",
+    "Tamanho da bola",
+    "足球大小"
+  ],
+  "軌道：なし": [
+    "Trajectory: none",
+    "Trayectoria: ninguna",
+    "Trajetória: nenhuma",
+    "轨迹：无"
+  ],
+  "軌道：シュート": [
+    "Trajectory: shot",
+    "Trayectoria: tiro",
+    "Trajetória: chute",
+    "轨迹：射门"
+  ],
+  "対角の2点をドラッグして円を描きます。白いハンドルで大きさを変更できます。": [
+    "Drag between opposite corners to draw an ellipse. Resize it with the white handles.",
+    "Arrastra entre esquinas opuestas para dibujar una elipse. Ajusta su tamaño con los tiradores blancos.",
+    "Arraste entre cantos opostos para desenhar uma elipse. Redimensione pelas alças brancas.",
+    "拖动对角两点绘制椭圆，使用白色控点调整大小。"
+  ],
+  "始点から終点へドラッグ。白い端点で長さと向きを調整、本体で移動できます。Shiftキーで45度刻みにそろえます。": [
+    "Drag from start to end. Drag white endpoints to resize or rotate, and the body to move. Hold Shift for 45-degree angles.",
+    "Arrastra del inicio al final. Ajusta los extremos blancos o mueve el cuerpo. Mayús limita a ángulos de 45 grados.",
+    "Arraste do início ao fim. Ajuste as pontas brancas ou mova o corpo. Shift limita os ângulos a 45 graus.",
+    "从起点拖到终点。拖动白色端点调整长度和方向，拖动线条移动。按住 Shift 以45度对齐。"
   ]
 }

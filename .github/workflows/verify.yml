@@ -40,6 +40,10 @@ jobs:
         run: node scripts/verify-long-press.cjs
       - name: Build from a clean checkout
         run: npm run build
+      - name: Install Chromium for board interaction tests
+        run: npx playwright install --with-deps chromium
+      - name: Ball and drawing interaction tests
+        run: npx playwright test tests/tactics-ball-drawing.spec.ts
       - name: Keep the verified app build
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:
