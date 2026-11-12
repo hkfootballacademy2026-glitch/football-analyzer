@@ -1,0 +1,4 @@
+import {type StudioClip,type Drawing,uid} from './domain';
+import {clipDuration} from './highlight-model';
+export function telopDrawing(text:string,base?:Drawing):Drawing{const size=base?.fontSize??32,x=base?.x??.04,y=base?.y??.82,ex=base?.ex??.96;const chars=Math.max(1,Math.floor((ex-x)*1280/size));const lines=text.split('\n').reduce((n,line)=>n+Math.max(1,Math.ceil([...line].length/chars)),0);return {id:base?.id??uid(),kind:'text',color:'#ffffff',...base,text,x,y,ex,ey:Math.min(1,y+Math.min(lines,6)*size*1.3/720),fontSize:size}}
+export function withTelop(c:StudioClip):StudioClip{if(c.telopEnabled)return c;return {...c,name:c.name??c.subtitle.slice(0,200),telopEnabled:true,overlays:[...c.overlays,...(c.subtitle&&!c.overlays.some(o=>o.role==='telop')?[{role:'telop' as const,drawing:telopDrawing(c.subtitle),start:0,end:clipDuration(c),keys:[]}]:[])]}}

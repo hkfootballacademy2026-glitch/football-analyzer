@@ -1,0 +1,3 @@
+MediaPipe sample image, used only for local detector verification.
+https://storage.googleapis.com/mediapipe-assets/pose.jpg
+This fixture tests person detection, not accuracy on football match footage.

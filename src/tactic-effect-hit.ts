@@ -1,0 +1,3 @@
+import type {Piece,TacticEffect} from './domain';
+import {resolveEffect} from './tactic-edit';
+export function hitTacticEffect(effects:TacticEffect[],pieces:Piece[],p:{x:number;y:number},tolerance=2){return [...effects].reverse().find(raw=>{const e=resolveEffect(raw,pieces);if(e.kind==='circle'||e.kind==='spotlight'){const rx=Math.max(1.3,Math.abs(e.ex-e.x)),ry=Math.max(1.3,Math.abs(e.ey-e.y));const radius=Math.hypot((p.x-e.x)/rx,(p.y-e.y)/ry);return e.kind==='spotlight'?radius<=1+tolerance/Math.min(rx,ry):Math.abs(radius-1)*Math.min(rx,ry)<=tolerance}const dx=e.ex-e.x,dy=e.ey-e.y,t=Math.max(0,Math.min(1,((p.x-e.x)*dx+(p.y-e.y)*dy)/(dx*dx+dy*dy||1)));return Math.hypot(p.x-e.x-dx*t,p.y-e.y-dy*t)<=tolerance})}

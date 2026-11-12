@@ -1,0 +1,16 @@
+import type {Drawing} from './domain';
+export const drawingTools:[string,[Drawing['kind'],string][]][]=[['選手・強調',[['player','選手名・番号'],['ring','リング'],['spotlight','スポットライト'],['link','選手間リンク']]],['線・エリア',[['arrow','矢印'],['line','ライン'],['freehand','フリーハンド'],['circle','円・楕円'],['rect','四角形'],['area','自由エリア']]],['文字',[['text','テキスト']]]];
+export const drawingName=(kind:Drawing['kind'])=>drawingTools.flatMap(g=>g[1]).find(t=>t[0]===kind)?.[1]??kind;
+export function drawShapes(ctx:CanvasRenderingContext2D,items:Drawing[],w:number,h:number){
+ for(const d of items){ctx.save();const x=d.x*w,y=d.y*h,ex=d.ex*w,ey=d.ey*h;const width=(d.width??3)*w/1280;ctx.strokeStyle=d.color;ctx.fillStyle=d.color;ctx.globalAlpha=d.opacity??1;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';ctx.setLineDash(d.dashed?[width*4,width*3]:[]);
+ const ellipse=()=>ctx.ellipse((x+ex)/2,(y+ey)/2,Math.max(2,Math.abs(ex-x)/2),Math.max(2,Math.abs(ey-y)/2),0,0,Math.PI*2);
+ if(d.kind==='text'||d.kind==='player'){const size=(d.fontSize??32)*w/1280;ctx.font=`bold ${size}px sans-serif`;ctx.textBaseline='top';const label=d.text??(d.kind==='player'?'選手':'');if(!label){ctx.restore();continue;}const lines:string[]=[];const maxWidth=Math.max(size,Math.abs(d.ex-d.x)*w);for(const paragraph of label.split('\n')){let line='';for(const char of paragraph){if(line&&ctx.measureText(line+char).width>maxWidth){lines.push(line);line=char}else line+=char}lines.push(line)}const tw=Math.max(...lines.map(line=>ctx.measureText(line).width));ctx.fillStyle='#000b';ctx.fillRect(x-6,y-5,Math.min(tw,w-x)+12,lines.length*size*1.3+10);ctx.fillStyle=d.color;lines.forEach((line,i)=>ctx.fillText(line,x,y+i*size*1.3,Math.max(1,w-x)));}
+ else if(d.kind==='link'){const nodes=d.nodes??[{x:d.x,y:d.y},{x:d.ex,y:d.ey}],rx=28*w/1280,ry=42*h/720;for(let i=1;i<nodes.length;i++){const a=nodes[i-1],b=nodes[i],dx=(b.x-a.x)*w,dy=(b.y-a.y)*h,r=Math.sqrt((dx/rx)**2+(dy/ry)**2);if(r>2){ctx.beginPath();ctx.moveTo(a.x*w+dx/r,a.y*h+dy/r);ctx.lineTo(b.x*w-dx/r,b.y*h-dy/r);ctx.stroke()}}for(const p of nodes){ctx.beginPath();ctx.ellipse(p.x*w,p.y*h,rx,ry,0,0,Math.PI*2);ctx.stroke()}}
+ else if(d.kind==='spotlight'){ctx.fillStyle='#000';ctx.beginPath();ctx.rect(0,0,w,h);ellipse();ctx.fill('evenodd');ctx.beginPath();ellipse();ctx.stroke();}
+ else {ctx.beginPath();if(['circle','ring'].includes(d.kind))ellipse();else if(d.kind==='rect')ctx.rect(x,y,ex-x,ey-y);else if(d.kind==='freehand'||d.kind==='area'){const points=d.points??[{x:d.x,y:d.y},{x:d.ex,y:d.ey}];points.forEach((p,i)=>i?ctx.lineTo(p.x*w,p.y*h):ctx.moveTo(p.x*w,p.y*h));if(d.kind==='area')ctx.closePath();}else{ctx.moveTo(x,y);ctx.lineTo(ex,ey)}
+ if(d.fill||d.kind==='area'){ctx.save();ctx.globalAlpha*=.3;ctx.fill();ctx.restore()}ctx.stroke();
+ if(d.kind==='arrow'){const a=Math.atan2(ey-y,ex-x),head=Math.max(16*w/1280,width*3);ctx.beginPath();ctx.moveTo(ex,ey);ctx.lineTo(ex-head*Math.cos(a-.4),ey-head*Math.sin(a-.4));ctx.lineTo(ex-head*Math.cos(a+.4),ey-head*Math.sin(a+.4));ctx.closePath();ctx.fill()}
+ if((d as Drawing).kind==='link'){for(const [cx,cy] of [[x,y],[ex,ey]]){ctx.beginPath();ctx.ellipse(cx,cy,18*w/1280,8*h/720,0,0,Math.PI*2);ctx.fill();ctx.stroke()}}
+ }ctx.restore();
+ }
+}

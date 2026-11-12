@@ -1,0 +1,18 @@
+import {syncDribbles,type Tactic,type TacticEffect,type Piece} from './domain';
+export function cleanTactic(t:Tactic):Tactic{return {...t,frames:syncDribbles(t.frames).map(f=>({...f,...(f.effects?{effects:f.effects.filter(e=>(!e.fromId||f.pieces.some(p=>p.id===e.fromId))&&(!e.toId||f.pieces.some(p=>p.id===e.toId)))}:{})}))}}
+export class TacticHistory{
+ past:Tactic[]=[];future:Tactic[]=[];private before:Tactic|undefined;
+ reset(){this.past=[];this.future=[];this.before=undefined}
+ begin(current:Tactic){if(!this.before)this.before=structuredClone(current)}
+ private push(value:Tactic){this.past.push(structuredClone(value));if(this.past.length>60)this.past.shift();this.future=[]}
+ record(previous:Tactic,next:Tactic){if(!this.before&&JSON.stringify(previous)!==JSON.stringify(next))this.push(previous)}
+ commit(current:Tactic){const before=this.before;this.before=undefined;if(before&&JSON.stringify(before)!==JSON.stringify(current))this.push(before)}
+ cancel(){const before=this.before;this.before=undefined;return before}
+ undo(current:Tactic){const previous=this.past.pop();if(!previous)return;this.future.push(structuredClone(current));this.before=undefined;return structuredClone(previous)}
+ redo(current:Tactic){const next=this.future.pop();if(!next)return;this.past.push(structuredClone(current));this.before=undefined;return structuredClone(next)}
+}
+export function effectsAt(frames:Tactic['frames'],time:number){return ([...frames].reverse().find(f=>f.time<=time)??frames[0])?.effects??[]}
+export function resolveEffect(effect:TacticEffect,pieces:Piece[]){const from=pieces.find(p=>p.id===effect.fromId),to=pieces.find(p=>p.id===effect.toId);const dx=from?from.x-effect.x:0,dy=from?from.y-effect.y:0;return {...effect,x:from?.x??effect.x,y:from?.y??effect.y,ex:to?.x??(effect.kind==='circle'||effect.kind==='spotlight'?effect.ex+dx:effect.ex),ey:to?.y??(effect.kind==='circle'||effect.kind==='spotlight'?effect.ey+dy:effect.ey)}}
+export function facingAngle(piece:Pick<Piece,'x'|'y'>,target:{x:number;y:number}){return (Math.atan2(target.y-piece.y,target.x-piece.x)*180/Math.PI+360)%360}
+
+export function moveTacticEffect(effect:TacticEffect,dx:number,dy:number):TacticEffect{if(!dx&&!dy)return effect;dx=Math.max(-Math.min(effect.x,effect.ex),Math.min(100-Math.max(effect.x,effect.ex),dx));dy=Math.max(-Math.min(effect.y,effect.ey),Math.min(64-Math.max(effect.y,effect.ey),dy));return {...effect,x:effect.x+dx,y:effect.y+dy,ex:effect.ex+dx,ey:effect.ey+dy,fromId:undefined,toId:undefined}}

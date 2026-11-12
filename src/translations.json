@@ -1,0 +1,5444 @@
+{
+  "試合分析": [
+    "Match analysis",
+    "Análisis de partidos",
+    "Análise de partidas",
+    "比赛分析"
+  ],
+  "戦術ボード": [
+    "Tactics board",
+    "Pizarra táctica",
+    "Quadro tático",
+    "战术板"
+  ],
+  "フォーム分析": [
+    "Movement analysis",
+    "Análisis de movimiento",
+    "Análise de movimento",
+    "动作分析"
+  ],
+  "チーム管理": [
+    "Team management",
+    "Gestión de equipos",
+    "Gestão de equipes",
+    "球队管理"
+  ],
+  "試合一覧": [
+    "Matches",
+    "Partidos",
+    "Partidas",
+    "比赛列表"
+  ],
+  "集計・レポート": [
+    "Statistics & reports",
+    "Estadísticas e informes",
+    "Estatísticas e relatórios",
+    "统计与报告"
+  ],
+  "設定": [
+    "Settings",
+    "Ajustes",
+    "Configurações",
+    "设置"
+  ],
+  "現在のチーム": [
+    "Current team",
+    "Equipo actual",
+    "Equipe atual",
+    "当前球队"
+  ],
+  "チームを選択": [
+    "Select team",
+    "Seleccionar equipo",
+    "Selecionar equipe",
+    "选择球队"
+  ],
+  "ワークスペース": [
+    "Workspace",
+    "Espacio de trabajo",
+    "Espaço de trabalho",
+    "工作区"
+  ],
+  "ローカルモード": [
+    "Local mode",
+    "Modo local",
+    "Modo local",
+    "本地模式"
+  ],
+  "保存中…": [
+    "Saving…",
+    "Guardando…",
+    "Salvando…",
+    "正在保存…"
+  ],
+  "端末に保存済み": [
+    "Saved on device",
+    "Guardado en el dispositivo",
+    "Salvo no dispositivo",
+    "已保存到设备"
+  ],
+  "保存に失敗": [
+    "Save failed",
+    "Error al guardar",
+    "Falha ao salvar",
+    "保存失败"
+  ],
+  "ガイド": [
+    "Guide",
+    "Ayuda",
+    "Guia",
+    "帮助"
+  ],
+  "言語": [
+    "Language",
+    "Idioma",
+    "Idioma",
+    "语言"
+  ],
+  "閉じる": [
+    "Close",
+    "Cerrar",
+    "Fechar",
+    "关闭"
+  ],
+  "新しい試合": [
+    "New match",
+    "Nuevo partido",
+    "Nova partida",
+    "新比赛"
+  ],
+  "対戦相手": [
+    "Opponent",
+    "Rival",
+    "Adversário",
+    "对手"
+  ],
+  "試合日": [
+    "Match date",
+    "Fecha del partido",
+    "Data da partida",
+    "比赛日期"
+  ],
+  "人数": [
+    "Players per team",
+    "Jugadores por equipo",
+    "Jogadores por equipe",
+    "每队人数"
+  ],
+  "スコア": [
+    "Score",
+    "Marcador",
+    "Placar",
+    "比分"
+  ],
+  "スコア（任意）": [
+    "Score (optional)",
+    "Marcador (opcional)",
+    "Placar (opcional)",
+    "比分（选填）"
+  ],
+  "スコア未入力": [
+    "No score",
+    "Sin marcador",
+    "Sem placar",
+    "未填写比分"
+  ],
+  "試合を登録して分析": [
+    "Create match & analyze",
+    "Crear partido y analizar",
+    "Criar partida e analisar",
+    "创建比赛并分析"
+  ],
+  "試合情報を編集": [
+    "Edit match details",
+    "Editar datos del partido",
+    "Editar dados da partida",
+    "编辑比赛信息"
+  ],
+  "試合を削除": [
+    "Delete match",
+    "Eliminar partido",
+    "Excluir partida",
+    "删除比赛"
+  ],
+  "変更を保存": [
+    "Save changes",
+    "Guardar cambios",
+    "Salvar alterações",
+    "保存修改"
+  ],
+  "キャンセル": [
+    "Cancel",
+    "Cancelar",
+    "Cancelar",
+    "取消"
+  ],
+  "保存": [
+    "Save",
+    "Guardar",
+    "Salvar",
+    "保存"
+  ],
+  "削除": [
+    "Delete",
+    "Eliminar",
+    "Excluir",
+    "删除"
+  ],
+  "編集": [
+    "Edit",
+    "Editar",
+    "Editar",
+    "编辑"
+  ],
+  "追加": [
+    "Add",
+    "Añadir",
+    "Adicionar",
+    "添加"
+  ],
+  "名前": [
+    "Name",
+    "Nombre",
+    "Nome",
+    "姓名"
+  ],
+  "チーム名": [
+    "Team name",
+    "Nombre del equipo",
+    "Nome da equipe",
+    "球队名称"
+  ],
+  "背番号": [
+    "Shirt number",
+    "Dorsal",
+    "Número da camisa",
+    "球衣号码"
+  ],
+  "選手名": [
+    "Player name",
+    "Nombre del jugador",
+    "Nome do jogador",
+    "球员姓名"
+  ],
+  "選手": [
+    "Player",
+    "Jugador",
+    "Jogador",
+    "球员"
+  ],
+  "カテゴリー": [
+    "Category",
+    "Categoría",
+    "Categoria",
+    "类别"
+  ],
+  "シーズン": [
+    "Season",
+    "Temporada",
+    "Temporada",
+    "赛季"
+  ],
+  "チーム・選手": [
+    "Teams & players",
+    "Equipos y jugadores",
+    "Equipes e jogadores",
+    "球队与球员"
+  ],
+  "チームを登録": [
+    "Register team",
+    "Registrar equipo",
+    "Cadastrar equipe",
+    "注册球队"
+  ],
+  "選手を追加": [
+    "Add player",
+    "Añadir jugador",
+    "Adicionar jogador",
+    "添加球员"
+  ],
+  "イベント": [
+    "Event",
+    "Evento",
+    "Evento",
+    "事件"
+  ],
+  "自由タグ追加": [
+    "Add custom tag",
+    "Añadir etiqueta libre",
+    "Adicionar etiqueta livre",
+    "添加自定义标签"
+  ],
+  "ピッチの位置（任意）": [
+    "Pitch position (optional)",
+    "Posición (opcional)",
+    "Posição (opcional)",
+    "球场位置（选填）"
+  ],
+  "ピッチの位置（3エリア×5レーン・任意）": [
+    "Pitch position: 3 zones × 5 lanes",
+    "Posición: 3 zonas × 5 carriles",
+    "Posição: 3 zonas × 5 corredores",
+    "球场位置：3区域×5通道"
+  ],
+  "対象チームの攻撃方向": [
+    "Attacking direction",
+    "Dirección de ataque",
+    "Direção do ataque",
+    "进攻方向"
+  ],
+  "右 →": [
+    "Right →",
+    "Derecha →",
+    "Direita →",
+    "右 →"
+  ],
+  "左 ←": [
+    "Left ←",
+    "Izquierda ←",
+    "Esquerda ←",
+    "左 ←"
+  ],
+  "上 ↑": [
+    "Up ↑",
+    "Arriba ↑",
+    "Cima ↑",
+    "上 ↑"
+  ],
+  "下 ↓": [
+    "Down ↓",
+    "Abajo ↓",
+    "Baixo ↓",
+    "下 ↓"
+  ],
+  "位置未指定": [
+    "No position",
+    "Sin posición",
+    "Sem posição",
+    "未指定位置"
+  ],
+  "位置をクリア": [
+    "Clear position",
+    "Borrar posición",
+    "Limpar posição",
+    "清除位置"
+  ],
+  "選手・背番号（任意）": [
+    "Player / shirt number (optional)",
+    "Jugador / dorsal (opcional)",
+    "Jogador / número (opcional)",
+    "球员／球衣号码（选填）"
+  ],
+  "評価（任意）": [
+    "Rating (optional)",
+    "Valoración (opcional)",
+    "Avaliação (opcional)",
+    "评价（选填）"
+  ],
+  "GOOD / BAD（任意）": [
+    "GOOD / BAD (optional)",
+    "GOOD / BAD (opcional)",
+    "GOOD / BAD (opcional)",
+    "GOOD / BAD（选填）"
+  ],
+  "コメント等": [
+    "Comments & more",
+    "Comentarios y más",
+    "Comentários e mais",
+    "评论等"
+  ],
+  "コメント": [
+    "Comment",
+    "Comentario",
+    "Comentário",
+    "评论"
+  ],
+  "タグを登録": [
+    "Add tag",
+    "Añadir etiqueta",
+    "Adicionar etiqueta",
+    "添加标签"
+  ],
+  "入力を取り消す": [
+    "Cancel input",
+    "Cancelar entrada",
+    "Cancelar entrada",
+    "取消输入"
+  ],
+  "戦術ボードへ": [
+    "Open tactics board",
+    "Abrir pizarra táctica",
+    "Abrir quadro tático",
+    "前往战术板"
+  ],
+  "自チーム": [
+    "Our team",
+    "Nuestro equipo",
+    "Nossa equipe",
+    "本队"
+  ],
+  "相手": [
+    "Opponent",
+    "Rival",
+    "Adversário",
+    "对手"
+  ],
+  "前半": [
+    "First half",
+    "Primera parte",
+    "Primeiro tempo",
+    "上半场"
+  ],
+  "後半": [
+    "Second half",
+    "Segunda parte",
+    "Segundo tempo",
+    "下半场"
+  ],
+  "延長": [
+    "Extra time",
+    "Prórroga",
+    "Prorrogação",
+    "加时"
+  ],
+  "未評価": [
+    "Unrated",
+    "Sin valorar",
+    "Sem avaliação",
+    "未评价"
+  ],
+  "開始（秒）": [
+    "Start (seconds)",
+    "Inicio (segundos)",
+    "Início (segundos)",
+    "开始（秒）"
+  ],
+  "終了（秒）": [
+    "End (seconds)",
+    "Fin (segundos)",
+    "Fim (segundos)",
+    "结束（秒）"
+  ],
+  "タグ前（秒）": [
+    "Seconds before tag",
+    "Segundos antes",
+    "Segundos antes",
+    "标签前（秒）"
+  ],
+  "タグ後（秒）": [
+    "Seconds after tag",
+    "Segundos después",
+    "Segundos depois",
+    "标签后（秒）"
+  ],
+  "再生": [
+    "Play",
+    "Reproducir",
+    "Reproduzir",
+    "播放"
+  ],
+  "停止": [
+    "Pause",
+    "Pausar",
+    "Pausar",
+    "暂停"
+  ],
+  "再生速度": [
+    "Playback speed",
+    "Velocidad",
+    "Velocidade",
+    "播放速度"
+  ],
+  "前のコマ": [
+    "Previous frame",
+    "Fotograma anterior",
+    "Quadro anterior",
+    "上一帧"
+  ],
+  "次のコマ": [
+    "Next frame",
+    "Fotograma siguiente",
+    "Próximo quadro",
+    "下一帧"
+  ],
+  "次のフレーム": [
+    "Next frame",
+    "Fotograma siguiente",
+    "Próximo quadro",
+    "下一帧"
+  ],
+  "動画1を再生": [
+    "Play video 1",
+    "Reproducir vídeo 1",
+    "Reproduzir vídeo 1",
+    "播放视频1"
+  ],
+  "両方を停止": [
+    "Pause both",
+    "Pausar ambos",
+    "Pausar ambos",
+    "暂停两个视频"
+  ],
+  "同期位置から再生": [
+    "Play in sync",
+    "Reproducir sincronizados",
+    "Reproduzir sincronizados",
+    "同步播放"
+  ],
+  "動画2のオフセット（秒）": [
+    "Video 2 offset (seconds)",
+    "Desfase del vídeo 2 (segundos)",
+    "Deslocamento do vídeo 2 (segundos)",
+    "视频2偏移（秒）"
+  ],
+  "端末内の姿勢推定": [
+    "On-device pose estimation",
+    "Estimación de postura local",
+    "Estimativa de postura local",
+    "设备端姿态估计"
+  ],
+  "モデルを選択": [
+    "Choose model",
+    "Seleccionar modelo",
+    "Selecionar modelo",
+    "选择模型"
+  ],
+  "動画1の解析を開始": [
+    "Analyze video 1",
+    "Analizar vídeo 1",
+    "Analisar vídeo 1",
+    "分析视频1"
+  ],
+  "解析を停止": [
+    "Stop analysis",
+    "Detener análisis",
+    "Parar análise",
+    "停止分析"
+  ],
+  "角度CSV": [
+    "Angles CSV",
+    "Ángulos CSV",
+    "Ângulos CSV",
+    "角度CSV"
+  ],
+  "動作の観察記録": [
+    "Movement observations",
+    "Observaciones del movimiento",
+    "Observações do movimento",
+    "动作观察记录"
+  ],
+  "分析テーマ": [
+    "Analysis topic",
+    "Tema de análisis",
+    "Tema de análise",
+    "分析主题"
+  ],
+  "キック": [
+    "Kicking",
+    "Golpeo",
+    "Chute",
+    "踢球"
+  ],
+  "ドリブル": [
+    "Dribbling",
+    "Regate",
+    "Drible",
+    "运球"
+  ],
+  "走り方": [
+    "Running",
+    "Carrera",
+    "Corrida",
+    "跑步"
+  ],
+  "この時刻にメモを追加": [
+    "Add note at this time",
+    "Añadir nota aquí",
+    "Adicionar nota neste instante",
+    "在此时刻添加备注"
+  ],
+  "観察メモCSV": [
+    "Observation notes CSV",
+    "Notas CSV",
+    "Notas CSV",
+    "观察备注CSV"
+  ],
+  "イベントと評価の分布": [
+    "Events and ratings",
+    "Eventos y valoraciones",
+    "Eventos e avaliações",
+    "事件与评价分布"
+  ],
+  "位置別の記録": [
+    "Records by position",
+    "Registros por posición",
+    "Registros por posição",
+    "按位置统计"
+  ],
+  "記録したイベント": [
+    "Recorded events",
+    "Eventos registrados",
+    "Eventos registrados",
+    "已记录事件"
+  ],
+  "自チームのイベント": [
+    "Our team events",
+    "Eventos de nuestro equipo",
+    "Eventos da nossa equipe",
+    "本队事件"
+  ],
+  "相手のイベント": [
+    "Opponent events",
+    "Eventos del rival",
+    "Eventos do adversário",
+    "对手事件"
+  ],
+  "記録したシュート": [
+    "Recorded shots",
+    "Tiros registrados",
+    "Chutes registrados",
+    "已记录射门"
+  ],
+  "すべて": [
+    "All",
+    "Todos",
+    "Todos",
+    "全部"
+  ],
+  "すべてのイベント": [
+    "All events",
+    "Todos los eventos",
+    "Todos os eventos",
+    "全部事件"
+  ],
+  "エリア": [
+    "Zone",
+    "Zona",
+    "Zona",
+    "区域"
+  ],
+  "レーン": [
+    "Lane",
+    "Carril",
+    "Corredor",
+    "通道"
+  ],
+  "評価": [
+    "Rating",
+    "Valoración",
+    "Avaliação",
+    "评价"
+  ],
+  "試合": [
+    "Match",
+    "Partido",
+    "Partida",
+    "比赛"
+  ],
+  "印刷 / PDF保存": [
+    "Print / Save PDF",
+    "Imprimir / Guardar PDF",
+    "Imprimir / Salvar PDF",
+    "打印／保存PDF"
+  ],
+  "この集計の場面をハイライトへ": [
+    "Edit these highlights",
+    "Editar estos momentos",
+    "Editar estes destaques",
+    "编辑这些精彩片段"
+  ],
+  "関連する映像とコメント": [
+    "Related clips and comments",
+    "Vídeos y comentarios relacionados",
+    "Vídeos e comentários relacionados",
+    "相关视频与评论"
+  ],
+  "次のトレーニングへ": [
+    "Next training session",
+    "Próximo entrenamiento",
+    "Próximo treino",
+    "下一次训练"
+  ],
+  "課題": [
+    "Focus area",
+    "Aspecto a mejorar",
+    "Ponto a melhorar",
+    "改进重点"
+  ],
+  "原因の仮説": [
+    "Possible cause",
+    "Posible causa",
+    "Possível causa",
+    "可能原因"
+  ],
+  "次回の練習メニュー": [
+    "Next training plan",
+    "Próximo plan de entrenamiento",
+    "Próximo plano de treino",
+    "下次训练计划"
+  ],
+  "次戦の観察ポイント": [
+    "Observe next match",
+    "Observar en el próximo partido",
+    "Observar na próxima partida",
+    "下场比赛观察要点"
+  ],
+  "件数": [
+    "Count",
+    "Cantidad",
+    "Quantidade",
+    "数量"
+  ],
+  "未評価・保留": [
+    "Unrated / pending",
+    "Sin valorar / pendiente",
+    "Sem avaliação / pendente",
+    "未评价／待定"
+  ],
+  "場面を開く": [
+    "Open moment",
+    "Abrir momento",
+    "Abrir momento",
+    "打开片段"
+  ],
+  "配置": [
+    "Positions",
+    "Posiciones",
+    "Posições",
+    "配置"
+  ],
+  "描画": [
+    "Drawing",
+    "Dibujo",
+    "Desenho",
+    "绘图"
+  ],
+  "演出": [
+    "Effects",
+    "Efectos",
+    "Efeitos",
+    "效果"
+  ],
+  "矢印": [
+    "Arrow",
+    "Flecha",
+    "Seta",
+    "箭头"
+  ],
+  "サークル": [
+    "Circle",
+    "Círculo",
+    "Círculo",
+    "圆圈"
+  ],
+  "リンク": [
+    "Player links",
+    "Enlaces de jugadores",
+    "Ligações entre jogadores",
+    "球员连线"
+  ],
+  "強調": [
+    "Highlight",
+    "Resaltar",
+    "Destaque",
+    "强调"
+  ],
+  "テキスト": [
+    "Text",
+    "Texto",
+    "Texto",
+    "文字"
+  ],
+  "テロップ": [
+    "Caption",
+    "Rótulo",
+    "Legenda",
+    "字幕"
+  ],
+  "演出なし": [
+    "No effect",
+    "Sin efecto",
+    "Sem efeito",
+    "无效果"
+  ],
+  "グラウンダー": [
+    "Ground pass",
+    "Pase raso",
+    "Passe rasteiro",
+    "地滚球"
+  ],
+  "浮き球": [
+    "Lofted pass",
+    "Pase elevado",
+    "Passe alto",
+    "高球"
+  ],
+  "選択フレームの時刻（秒）": [
+    "Selected frame time (seconds)",
+    "Tiempo del fotograma (segundos)",
+    "Tempo do quadro (segundos)",
+    "所选帧时间（秒）"
+  ],
+  "選択フレームを削除": [
+    "Delete selected frame",
+    "Eliminar fotograma seleccionado",
+    "Excluir quadro selecionado",
+    "删除所选帧"
+  ],
+  "＋ 5秒後の配置": [
+    "＋ Position after 5 seconds",
+    "＋ Posición tras 5 segundos",
+    "＋ Posição após 5 segundos",
+    "＋5秒后的布置"
+  ],
+  "元に戻す": [
+    "Undo",
+    "Deshacer",
+    "Desfazer",
+    "撤销"
+  ],
+  "やり直す": [
+    "Redo",
+    "Rehacer",
+    "Refazer",
+    "重做"
+  ],
+  "全画面": [
+    "Full screen",
+    "Pantalla completa",
+    "Tela cheia",
+    "全屏"
+  ],
+  "全画面表示": [
+    "Full screen",
+    "Pantalla completa",
+    "Tela cheia",
+    "全屏显示"
+  ],
+  "終了": [
+    "Exit",
+    "Salir",
+    "Sair",
+    "退出"
+  ],
+  "クリップ": [
+    "Clips",
+    "Clips",
+    "Clipes",
+    "片段"
+  ],
+  "クリップ編集": [
+    "Clip editor",
+    "Editor de clips",
+    "Editor de clipes",
+    "片段编辑"
+  ],
+  "書き出し": [
+    "Export",
+    "Exportar",
+    "Exportar",
+    "导出"
+  ],
+  "プレビュー": [
+    "Preview",
+    "Vista previa",
+    "Prévia",
+    "预览"
+  ],
+  "色": [
+    "Color",
+    "Color",
+    "Cor",
+    "颜色"
+  ],
+  "文字サイズ": [
+    "Text size",
+    "Tamaño del texto",
+    "Tamanho do texto",
+    "文字大小"
+  ],
+  "表示開始": [
+    "Display start",
+    "Inicio de visualización",
+    "Início da exibição",
+    "显示开始"
+  ],
+  "表示終了": [
+    "Display end",
+    "Fin de visualización",
+    "Fim da exibição",
+    "显示结束"
+  ],
+  "設定・データ管理": [
+    "Settings & data",
+    "Ajustes y datos",
+    "Configurações e dados",
+    "设置与数据管理"
+  ],
+  "データの保存と復元": [
+    "Backup & restore",
+    "Copia y restauración",
+    "Backup e restauração",
+    "备份与恢复"
+  ],
+  "JSONバックアップ": [
+    "JSON backup",
+    "Copia JSON",
+    "Backup JSON",
+    "JSON备份"
+  ],
+  "バックアップを読み込む": [
+    "Restore backup",
+    "Restaurar copia",
+    "Restaurar backup",
+    "恢复备份"
+  ],
+  "永続保存をリクエスト": [
+    "Request persistent storage",
+    "Solicitar almacenamiento persistente",
+    "Solicitar armazenamento persistente",
+    "请求持久存储"
+  ],
+  "利用モード": [
+    "Usage mode",
+    "Modo de uso",
+    "Modo de uso",
+    "使用模式"
+  ],
+  "再読み込み": [
+    "Reload",
+    "Recargar",
+    "Recarregar",
+    "重新加载"
+  ],
+  "ワークスペースを読み込み中…": [
+    "Loading workspace…",
+    "Cargando espacio…",
+    "Carregando espaço…",
+    "正在加载工作区…"
+  ],
+  "映像・分析データは、この端末に。": [
+    "Video and analysis stay on this device.",
+    "Vídeo y análisis en este dispositivo.",
+    "Vídeo e análise neste dispositivo.",
+    "视频与分析数据保存在此设备。"
+  ],
+  "チームを新規作成": [
+    "Create a team",
+    "Crear equipo",
+    "Criar equipe",
+    "创建球队"
+  ],
+  "チームを追加": [
+    "Add team",
+    "Añadir equipo",
+    "Adicionar equipe",
+    "添加球队"
+  ],
+  "編集・選手管理": [
+    "Edit / manage players",
+    "Editar / gestionar jugadores",
+    "Editar / gerenciar jogadores",
+    "编辑／管理球员"
+  ],
+  "このチームで分析": [
+    "Analyze this team",
+    "Analizar este equipo",
+    "Analisar esta equipe",
+    "分析此球队"
+  ],
+  "チーム名を編集": [
+    "Edit team name",
+    "Editar nombre del equipo",
+    "Editar nome da equipe",
+    "编辑球队名称"
+  ],
+  "選手登録": [
+    "Register players",
+    "Registrar jugadores",
+    "Cadastrar jogadores",
+    "注册球员"
+  ],
+  "選手名（ニックネーム可）": [
+    "Player name / nickname",
+    "Nombre / apodo",
+    "Nome / apelido",
+    "球员姓名／昵称"
+  ],
+  "ポジション": [
+    "Position",
+    "Posición",
+    "Posição",
+    "位置"
+  ],
+  "試合を登録": [
+    "Register match",
+    "Registrar partido",
+    "Cadastrar partida",
+    "注册比赛"
+  ],
+  "試合映像": [
+    "Match video",
+    "Vídeo del partido",
+    "Vídeo da partida",
+    "比赛视频"
+  ],
+  "−5秒": [
+    "−5 sec",
+    "−5 s",
+    "−5 s",
+    "−5秒"
+  ],
+  "＋5秒": [
+    "＋5 sec",
+    "＋5 s",
+    "＋5 s",
+    "＋5秒"
+  ],
+  "前コマ": [
+    "Previous frame",
+    "Fotograma anterior",
+    "Quadro anterior",
+    "上一帧"
+  ],
+  "次コマ": [
+    "Next frame",
+    "Fotograma siguiente",
+    "Próximo quadro",
+    "下一帧"
+  ],
+  "描画・注釈（任意）": [
+    "Drawings / annotations (optional)",
+    "Dibujos / notas (opcional)",
+    "Desenhos / notas (opcional)",
+    "绘图／注释（选填）"
+  ],
+  "描画をクリア": [
+    "Clear drawings",
+    "Borrar dibujos",
+    "Limpar desenhos",
+    "清除绘图"
+  ],
+  "映像への注釈": [
+    "Video annotations",
+    "Notas del vídeo",
+    "Anotações no vídeo",
+    "视频注释"
+  ],
+  "線の太さ": [
+    "Line width",
+    "Grosor de línea",
+    "Espessura da linha",
+    "线宽"
+  ],
+  "不透明度": [
+    "Opacity",
+    "Opacidad",
+    "Opacidade",
+    "不透明度"
+  ],
+  "文字・選手名・番号": [
+    "Text / player name / number",
+    "Texto / nombre / dorsal",
+    "Texto / nome / número",
+    "文字／球员姓名／号码"
+  ],
+  "塗りつぶし": [
+    "Fill",
+    "Relleno",
+    "Preenchimento",
+    "填充"
+  ],
+  "破線": [
+    "Dashed line",
+    "Línea discontinua",
+    "Linha tracejada",
+    "虚线"
+  ],
+  "現在の設定を反映": [
+    "Apply settings",
+    "Aplicar ajustes",
+    "Aplicar configurações",
+    "应用设置"
+  ],
+  "注釈を削除": [
+    "Delete annotation",
+    "Eliminar nota",
+    "Excluir anotação",
+    "删除注释"
+  ],
+  "この端末の動画を選択": [
+    "Choose video on this device",
+    "Elegir vídeo local",
+    "Selecionar vídeo local",
+    "选择本机视频"
+  ],
+  "対象チーム": [
+    "Target team",
+    "Equipo objetivo",
+    "Equipe alvo",
+    "目标球队"
+  ],
+  "時間帯": [
+    "Period",
+    "Periodo",
+    "Período",
+    "时段"
+  ],
+  "① イベント": [
+    "① Event",
+    "① Evento",
+    "① Evento",
+    "①事件"
+  ],
+  "自由タグを追加": [
+    "Add custom tag",
+    "Añadir etiqueta libre",
+    "Adicionar etiqueta livre",
+    "添加自定义标签"
+  ],
+  "自由タグ名": [
+    "Custom tag name",
+    "Nombre de etiqueta",
+    "Nome da etiqueta",
+    "自定义标签名称"
+  ],
+  "何が起きた？ 次にどうする？": [
+    "What happened? What next?",
+    "¿Qué pasó? ¿Qué sigue?",
+    "O que aconteceu? E agora?",
+    "发生了什么？下一步怎么做？"
+  ],
+  "指定なし": [
+    "Unspecified",
+    "Sin especificar",
+    "Não especificado",
+    "未指定"
+  ],
+  "記録した場面": [
+    "Recorded moments",
+    "Momentos registrados",
+    "Momentos registrados",
+    "已记录片段"
+  ],
+  "検索結果をクリップ編集へ": [
+    "Edit filtered clips",
+    "Editar clips filtrados",
+    "Editar clipes filtrados",
+    "编辑筛选片段"
+  ],
+  "検索結果を連続再生": [
+    "Play filtered clips",
+    "Reproducir clips filtrados",
+    "Reproduzir clipes filtrados",
+    "连续播放筛选片段"
+  ],
+  "イベント・コメントを検索": [
+    "Search events / comments",
+    "Buscar eventos / comentarios",
+    "Buscar eventos / comentários",
+    "搜索事件／评论"
+  ],
+  "両チーム": [
+    "Both teams",
+    "Ambos equipos",
+    "Ambas equipes",
+    "双方球队"
+  ],
+  "全時間帯": [
+    "All periods",
+    "Todos los periodos",
+    "Todos os períodos",
+    "全部时段"
+  ],
+  "全エリア": [
+    "All zones",
+    "Todas las zonas",
+    "Todas as zonas",
+    "全部区域"
+  ],
+  "全レーン": [
+    "All lanes",
+    "Todos los carriles",
+    "Todos os corredores",
+    "全部通道"
+  ],
+  "すべての評価": [
+    "All ratings",
+    "Todas las valoraciones",
+    "Todas as avaliações",
+    "全部评价"
+  ],
+  "ハイライト編集": [
+    "Highlight editor",
+    "Editor de momentos",
+    "Editor de destaques",
+    "精彩片段编辑"
+  ],
+  "編集内容を保存": [
+    "Save edits",
+    "Guardar edición",
+    "Salvar edição",
+    "保存编辑"
+  ],
+  "元動画を選択": [
+    "Select source video",
+    "Elegir vídeo original",
+    "Selecionar vídeo original",
+    "选择原视频"
+  ],
+  "開始": [
+    "Start",
+    "Inicio",
+    "Início",
+    "开始"
+  ],
+  "速度": [
+    "Speed",
+    "Velocidad",
+    "Velocidade",
+    "速度"
+  ],
+  "字幕": [
+    "Subtitles",
+    "Subtítulos",
+    "Legendas",
+    "字幕"
+  ],
+  "分割": [
+    "Split",
+    "Dividir",
+    "Dividir",
+    "分割"
+  ],
+  "区間を追加": [
+    "Add segment",
+    "Añadir segmento",
+    "Adicionar trecho",
+    "添加区间"
+  ],
+  "動画を保存": [
+    "Save video",
+    "Guardar vídeo",
+    "Salvar vídeo",
+    "保存视频"
+  ],
+  "気づき・次回の練習課題": [
+    "Observations / next training focus",
+    "Observaciones / próximo objetivo",
+    "Observações / próximo objetivo",
+    "观察／下次训练重点"
+  ],
+  "保存済みプロジェクト": [
+    "Saved projects",
+    "Proyectos guardados",
+    "Projetos salvos",
+    "已保存项目"
+  ],
+  "プロジェクトを選択": [
+    "Choose project",
+    "Elegir proyecto",
+    "Selecionar projeto",
+    "选择项目"
+  ],
+  "新規プロジェクトの人数": [
+    "Players in new project",
+    "Jugadores del nuevo proyecto",
+    "Jogadores no novo projeto",
+    "新项目人数"
+  ],
+  "新規作成": [
+    "Create new",
+    "Crear nuevo",
+    "Criar novo",
+    "新建"
+  ],
+  "全画面を終了": [
+    "Exit full screen",
+    "Salir de pantalla completa",
+    "Sair da tela cheia",
+    "退出全屏"
+  ],
+  "名前を表示": [
+    "Show names",
+    "Mostrar nombres",
+    "Mostrar nomes",
+    "显示姓名"
+  ],
+  "背番号を表示": [
+    "Show shirt numbers",
+    "Mostrar dorsales",
+    "Mostrar números",
+    "显示球衣号码"
+  ],
+  "全画面で表示": [
+    "Show full screen",
+    "Ver en pantalla completa",
+    "Mostrar em tela cheia",
+    "全屏显示"
+  ],
+  "プロジェクト名": [
+    "Project name",
+    "Nombre del proyecto",
+    "Nome do projeto",
+    "项目名称"
+  ],
+  "選手・用具の設定": [
+    "Players & equipment",
+    "Jugadores y material",
+    "Jogadores e equipamentos",
+    "球员与器材设置"
+  ],
+  "味方の人数": [
+    "Our players",
+    "Nuestros jugadores",
+    "Nossos jogadores",
+    "本队人数"
+  ],
+  "相手の人数": [
+    "Opponent players",
+    "Jugadores rivales",
+    "Jogadores adversários",
+    "对手人数"
+  ],
+  "人数を適用": [
+    "Apply player count",
+    "Aplicar cantidad",
+    "Aplicar quantidade",
+    "应用人数"
+  ],
+  "コーンの種類": [
+    "Cone type",
+    "Tipo de cono",
+    "Tipo de cone",
+    "锥桶类型"
+  ],
+  "カラーコーン": [
+    "Training cone",
+    "Cono",
+    "Cone",
+    "训练锥桶"
+  ],
+  "マーカーコーン": [
+    "Marker cone",
+    "Disco marcador",
+    "Cone marcador",
+    "标志碟"
+  ],
+  "ポール": [
+    "Pole",
+    "Poste",
+    "Estaca",
+    "标志杆"
+  ],
+  "コーンの色": [
+    "Cone color",
+    "Color del cono",
+    "Cor do cone",
+    "锥桶颜色"
+  ],
+  "コーンを追加": [
+    "Add cone",
+    "Añadir cono",
+    "Adicionar cone",
+    "添加锥桶"
+  ],
+  "選手名・背番号を一覧入力": [
+    "Edit roster names & numbers",
+    "Editar nombres y dorsales",
+    "Editar nomes e números",
+    "批量编辑姓名与号码"
+  ],
+  "演出の色": [
+    "Effect color",
+    "Color del efecto",
+    "Cor do efeito",
+    "效果颜色"
+  ],
+  "ボールを選択して演出を設定": [
+    "Select ball to set effects",
+    "Selecciona el balón para efectos",
+    "Selecione a bola para efeitos",
+    "选择球以设置效果"
+  ],
+  "ボールの演出（現在のフレームから次まで）": [
+    "Ball effect until next frame",
+    "Efecto del balón hasta el siguiente fotograma",
+    "Efeito da bola até o próximo quadro",
+    "到下一帧的球效果"
+  ],
+  "ドリブルする選手": [
+    "Dribbling player",
+    "Jugador que regatea",
+    "Jogador que dribla",
+    "运球球员"
+  ],
+  "浮き球の最高点（m）": [
+    "Lofted ball peak (m)",
+    "Altura máxima (m)",
+    "Altura máxima (m)",
+    "高球最高点（米）"
+  ],
+  "演出を選択": [
+    "Select effect",
+    "Seleccionar efecto",
+    "Selecionar efeito",
+    "选择效果"
+  ],
+  "選択してください": [
+    "Please select",
+    "Selecciona",
+    "Selecione",
+    "请选择"
+  ],
+  "選択した演出を削除": [
+    "Delete selected effect",
+    "Eliminar efecto seleccionado",
+    "Excluir efeito selecionado",
+    "删除所选效果"
+  ],
+  "このフレームの演出をクリア": [
+    "Clear frame effects",
+    "Borrar efectos del fotograma",
+    "Limpar efeitos do quadro",
+    "清除此帧效果"
+  ],
+  "選択する選手 / ボール": [
+    "Select player / ball",
+    "Seleccionar jugador / balón",
+    "Selecionar jogador / bola",
+    "选择球员／球"
+  ],
+  "X位置（0〜100）": [
+    "X position (0–100)",
+    "Posición X (0–100)",
+    "Posição X (0–100)",
+    "X位置（0–100）"
+  ],
+  "Y位置（0〜64）": [
+    "Y position (0–64)",
+    "Posición Y (0–64)",
+    "Posição Y (0–64)",
+    "Y位置（0–64）"
+  ],
+  "向き（度）": [
+    "Direction (degrees)",
+    "Dirección (grados)",
+    "Direção (graus)",
+    "朝向（度）"
+  ],
+  "選択したコーンを削除": [
+    "Delete selected cone",
+    "Eliminar cono seleccionado",
+    "Excluir cone selecionado",
+    "删除所选锥桶"
+  ],
+  "説明・練習テーマ（2D動画にも表示）": [
+    "Description / training topic (also in 2D video)",
+    "Descripción / tema (también en vídeo 2D)",
+    "Descrição / tema (também no vídeo 2D)",
+    "说明／训练主题（也显示于2D视频）"
+  ],
+  "この視点の動画を生成": [
+    "Export this view",
+    "Exportar esta vista",
+    "Exportar esta vista",
+    "导出此视角视频"
+  ],
+  "新しい編集案": [
+    "New edit",
+    "Nueva edición",
+    "Nova edição",
+    "新编辑方案"
+  ],
+  "別案として複製": [
+    "Duplicate as new edit",
+    "Duplicar edición",
+    "Duplicar edição",
+    "复制为新方案"
+  ],
+  "静止画PNG": [
+    "Still image PNG",
+    "Imagen PNG",
+    "Imagem PNG",
+    "静态图PNG"
+  ],
+  "動画を追加": [
+    "Add video",
+    "Añadir vídeo",
+    "Adicionar vídeo",
+    "添加视频"
+  ],
+  "このクリップの元動画を選択": [
+    "Select this clip's source",
+    "Seleccionar origen del clip",
+    "Selecionar origem do clipe",
+    "选择此片段的原视频"
+  ],
+  "クリップ名": [
+    "Clip name",
+    "Nombre del clip",
+    "Nome do clipe",
+    "片段名称"
+  ],
+  "区間の開始": [
+    "Segment start",
+    "Inicio del segmento",
+    "Início do trecho",
+    "区间开始"
+  ],
+  "区間の終了": [
+    "Segment end",
+    "Fin del segmento",
+    "Fim do trecho",
+    "区间结束"
+  ],
+  "テロップ文字": [
+    "Caption text",
+    "Texto del rótulo",
+    "Texto da legenda",
+    "字幕文字"
+  ],
+  "テロップの文字サイズ": [
+    "Caption size",
+    "Tamaño del rótulo",
+    "Tamanho da legenda",
+    "字幕字号"
+  ],
+  "テロップの色": [
+    "Caption color",
+    "Color del rótulo",
+    "Cor da legenda",
+    "字幕颜色"
+  ],
+  "映像上でテロップの位置を調整": [
+    "Move caption on video",
+    "Mover rótulo en el vídeo",
+    "Mover legenda no vídeo",
+    "在视频上移动字幕"
+  ],
+  "テロップを削除": [
+    "Delete caption",
+    "Eliminar rótulo",
+    "Excluir legenda",
+    "删除字幕"
+  ],
+  "前へ": [
+    "Move earlier",
+    "Mover antes",
+    "Mover antes",
+    "前移"
+  ],
+  "後へ": [
+    "Move later",
+    "Mover después",
+    "Mover depois",
+    "后移"
+  ],
+  "複製・リプレイ": [
+    "Duplicate / replay",
+    "Duplicar / repetir",
+    "Duplicar / repetir",
+    "复制／重播"
+  ],
+  "再生位置で分割": [
+    "Split at playhead",
+    "Dividir aquí",
+    "Dividir aqui",
+    "在播放位置分割"
+  ],
+  "時間指定のズーム": [
+    "Timed zoom",
+    "Zoom temporizado",
+    "Zoom temporizado",
+    "定时缩放"
+  ],
+  "現在位置を演出開始に": [
+    "Start effect here",
+    "Iniciar efecto aquí",
+    "Iniciar efeito aqui",
+    "在此开始效果"
+  ],
+  "現在位置を演出終了に": [
+    "End effect here",
+    "Terminar efecto aquí",
+    "Terminar efeito aqui",
+    "在此结束效果"
+  ],
+  "新しいズーム": [
+    "New zoom",
+    "Nuevo zoom",
+    "Novo zoom",
+    "新建缩放"
+  ],
+  "現在時刻のズーム位置を記録": [
+    "Record zoom at current time",
+    "Registrar zoom aquí",
+    "Registrar zoom aqui",
+    "记录当前时刻缩放位置"
+  ],
+  "選択したズームを削除": [
+    "Delete selected zoom",
+    "Eliminar zoom seleccionado",
+    "Excluir zoom selecionado",
+    "删除所选缩放"
+  ],
+  "現在の場面で2秒フリーズを挿入": [
+    "Insert 2-second freeze here",
+    "Insertar pausa de 2 segundos",
+    "Inserir pausa de 2 segundos",
+    "在此插入2秒定格"
+  ],
+  "静止秒数": [
+    "Freeze duration",
+    "Duración de pausa",
+    "Duração da pausa",
+    "定格秒数"
+  ],
+  "選択・調整": [
+    "Select / adjust",
+    "Seleccionar / ajustar",
+    "Selecionar / ajustar",
+    "选择／调整"
+  ],
+  "描画を追加": [
+    "Add drawing",
+    "Añadir dibujo",
+    "Adicionar desenho",
+    "添加绘图"
+  ],
+  "リンクを確定": [
+    "Confirm links",
+    "Confirmar enlaces",
+    "Confirmar ligações",
+    "确认连线"
+  ],
+  "最後の選手を取り消す": [
+    "Undo last player",
+    "Deshacer último jugador",
+    "Desfazer último jogador",
+    "撤销最后球员"
+  ],
+  "指定をクリア": [
+    "Clear selection",
+    "Borrar selección",
+    "Limpar seleção",
+    "清除选择"
+  ],
+  "選手名・番号・説明": [
+    "Player name / number / note",
+    "Nombre / dorsal / nota",
+    "Nome / número / nota",
+    "球员姓名／号码／说明"
+  ],
+  "描画を選択": [
+    "Select drawing",
+    "Seleccionar dibujo",
+    "Selecionar desenho",
+    "选择绘图"
+  ],
+  "時刻別に位置・形を編集": [
+    "Edit geometry by time",
+    "Editar geometría por tiempo",
+    "Editar geometria por tempo",
+    "按时刻编辑位置与形状"
+  ],
+  "色・文字を反映": [
+    "Apply color / text",
+    "Aplicar color / texto",
+    "Aplicar cor / texto",
+    "应用颜色／文字"
+  ],
+  "描画を複製": [
+    "Duplicate drawing",
+    "Duplicar dibujo",
+    "Duplicar desenho",
+    "复制绘图"
+  ],
+  "描画を削除": [
+    "Delete drawing",
+    "Eliminar dibujo",
+    "Excluir desenho",
+    "删除绘图"
+  ],
+  "現在位置を表示開始に": [
+    "Show from current time",
+    "Mostrar desde aquí",
+    "Mostrar a partir daqui",
+    "从当前时刻显示"
+  ],
+  "現在位置を表示終了に": [
+    "Hide at current time",
+    "Ocultar desde aquí",
+    "Ocultar a partir daqui",
+    "在当前时刻隐藏"
+  ],
+  "時刻ごとの記録": [
+    "Keyframes",
+    "Fotogramas clave",
+    "Quadros-chave",
+    "关键帧"
+  ],
+  "映像をタップして追従点を追加": [
+    "Tap video to add tracking point",
+    "Toca el vídeo para añadir seguimiento",
+    "Toque no vídeo para adicionar ponto",
+    "点击视频添加跟踪点"
+  ],
+  "現在時刻の追従点を登録": [
+    "Add tracking point now",
+    "Añadir seguimiento aquí",
+    "Adicionar ponto aqui",
+    "添加当前时刻跟踪点"
+  ],
+  "記録時刻": [
+    "Keyframe time",
+    "Tiempo del fotograma",
+    "Tempo do quadro",
+    "关键帧时间"
+  ],
+  "点を削除": [
+    "Delete point",
+    "Eliminar punto",
+    "Excluir ponto",
+    "删除点"
+  ],
+  "PNGを保存": [
+    "Save PNG",
+    "Guardar PNG",
+    "Salvar PNG",
+    "保存PNG"
+  ],
+  "演出付きMP4を書き出す": [
+    "Export MP4 with effects",
+    "Exportar MP4 con efectos",
+    "Exportar MP4 com efeitos",
+    "导出带效果MP4"
+  ],
+  "MP4を保存": [
+    "Save MP4",
+    "Guardar MP4",
+    "Salvar MP4",
+    "保存MP4"
+  ],
+  "描画・演出タイムライン": [
+    "Drawing & effects timeline",
+    "Línea de tiempo de dibujos y efectos",
+    "Linha do tempo de desenhos e efeitos",
+    "绘图与效果时间轴"
+  ],
+  "時間軸の拡大": [
+    "Timeline zoom",
+    "Zoom de la línea de tiempo",
+    "Zoom da linha do tempo",
+    "时间轴缩放"
+  ],
+  "始": [
+    "Start",
+    "Inicio",
+    "Início",
+    "始"
+  ],
+  "終": [
+    "End",
+    "Fin",
+    "Fim",
+    "终"
+  ],
+  "守備エリア": [
+    "Defensive third",
+    "Tercio defensivo",
+    "Terço defensivo",
+    "防守区域"
+  ],
+  "中盤エリア": [
+    "Middle third",
+    "Tercio medio",
+    "Terço médio",
+    "中场区域"
+  ],
+  "攻撃エリア": [
+    "Attacking third",
+    "Tercio ofensivo",
+    "Terço ofensivo",
+    "进攻区域"
+  ],
+  "左ワイド": [
+    "Left wide",
+    "Banda izquierda",
+    "Faixa esquerda",
+    "左边路"
+  ],
+  "左ハーフスペース": [
+    "Left half-space",
+    "Intervalo izquierdo",
+    "Meio-espaço esquerdo",
+    "左肋部"
+  ],
+  "中央": [
+    "Center",
+    "Centro",
+    "Centro",
+    "中路"
+  ],
+  "右ハーフスペース": [
+    "Right half-space",
+    "Intervalo derecho",
+    "Meio-espaço direito",
+    "右肋部"
+  ],
+  "右ワイド": [
+    "Right wide",
+    "Banda derecha",
+    "Faixa direita",
+    "右边路"
+  ],
+  "左W": [
+    "LW",
+    "BI",
+    "FE",
+    "左边"
+  ],
+  "左HS": [
+    "LHS",
+    "II",
+    "ME",
+    "左肋"
+  ],
+  "右W": [
+    "RW",
+    "BD",
+    "FD",
+    "右边"
+  ],
+  "右HS": [
+    "RHS",
+    "ID",
+    "MD",
+    "右肋"
+  ],
+  "判断保留": [
+    "Pending",
+    "Pendiente",
+    "Pendente",
+    "待定"
+  ],
+  "シュート": [
+    "Shot",
+    "Tiro",
+    "Chute",
+    "射门"
+  ],
+  "ゴール": [
+    "Goal",
+    "Gol",
+    "Gol",
+    "进球"
+  ],
+  "パス": [
+    "Pass",
+    "Pase",
+    "Passe",
+    "传球"
+  ],
+  "奪取": [
+    "Ball recovery",
+    "Recuperación",
+    "Recuperação",
+    "夺回球权"
+  ],
+  "攻撃": [
+    "Attack",
+    "Ataque",
+    "Ataque",
+    "进攻"
+  ],
+  "守備": [
+    "Defense",
+    "Defensa",
+    "Defesa",
+    "防守"
+  ],
+  "ボールロスト": [
+    "Loss of possession",
+    "Pérdida del balón",
+    "Perda de bola",
+    "丢失球权"
+  ],
+  "フリーキック": [
+    "Free kick",
+    "Tiro libre",
+    "Falta",
+    "任意球"
+  ],
+  "コーナーキック": [
+    "Corner kick",
+    "Córner",
+    "Escanteio",
+    "角球"
+  ],
+  "スローイン": [
+    "Throw-in",
+    "Saque de banda",
+    "Lateral",
+    "界外球"
+  ],
+  "セーブ": [
+    "Save",
+    "Parada",
+    "Defesa",
+    "扑救"
+  ],
+  "クリア": [
+    "Clearance",
+    "Despeje",
+    "Afastamento",
+    "解围"
+  ],
+  "ファウル": [
+    "Foul",
+    "Falta",
+    "Falta",
+    "犯规"
+  ],
+  "オフサイド": [
+    "Offside",
+    "Fuera de juego",
+    "Impedimento",
+    "越位"
+  ],
+  "直線": [
+    "Line",
+    "Línea",
+    "Linha",
+    "直线"
+  ],
+  "フリーハンド": [
+    "Freehand",
+    "Mano alzada",
+    "Mão livre",
+    "自由绘制"
+  ],
+  "エリア（四角）": [
+    "Area (rectangle)",
+    "Área (rectángulo)",
+    "Área (retângulo)",
+    "区域（矩形）"
+  ],
+  "スポットライト": [
+    "Spotlight",
+    "Foco",
+    "Foco",
+    "聚光灯"
+  ],
+  "ズーム": [
+    "Zoom",
+    "Zoom",
+    "Zoom",
+    "缩放"
+  ],
+  "ホーム": [
+    "Home",
+    "Inicio",
+    "Início",
+    "主页"
+  ],
+  "チームなしで利用": [
+    "Use without a team",
+    "Usar sin equipo",
+    "Usar sem equipe",
+    "无需球队使用"
+  ],
+  "開く": [
+    "Open",
+    "Abrir",
+    "Abrir",
+    "打开"
+  ],
+  "編集メニュー": [
+    "Editing menu",
+    "Menú de edición",
+    "Menu de edição",
+    "编辑菜单"
+  ],
+  "試合を振り返る、戦術を考える、動きを磨く。目的に合わせて選べます。": [
+    "Review matches, plan tactics and improve movement. Choose where to start.",
+    "Revisa partidos, planifica tácticas y mejora los movimientos. Elige dónde empezar.",
+    "Revise partidas, planeje táticas e melhore os movimentos. Escolha por onde começar.",
+    "回顾比赛、规划战术、改善动作。按目标选择功能。"
+  ],
+  "映像を見ながらタグ付けし、ハイライトを編集します。": [
+    "Tag moments while watching video and edit highlights.",
+    "Etiqueta momentos mientras ves el vídeo y edita resúmenes.",
+    "Marque momentos enquanto assiste ao vídeo e edite destaques.",
+    "观看视频时添加标签并编辑精彩片段。"
+  ],
+  "選手とボールを動かし、配置やプレーを組み立てます。": [
+    "Move players and the ball to plan positions and plays.",
+    "Mueve jugadores y balón para planificar posiciones y jugadas.",
+    "Mova jogadores e bola para planejar posições e jogadas.",
+    "移动球员和球，设计站位与配合。"
+  ],
+  "キック・ドリブル・走り方を映像で確認します。": [
+    "Review kicking, dribbling and running on video.",
+    "Revisa golpeo, regate y carrera en vídeo.",
+    "Revise chute, drible e corrida em vídeo.",
+    "通过视频查看踢球、运球与跑步动作。"
+  ],
+  "チーム登録なしですべての機能を使えます。チーム・選手の管理は必要なときに追加できます。": [
+    "All features work without registering a team. Add teams and players when needed.",
+    "Todas las funciones se pueden usar sin registrar un equipo. Añade equipos y jugadores cuando lo necesites.",
+    "Todas as funções podem ser usadas sem cadastrar uma equipe. Adicione equipes e jogadores quando precisar.",
+    "无需注册球队即可使用所有功能。需要时再添加球队和球员。"
+  ],
+  "試合を振り返り、次のプレーを描く。": [
+    "Review the match. Plan the next play.",
+    "Revisa el partido. Prepara la siguiente jugada.",
+    "Reveja a partida. Planeje a próxima jogada.",
+    "回顾比赛，规划下一次配合。"
+  ],
+  "チーム登録は任意です": [
+    "Team registration is optional",
+    "Registrar un equipo es opcional",
+    "Cadastrar uma equipe é opcional",
+    "球队注册为可选项"
+  ],
+  "主な機能": [
+    "Main tools",
+    "Funciones principales",
+    "Ferramentas principais",
+    "主要功能"
+  ],
+  "共通管理": [
+    "Shared settings",
+    "Gestión general",
+    "Gestão geral",
+    "通用管理"
+  ],
+  "この端末に保存": [
+    "Saved on this device",
+    "Guardado en este dispositivo",
+    "Salvo neste dispositivo",
+    "保存在此设备上"
+  ],
+  "保存済み": [
+    "Saved",
+    "Guardados",
+    "Salvos",
+    "已保存"
+  ],
+  "保存した試合": [
+    "Saved matches",
+    "Partidos guardados",
+    "Partidas salvas",
+    "已保存的比赛"
+  ],
+  "保存した戦術": [
+    "Saved tactics",
+    "Tácticas guardadas",
+    "Táticas salvas",
+    "已保存的战术"
+  ],
+  "一覧へ": [
+    "View all",
+    "Ver todos",
+    "Ver todos",
+    "查看全部"
+  ],
+  "フレーム数": [
+    "Frames",
+    "Fotogramas",
+    "Quadros",
+    "帧数"
+  ],
+  "試合を登録すると、ここから分析を再開できます。": [
+    "Register a match to resume analysis here.",
+    "Registra un partido para continuar el análisis aquí.",
+    "Cadastre uma partida para retomar a análise aqui.",
+    "添加比赛后，可在此继续分析。"
+  ],
+  "配置や動きを保存すると、ここから続けられます。": [
+    "Save a tactic to continue working here.",
+    "Guarda una táctica para continuar aquí.",
+    "Salve uma tática para continuar aqui.",
+    "保存站位和移动后，可在此继续编辑。"
+  ],
+  "最初の試合を登録": [
+    "Register your first match",
+    "Registra tu primer partido",
+    "Cadastre sua primeira partida",
+    "添加首场比赛"
+  ],
+  "最初の戦術を作成": [
+    "Create your first tactic",
+    "Crea tu primera táctica",
+    "Crie sua primeira tática",
+    "创建首个战术"
+  ],
+  "チーム登録なしで利用できます。チーム・選手は必要なときに追加できます。": [
+    "Start without a team. Add teams and players when needed.",
+    "Empieza sin equipo. Añade equipos y jugadores cuando lo necesites.",
+    "Comece sem equipe. Adicione equipes e jogadores quando precisar.",
+    "无需注册球队即可使用，需要时再添加球队和球员。"
+  ],
+  "データ・アプリ設定": [
+    "Data & app settings",
+    "Datos y ajustes",
+    "Dados e configurações",
+    "数据与应用设置"
+  ],
+  "試合を検索": [
+    "Search matches",
+    "Buscar partidos",
+    "Buscar partidas",
+    "搜索比赛"
+  ],
+  "相手チーム・日付・スコア": [
+    "Opponent, date or score",
+    "Rival, fecha o marcador",
+    "Adversário, data ou placar",
+    "对手、日期或比分"
+  ],
+  "条件に合う試合がありません": [
+    "No matches found",
+    "No se encontraron partidos",
+    "Nenhuma partida encontrada",
+    "未找到匹配的比赛"
+  ],
+  "まだ試合がありません。上の「新しい試合」から登録できます。": [
+    "No matches yet. Use New match above to get started.",
+    "Aún no hay partidos. Empieza con Nuevo partido arriba.",
+    "Ainda não há partidas. Comece em Nova partida acima.",
+    "暂无比赛，请通过上方“新比赛”添加。"
+  ],
+  "検索をクリア": [
+    "Clear search",
+    "Borrar búsqueda",
+    "Limpar busca",
+    "清除搜索"
+  ],
+  "広告": [
+    "Advertisement",
+    "Publicidad",
+    "Publicidade",
+    "广告"
+  ],
+  "忍者AdMax 広告": [
+    "Ninja AdMax advertisement",
+    "Anuncio Ninja AdMax",
+    "Anúncio Ninja AdMax",
+    "Ninja AdMax 广告"
+  ],
+  "保存データを読み込めませんでした": [
+    "Unable to load saved data",
+    "No se pudieron cargar los datos",
+    "Não foi possível carregar os dados",
+    "无法读取已保存数据"
+  ],
+  "ブラウザーの保存設定を確認して再読み込みしてください。既存データは削除していません。": [
+    "Check browser storage settings and reload. Existing data has not been deleted.",
+    "Revisa el almacenamiento del navegador y recarga. No se borraron datos.",
+    "Verifique o armazenamento do navegador e recarregue. Os dados não foram excluídos.",
+    "请检查浏览器存储设置后刷新。现有数据未删除。"
+  ],
+  "SaaSモードは未設定です": [
+    "SaaS mode is not configured",
+    "Modo SaaS sin configurar",
+    "Modo SaaS não configurado",
+    "SaaS 模式未配置"
+  ],
+  "サーバー認証・権限管理・課金が未設定のため停止しています。VITE_APP_MODE=local で起動してください。": [
+    "Authentication, permissions and billing are not configured. Use VITE_APP_MODE=local.",
+    "Autenticación, permisos y pagos sin configurar. Usa VITE_APP_MODE=local.",
+    "Autenticação, permissões e cobrança não configuradas. Use VITE_APP_MODE=local.",
+    "认证、权限和计费尚未配置。请使用 VITE_APP_MODE=local。"
+  ],
+  "メニューを閉じる": [
+    "Close menu",
+    "Cerrar menú",
+    "Fechar menu",
+    "关闭菜单"
+  ],
+  "メインナビゲーション": [
+    "Main navigation",
+    "Navegación principal",
+    "Navegação principal",
+    "主导航"
+  ],
+  "ナビゲーションを閉じる": [
+    "Close navigation",
+    "Cerrar navegación",
+    "Fechar navegação",
+    "关闭导航"
+  ],
+  "メニュー": [
+    "Menu",
+    "Menú",
+    "Menu",
+    "菜单"
+  ],
+  "試合分析の機能": [
+    "Match analysis tools",
+    "Herramientas de análisis",
+    "Ferramentas de análise",
+    "比赛分析功能"
+  ],
+  "利用規約・運営者情報": [
+    "Terms and operator details",
+    "Condiciones y operador",
+    "Termos e responsável",
+    "条款和运营信息"
+  ],
+  "規約と運営者情報は別のタブで開きます。月額500円のCoach Proは準備中です。現在、料金は発生しません。": [
+    "Terms and operator details open in a new tab. Coach Pro (¥500/month) is in preparation. No fees are currently charged.",
+    "Las condiciones se abren en otra pestaña. Coach Pro (500 ¥/mes) está en preparación. No se cobra actualmente.",
+    "Os termos abrem em outra aba. Coach Pro (¥500/mês) está em preparação. Nenhuma cobrança atual.",
+    "条款和运营信息将在新标签页打开。Coach Pro（每月500日元）筹备中，目前不收费。"
+  ],
+  "通知を閉じる": [
+    "Dismiss notification",
+    "Cerrar aviso",
+    "Fechar aviso",
+    "关闭通知"
+  ],
+  "規約・運営者情報": [
+    "Terms and operator information",
+    "Condiciones e información del operador",
+    "Termos e informações do responsável",
+    "条款和运营信息"
+  ],
+  "運営者：Grit Strategy Works": [
+    "Operator: Grit Strategy Works",
+    "Operador: Grit Strategy Works",
+    "Responsável: Grit Strategy Works",
+    "运营方：Grit Strategy Works"
+  ],
+  "お問い合わせ": [
+    "Contact",
+    "Contacto",
+    "Contato",
+    "联系我们"
+  ],
+  "全機能で使うチーム情報と選手名・背番号を管理します。": [
+    "Manage team information, player names and shirt numbers across all tools.",
+    "Gestiona equipos, nombres y dorsales en todas las funciones.",
+    "Gerencie equipes, nomes e números em todas as ferramentas.",
+    "统一管理所有功能中的球队信息、球员姓名和号码。"
+  ],
+  "名": [
+    "players",
+    "jugadores",
+    "jogadores",
+    "人"
+  ],
+  "復元": [
+    "Restore",
+    "Restaurar",
+    "Restaurar",
+    "恢复"
+  ],
+  "アーカイブ": [
+    "Archive",
+    "Archivar",
+    "Arquivar",
+    "归档"
+  ],
+  "の設定": [
+    "settings",
+    "ajustes",
+    "configurações",
+    "设置"
+  ],
+  "スマホでライブ撮影・タグ付け。保存済みの試合映像も分析できます。": [
+    "Record and tag live on mobile, or analyze saved match video.",
+    "Graba y etiqueta en el móvil o analiza partidos guardados.",
+    "Grave e marque no celular ou analise partidas salvas.",
+    "手机实时拍摄并标记，也可分析已保存的比赛视频。"
+  ],
+  "試合を登録すると、シュート・パス・奪取などのイベントをすぐに記録できます。": [
+    "Create a match to record shots, passes, recoveries and other events.",
+    "Crea un partido para registrar tiros, pases y recuperaciones.",
+    "Crie uma partida para registrar chutes, passes e recuperações.",
+    "创建比赛后即可记录射门、传球和夺回球权等事件。"
+  ],
+  "人制": [
+    "a-side",
+    "por equipo",
+    "por equipe",
+    "人制"
+  ],
+  "手動で選んだ場面の集計です。試合全体の成功率を示すものではありません。": [
+    "Summary of manually selected moments, not a whole-match success rate.",
+    "Resumen de momentos seleccionados, no una tasa de éxito del partido completo.",
+    "Resumo de momentos selecionados, não a taxa de sucesso da partida inteira.",
+    "汇总手动选择的片段，不代表整场比赛的成功率。"
+  ],
+  "まだ分析記録がありません": [
+    "No analysis records yet",
+    "Aún no hay análisis",
+    "Ainda não há análises",
+    "暂无分析记录"
+  ],
+  "試合を登録し、映像に評価タグを付けてください。": [
+    "Create a match and tag video moments with ratings.",
+    "Crea un partido y valora momentos del vídeo.",
+    "Crie uma partida e avalie momentos do vídeo.",
+    "请创建比赛并为视频片段添加评价标签。"
+  ],
+  "原則": [
+    "Principle",
+    "Principio",
+    "Princípio",
+    "原则"
+  ],
+  "実践度": [
+    "Execution rate",
+    "Tasa de ejecución",
+    "Taxa de execução",
+    "执行率"
+  ],
+  "有効評価の分母": [
+    "Rated sample size",
+    "Muestra evaluada",
+    "Amostra avaliada",
+    "有效评价样本数"
+  ],
+  "保留・対象外": [
+    "Pending / excluded",
+    "Pendientes / excluidos",
+    "Pendentes / excluídos",
+    "待定／排除"
+  ],
+  "実践度 = 実践できた ÷（実践できた + 改善が必要）。判断保留": [
+    "Execution = good / (good + needs improvement). Pending:",
+    "Ejecución = bien / (bien + a mejorar). Pendientes:",
+    "Execução = bom / (bom + a melhorar). Pendentes:",
+    "执行率＝良好÷（良好＋需改善）。待定："
+  ],
+  "件、対象外": [
+    ", excluded:",
+    ", excluidos:",
+    ", excluídos:",
+    "，排除："
+  ],
+  "件は分母から除外。": [
+    "are excluded from the denominator.",
+    "se excluyen del denominador.",
+    "são excluídos do denominador.",
+    "不计入分母。"
+  ],
+  "／観察方法：コーチによる手動タグ。": [
+    "/ Method: manually tagged by a coach.",
+    "/ Método: etiquetas manuales del entrenador.",
+    "/ Método: marcação manual do treinador.",
+    "／观察方式：教练手动标记。"
+  ],
+  "棒を選ぶと該当する場面をハイライトで確認できます。灰色は未評価・保留です。": [
+    "Select a bar to view related highlights. Gray indicates unrated or pending.",
+    "Selecciona una barra para ver los clips. Gris: sin evaluar o pendiente.",
+    "Selecione uma barra para ver os clipes. Cinza: sem avaliação ou pendente.",
+    "点击柱状图查看对应集锦。灰色表示未评价或待定。"
+  ],
+  "件": [
+    "items",
+    "registros",
+    "registros",
+    "条"
+  ],
+  "⚪ 未評価・保留": [
+    "⚪ Unrated / pending",
+    "⚪ Sin evaluar / pendiente",
+    "⚪ Sem avaliação / pendente",
+    "⚪ 未评价／待定"
+  ],
+  "戦 / イベント別の記録": [
+    "matches / event records",
+    "partidos / eventos",
+    "partidas / eventos",
+    "场／按事件记录"
+  ],
+  "関連する戦術プロジェクト": [
+    "Related tactical projects",
+    "Proyectos tácticos relacionados",
+    "Projetos táticos relacionados",
+    "相关战术项目"
+  ],
+  "分析データはこのブラウザーに保存されています。定期的にバックアップしてください。": [
+    "Analysis data is stored in this browser. Back it up regularly.",
+    "Los análisis se guardan en este navegador. Haz copias periódicas.",
+    "As análises ficam neste navegador. Faça backups regularmente.",
+    "分析数据保存在此浏览器中，请定期备份。"
+  ],
+  "JSONには全チーム・試合・タグ・描画・戦術ボード・レポートが含まれます。動画本体は含まれません。動画は同じファイルを選び直してください。": [
+    "JSON includes teams, matches, tags, drawings, boards and reports, but no video. Select the same video again when needed.",
+    "JSON incluye equipos, partidos, etiquetas, dibujos, pizarras e informes, pero no vídeos. Vuelve a seleccionar el mismo vídeo.",
+    "JSON inclui equipes, partidas, marcas, desenhos, quadros e relatórios, mas não vídeos. Selecione o mesmo vídeo novamente.",
+    "JSON 包含球队、比赛、标签、绘图、战术板和报告，不含视频本体。需要时请重新选择同一视频。"
+  ],
+  "永続保存が許可されました": [
+    "Persistent storage granted",
+    "Almacenamiento persistente autorizado",
+    "Armazenamento persistente autorizado",
+    "已允许持久保存"
+  ],
+  "永続保存は許可されませんでした。JSONを定期保存してください。": [
+    "Persistent storage not granted. Back up JSON regularly.",
+    "Almacenamiento persistente no autorizado. Guarda copias JSON.",
+    "Armazenamento persistente não autorizado. Faça backups JSON.",
+    "未允许持久保存，请定期备份 JSON。"
+  ],
+  "同じIDの内容が異なる場合は上書きせず中止します。復元先には空のブラウザーを推奨します。": [
+    "Conflicting content with the same ID stops restoration without overwriting. An empty browser is recommended.",
+    "Un mismo ID con contenido distinto detiene la restauración sin sobrescribir. Usa un navegador vacío.",
+    "Conteúdo diferente com o mesmo ID interrompe a restauração sem sobrescrever. Use um navegador vazio.",
+    "相同ID内容冲突时将停止恢复，不会覆盖。建议在空浏览器中恢复。"
+  ],
+  "LOCAL / 課金なし": [
+    "LOCAL / No charges",
+    "LOCAL / Sin cargos",
+    "LOCAL / Sem cobrança",
+    "本地模式／不收费"
+  ],
+  "チーム共有・サーバー認証・決済は未提供です。すべての端末内機能を支払いなしで利用できます。": [
+    "Team sharing, server authentication and payments are not available. Local features are free to use.",
+    "No hay uso compartido, autenticación del servidor ni pagos. Las funciones locales son gratuitas.",
+    "Compartilhamento, autenticação no servidor e pagamentos indisponíveis. Recursos locais gratuitos.",
+    "暂不提供球队共享、服务器认证和支付。可免费使用全部本地功能。"
+  ],
+  "無料運用はホスティングの無料枠内が前提です。端末、ドメイン、開発ツール費用は含みません。": [
+    "Free hosting assumes staying within the hosting free tier. Devices, domains and development tools are not included.",
+    "El alojamiento gratuito exige respetar sus límites. Dispositivos, dominios y herramientas no incluidos.",
+    "Hospedagem gratuita depende dos limites do plano grátis. Dispositivos, domínios e ferramentas não incluídos.",
+    "免费运行以托管免费额度为前提，不包含设备、域名和开发工具费用。"
+  ],
+  "人制 ·": [
+    "a-side ·",
+    "por equipo ·",
+    "por equipe ·",
+    "人制 ·"
+  ],
+  "プラン・契約管理": [
+    "Plan and subscription",
+    "Plan y suscripción",
+    "Plano e assinatura",
+    "套餐和订阅管理"
+  ],
+  "契約サービスを確認しています…": [
+    "Checking subscription service…",
+    "Comprobando suscripción…",
+    "Verificando assinatura…",
+    "正在检查订阅服务…"
+  ],
+  "契約サービスに接続できませんでした。": [
+    "Unable to reach subscription service.",
+    "No se pudo conectar con el servicio.",
+    "Não foi possível conectar ao serviço.",
+    "无法连接订阅服务。"
+  ],
+  "月額総額500円のCoach Proは準備中です。現在は料金が発生せず、端末内の機能を利用できます。": [
+    "Coach Pro (¥500/month total) is in preparation. No charges currently apply; local features remain available.",
+    "Coach Pro (500 ¥/mes en total) está en preparación. No hay cobros y las funciones locales están disponibles.",
+    "Coach Pro (¥500/mês no total) em preparação. Sem cobrança atual; recursos locais disponíveis.",
+    "Coach Pro（每月总额500日元）筹备中。目前不收费，可使用本地功能。"
+  ],
+  "決済テスト環境です。実際の請求は発生しません。テスト用の支払情報を使用してください。": [
+    "Test payment environment. No real charges. Use test payment details.",
+    "Entorno de prueba: sin cargos reales. Usa datos de pago de prueba.",
+    "Ambiente de teste: sem cobrança real. Use dados de teste.",
+    "支付测试环境，不产生实际费用。请使用测试支付信息。"
+  ],
+  "Coach Pro　月額総額500円": [
+    "Coach Pro — ¥500/month total",
+    "Coach Pro — 500 ¥/mes en total",
+    "Coach Pro — ¥500/mês no total",
+    "Coach Pro — 每月总额500日元"
+  ],
+  "· 毎月自動更新 · 税の上乗せなし": [
+    "· Renews monthly · No additional tax",
+    "· Renovación mensual · Sin impuesto adicional",
+    "· Renovação mensal · Sem imposto adicional",
+    "· 每月自动续订 · 无额外税费"
+  ],
+  "解約後は支払済み期間の終了まで利用可能です。途中解約の日割り返金は原則ありません。最低継続月数・解約違約金はありません。": [
+    "After cancellation, access continues until the paid period ends. Generally no prorated refunds. No minimum term or cancellation penalty.",
+    "Tras cancelar, el acceso sigue hasta finalizar el período pagado. Por regla general no hay devolución proporcional. Sin permanencia ni penalización.",
+    "Após cancelar, o acesso continua até o fim do período pago. Em geral, não há reembolso proporcional. Sem prazo mínimo ou multa.",
+    "取消后可使用至已付款期限结束。原则上不按比例退款，无最低订阅期限及解约违约金。"
+  ],
+  "契約を管理するためにログインします。映像や分析データは端末内に保存され、ログインしても端末間で同期されません。": [
+    "Sign in to manage your subscription. Video and analysis stay on this device and are not synchronized by signing in.",
+    "Inicia sesión para gestionar la suscripción. Los vídeos y análisis siguen en el dispositivo, sin sincronización.",
+    "Entre para gerenciar a assinatura. Vídeos e análises continuam no dispositivo, sem sincronização.",
+    "登录以管理订阅。视频和分析仍保存在本机，登录不会在设备间同步。"
+  ],
+  "ログインして契約を確認": [
+    "Sign in to view subscription",
+    "Acceder a la suscripción",
+    "Entrar para ver assinatura",
+    "登录查看订阅"
+  ],
+  "契約の確認中です。お問い合わせください。": [
+    "Subscription under review. Please contact us.",
+    "Suscripción en revisión. Contacta con nosotros.",
+    "Assinatura em verificação. Entre em contato.",
+    "订阅正在核实，请联系我们。"
+  ],
+  "Coach Proを利用できます。": [
+    "Coach Pro is available.",
+    "Coach Pro disponible.",
+    "Coach Pro disponível.",
+    "可以使用 Coach Pro。"
+  ],
+  "お支払い・契約状態を確認してください。": [
+    "Check payment and subscription status.",
+    "Comprueba pagos y suscripción.",
+    "Verifique pagamento e assinatura.",
+    "请检查付款和订阅状态。"
+  ],
+  "有料契約はありません。": [
+    "No paid subscription.",
+    "Sin suscripción de pago.",
+    "Sem assinatura paga.",
+    "无付费订阅。"
+  ],
+  "利用期間の終了：": [
+    "Access ends:",
+    "Fin del acceso:",
+    "Fim do acesso:",
+    "使用期限结束："
+  ],
+  "次回更新は停止されています。": [
+    "Next renewal is cancelled.",
+    "Próxima renovación cancelada.",
+    "Próxima renovação cancelada.",
+    "已停止下次续订。"
+  ],
+  "利用規約": [
+    "Terms of use",
+    "Condiciones de uso",
+    "Termos de uso",
+    "使用条款"
+  ],
+  "・": [
+    "·",
+    "·",
+    "·",
+    "·"
+  ],
+  "プライバシーポリシー": [
+    "Privacy policy",
+    "Política de privacidad",
+    "Política de privacidade",
+    "隐私政策"
+  ],
+  "特商法表記": [
+    "Commercial disclosures",
+    "Información comercial",
+    "Informações comerciais",
+    "商业交易披露"
+  ],
+  "と、月額500円の自動更新・解約条件を確認しました。": [
+    "and the ¥500/month automatic renewal and cancellation conditions.",
+    "y las condiciones de renovación automática y cancelación de 500 ¥/mes.",
+    "e as condições de renovação automática e cancelamento de ¥500/mês.",
+    "及每月500日元自动续订与取消条款。"
+  ],
+  "月額500円のテスト決済へ": [
+    "Test checkout — ¥500/month",
+    "Pago de prueba — 500 ¥/mes",
+    "Pagamento de teste — ¥500/mês",
+    "测试支付 — 每月500日元"
+  ],
+  "契約・支払方法を管理": [
+    "Manage subscription and payment",
+    "Gestionar suscripción y pago",
+    "Gerenciar assinatura e pagamento",
+    "管理订阅和支付方式"
+  ],
+  "ログアウト": [
+    "Sign out",
+    "Cerrar sesión",
+    "Sair",
+    "退出登录"
+  ],
+  "ログアウトや端末データの削除では契約は解約されません。解約は契約管理画面から行ってください。": [
+    "Signing out or deleting local data does not cancel your subscription. Cancel through subscription management.",
+    "Cerrar sesión o borrar datos no cancela la suscripción. Cancela desde la gestión de suscripciones.",
+    "Sair ou apagar dados locais não cancela a assinatura. Cancele na gestão de assinaturas.",
+    "退出登录或删除本地数据不会取消订阅，请在订阅管理页面取消。"
+  ],
+  "契約状態を更新": [
+    "Refresh subscription status",
+    "Actualizar suscripción",
+    "Atualizar assinatura",
+    "更新订阅状态"
+  ],
+  "この端末のデータ": [
+    "Data on this device",
+    "Datos de este dispositivo",
+    "Dados neste dispositivo",
+    "本机数据"
+  ],
+  "このブラウザーに保存している全チームが対象です。他の端末や、写真・ファイルアプリにある元の動画は削除しません。": [
+    "Applies to all teams in this browser. Other devices and original videos in Photos or Files are not deleted.",
+    "Afecta a todos los equipos de este navegador. No borra otros dispositivos ni originales de Fotos o Archivos.",
+    "Aplica-se a todas as equipes deste navegador. Não apaga outros dispositivos nem originais em Fotos ou Arquivos.",
+    "适用于本浏览器中全部球队，不会删除其他设备数据及照片、文件应用中的原视频。"
+  ],
+  "確認中": [
+    "Checking",
+    "Comprobando",
+    "Verificando",
+    "检查中"
+  ],
+  "アプリ内録画の退避": [
+    "Export app recordings",
+    "Exportar grabaciones",
+    "Exportar gravações",
+    "导出应用录像"
+  ],
+  "JSONバックアップに動画本体は含まれません。削除前に必要な録画を書き出し、保存したファイルを確認してください。": [
+    "JSON backups exclude video. Export required recordings and verify saved files before deleting.",
+    "Las copias JSON no contienen vídeo. Exporta y comprueba las grabaciones antes de borrar.",
+    "Backups JSON não incluem vídeos. Exporte e confira as gravações antes de apagar.",
+    "JSON 备份不含视频。删除前请导出所需录像并检查保存文件。"
+  ],
+  "保存されたアプリ内録画はありません。": [
+    "No saved app recordings.",
+    "No hay grabaciones guardadas.",
+    "Nenhuma gravação salva.",
+    "无已保存的应用录像。"
+  ],
+  "秒": [
+    "seconds",
+    "segundos",
+    "segundos",
+    "秒"
+  ],
+  "· 未完了の録画": [
+    "· Incomplete recording",
+    "· Grabación incompleta",
+    "· Gravação incompleta",
+    "· 未完成的录像"
+  ],
+  "録画を書き出す": [
+    "Export recording",
+    "Exportar grabación",
+    "Exportar gravação",
+    "导出录像"
+  ],
+  "データの削除": [
+    "Delete data",
+    "Borrar datos",
+    "Excluir dados",
+    "删除数据"
+  ],
+  "必要なJSONと録画を先に保存してください。他のタブでこのアプリを開いている場合は、閉じてから操作してください。": [
+    "Save JSON and recordings first. Close other tabs running this app before continuing.",
+    "Guarda JSON y grabaciones. Cierra otras pestañas de la app antes de continuar.",
+    "Salve JSON e gravações. Feche outras abas do aplicativo antes de continuar.",
+    "请先保存 JSON 和录像，操作前关闭其他打开本应用的标签页。"
+  ],
+  "アプリ内録画だけを削除": [
+    "Delete app recordings only",
+    "Borrar solo grabaciones",
+    "Excluir apenas gravações",
+    "仅删除应用录像"
+  ],
+  "録画映像と録画の復旧用データを削除します。チーム・試合・保存済みタグ・戦術ボードは残ります。": [
+    "Deletes recordings and recovery data. Teams, matches, saved tags and boards remain.",
+    "Borra grabaciones y recuperación. Conserva equipos, partidos, etiquetas y pizarras.",
+    "Exclui gravações e recuperação. Mantém equipes, partidas, marcas e quadros.",
+    "删除录像及恢复数据，保留球队、比赛、已保存标签和战术板。"
+  ],
+  "録画だけを削除": [
+    "Delete recordings only",
+    "Borrar solo grabaciones",
+    "Excluir apenas gravações",
+    "仅删除录像"
+  ],
+  "この端末のデータをすべて初期化": [
+    "Reset all local data",
+    "Restablecer datos locales",
+    "Redefinir dados locais",
+    "重置全部本地数据"
+  ],
+  "全チーム・選手・試合・タグ・描画・戦術ボード・レポート・フォーム観察メモ・アプリ内録画・編集用の保存動画を削除し、最初の状態に戻します。": [
+    "Deletes all teams, players, matches, tags, drawings, boards, reports, form notes, app recordings and stored source videos.",
+    "Borra equipos, jugadores, partidos, etiquetas, dibujos, pizarras, informes, notas, grabaciones y vídeos fuente guardados.",
+    "Exclui equipes, jogadores, partidas, marcas, desenhos, quadros, relatórios, notas, gravações e vídeos-fonte salvos.",
+    "删除全部球队、球员、比赛、标签、绘图、战术板、报告、动作笔记、应用录像及保存的编辑原视频。"
+  ],
+  "すべてのデータを初期化": [
+    "Reset all data",
+    "Restablecer todos los datos",
+    "Redefinir todos os dados",
+    "重置全部数据"
+  ],
+  "端末内データをすべて削除しますか？": [
+    "Delete all local data?",
+    "¿Borrar todos los datos locales?",
+    "Excluir todos os dados locais?",
+    "删除全部本地数据？"
+  ],
+  "アプリ内録画を削除しますか？": [
+    "Delete app recordings?",
+    "¿Borrar grabaciones?",
+    "Excluir gravações?",
+    "删除应用录像？"
+  ],
+  "すべてのチームの分析記録と録画を削除します。": [
+    "Deletes analysis and recordings for every team.",
+    "Borra análisis y grabaciones de todos los equipos.",
+    "Exclui análises e gravações de todas as equipes.",
+    "删除所有球队的分析记录和录像。"
+  ],
+  "アプリ内録画と復旧用データを削除します。保存済みの分析記録は残ります。": [
+    "Deletes app recordings and recovery data. Saved analysis remains.",
+    "Borra grabaciones y recuperación. Conserva los análisis guardados.",
+    "Exclui gravações e recuperação. Mantém análises salvas.",
+    "删除应用录像及恢复数据，保留已保存分析记录。"
+  ],
+  "この操作は取り消せません。": [
+    "This cannot be undone.",
+    "Esta acción es irreversible.",
+    "Esta ação não pode ser desfeita.",
+    "此操作无法撤销。"
+  ],
+  "バックアップと動画の保存を確認したら、下に「削除」と入力してください。": [
+    "After checking backups, type the Japanese word 削除 below.",
+    "Tras comprobar las copias, escribe la palabra japonesa 削除.",
+    "Após verificar os backups, digite a palavra japonesa 削除.",
+    "确认备份后，在下方输入日文「削除」。"
+  ],
+  "確認のため「削除」と入力": [
+    "Type 削除 to confirm",
+    "Escribe 削除 para confirmar",
+    "Digite 削除 para confirmar",
+    "输入「削除」确认"
+  ],
+  "処理中…": [
+    "Processing…",
+    "Procesando…",
+    "Processando…",
+    "处理中…"
+  ],
+  "削除を実行": [
+    "Confirm deletion",
+    "Confirmar borrado",
+    "Confirmar exclusão",
+    "确认删除"
+  ],
+  "この場所を編集": [
+    "Edit this location",
+    "Editar este lugar",
+    "Editar este local",
+    "编辑此位置"
+  ],
+  "タグから場面を集め、映像を見ながら解説を編集。自動保存・720p MP4。": [
+    "Build highlights from tags and edit on video. Autosave and 720p MP4.",
+    "Crea resúmenes desde etiquetas. Guardado automático y MP4 720p.",
+    "Monte destaques a partir de marcas. Salvamento automático e MP4 720p.",
+    "从标签创建集锦并在视频上编辑，支持自动保存及720p MP4。"
+  ],
+  "編集映像": [
+    "Video editor canvas",
+    "Lienzo de edición",
+    "Tela de edição",
+    "视频编辑画面"
+  ],
+  "試合分析で選んだ場面を送るか、「クリップ」で動画を追加してください。": [
+    "Send moments from match analysis or add video under Clips.",
+    "Envía momentos del análisis o añade vídeo en Clips.",
+    "Envie momentos da análise ou adicione vídeo em Clipes.",
+    "从比赛分析发送片段，或在“片段”中添加视频。"
+  ],
+  "「クリップ」でこのクリップの元動画を選択してください。": [
+    "Select this clip's source video under Clips.",
+    "Selecciona el vídeo original en Clips.",
+    "Selecione o vídeo-fonte em Clipes.",
+    "请在“片段”中选择该片段的原视频。"
+  ],
+  "動画を読み直す": [
+    "Reload video",
+    "Recargar vídeo",
+    "Recarregar vídeo",
+    "重新加载视频"
+  ],
+  "全クリップを再生": [
+    "Play all clips",
+    "Reproducir todos",
+    "Reproduzir todos",
+    "播放全部片段"
+  ],
+  "完成動画の時刻": [
+    "Output video position",
+    "Posición del vídeo final",
+    "Posição do vídeo final",
+    "成片时间位置"
+  ],
+  "「クリップを再生」は選択中のみ、「全クリップを再生」は先頭から順に再生します。コマ送りは1/30秒刻みです。タイムラインをドラッグして再生位置を選べます。": [
+    "Play Clip plays the selection; Play All starts at the beginning. Frame steps are 1/30 second. Drag the timeline to seek.",
+    "Reproducir clip usa la selección; Reproducir todos empieza al inicio. Paso: 1/30 s. Arrastra la línea temporal.",
+    "Reproduzir clipe usa a seleção; Reproduzir todos começa do início. Passo: 1/30 s. Arraste a linha do tempo.",
+    "“播放片段”仅播放当前片段，“播放全部”从头依次播放。逐帧步长为1/30秒，拖动时间轴定位。"
+  ],
+  "編集名": [
+    "Edit name",
+    "Nombre de edición",
+    "Nome da edição",
+    "编辑名称"
+  ],
+  "編集案": [
+    "Edit version",
+    "Versión de edición",
+    "Versão da edição",
+    "编辑方案"
+  ],
+  "保存待ち": [
+    "Pending save",
+    "Pendiente de guardar",
+    "Aguardando salvar",
+    "等待保存"
+  ],
+  "クリップのタイムライン": [
+    "Clip timeline",
+    "Línea temporal de clips",
+    "Linha do tempo de clipes",
+    "片段时间轴"
+  ],
+  "静止": [
+    "Still",
+    "Imagen fija",
+    "Imagem fixa",
+    "静止"
+  ],
+  "（元映像の秒）": [
+    "(source video seconds)",
+    "(segundos del original)",
+    "(segundos do original)",
+    "（原视频秒数）"
+  ],
+  "開始位置をドラッグ": [
+    "Drag start position",
+    "Arrastrar inicio",
+    "Arrastar início",
+    "拖动开始位置"
+  ],
+  "終了位置をドラッグ": [
+    "Drag end position",
+    "Arrastrar fin",
+    "Arrastar fim",
+    "拖动结束位置"
+  ],
+  "文字をマウス・指で移動できます（サイズは入力欄で調整）。下のタイムラインで表示開始・終了を調整。文字サイズは1280px幅の映像を基準にしています。": [
+    "Drag text with a mouse or finger. Set its size in the field and duration on the timeline. Font sizes refer to a 1280px-wide video.",
+    "Arrastra el texto. Ajusta tamaño en el campo y duración en la línea temporal. Tamaños para vídeo de 1280 px.",
+    "Arraste o texto. Ajuste tamanho no campo e duração na linha do tempo. Tamanhos para vídeo de 1280 px.",
+    "用鼠标或手指移动文字，在输入框调整字号，在时间轴调整起止。字号以1280像素宽视频为基准。"
+  ],
+  "倍": [
+    "×",
+    "×",
+    "×",
+    "倍"
+  ],
+  "部分スローは再生位置で分割して対象区間の速度を変えます。": [
+    "For partial slow motion, split at the playhead and change the target clip's speed.",
+    "Para cámara lenta parcial, divide en el cabezal y cambia la velocidad del segmento.",
+    "Para câmera lenta parcial, divida no cursor e altere a velocidade do trecho.",
+    "局部慢动作：在播放位置分割后修改目标片段的速度。"
+  ],
+  "動画上で中心をクリック・タップしてください": [
+    "Click or tap the video to choose the center",
+    "Toca el vídeo para elegir el centro",
+    "Toque no vídeo para escolher o centro",
+    "点击视频选择中心"
+  ],
+  "動画上で拡大中心を指定": [
+    "Choose zoom center on video",
+    "Elegir centro en el vídeo",
+    "Escolher centro no vídeo",
+    "在视频中指定缩放中心"
+  ],
+  "中心X・Y：": [
+    "Center X / Y:",
+    "Centro X / Y:",
+    "Centro X / Y:",
+    "中心 X／Y："
+  ],
+  "。位置を選んだ後、下の適用ボタンで保存します。": [
+    ". Choose the location, then apply below to save.",
+    ". Elige el lugar y aplica abajo para guardar.",
+    ". Escolha o local e aplique abaixo para salvar.",
+    "。选择位置后，点击下方应用按钮保存。"
+  ],
+  "このクリップ内の開始・終了秒と表示場所を指定します。適用すると独立した演出の帯を追加します。動画の長さを変えず、指定区間だけ拡大します。": [
+    "Set a time range and center within this clip. Zoom is a separate effect track and does not change video length.",
+    "Define intervalo y centro. El zoom tiene una pista propia y no cambia la duración.",
+    "Defina intervalo e centro. O zoom tem uma faixa própria e não altera a duração.",
+    "设置此片段内的起止时间和中心位置。缩放为独立效果轨道，不改变视频长度。"
+  ],
+  "演出開始": [
+    "Effect start",
+    "Inicio del efecto",
+    "Início do efeito",
+    "效果开始"
+  ],
+  "演出終了": [
+    "Effect end",
+    "Fin del efecto",
+    "Fim do efeito",
+    "效果结束"
+  ],
+  "選択したズームに反映": [
+    "Update selected zoom",
+    "Actualizar zoom seleccionado",
+    "Atualizar zoom selecionado",
+    "更新所选缩放"
+  ],
+  "指定区間にズームを適用": [
+    "Apply zoom to time range",
+    "Aplicar zoom al intervalo",
+    "Aplicar zoom ao intervalo",
+    "将缩放应用到指定区间"
+  ],
+  "ズーム位置は記録点の時刻で切り替わります。記録点をタイムラインで移動できます。": [
+    "Zoom positions change at recorded keyframes. Move keys on the timeline.",
+    "El centro cambia en los puntos guardados. Muévelos en la línea temporal.",
+    "O centro muda nos pontos salvos. Mova-os na linha do tempo.",
+    "缩放位置在记录点时间切换，可在时间轴移动记录点。"
+  ],
+  "描画ツール": [
+    "Drawing tool",
+    "Herramienta de dibujo",
+    "Ferramenta de desenho",
+    "绘图工具"
+  ],
+  "つなぐ選手の中心を順にタップ／クリックしてください（2〜22人）。輪を線で順につなぎます。": [
+    "Tap player centers in order (2–22) to connect their rings.",
+    "Toca los centros en orden (2–22) para unir los anillos.",
+    "Toque nos centros em ordem (2–22) para ligar os anéis.",
+    "依次点击球员中心（2～22人）以连接圆环。"
+  ],
+  "指定した選手：": [
+    "Selected players:",
+    "Jugadores seleccionados:",
+    "Jogadores selecionados:",
+    "已指定球员："
+  ],
+  "人": [
+    "players",
+    "jugadores",
+    "jogadores",
+    "人"
+  ],
+  "描画色": [
+    "Drawing color",
+    "Color del dibujo",
+    "Cor do desenho",
+    "绘图颜色"
+  ],
+  "描画文字": [
+    "Drawing text",
+    "Texto del dibujo",
+    "Texto do desenho",
+    "绘图文字"
+  ],
+  "映像上で図形をクリック／タップして選択し、図形をドラッグして移動。白い丸を動かして大きさや端点を調整できます。「描画を追加」で新しい図形を描きます。": [
+    "Tap a shape to select it. Drag it to move and use white handles to resize. Add Drawing creates a new shape.",
+    "Toca una figura para seleccionarla. Arrastra para mover y usa los puntos blancos para ajustar. Añadir dibujo crea otra.",
+    "Toque numa forma para selecionar. Arraste para mover e use alças brancas para ajustar. Adicionar desenho cria outra.",
+    "点击图形选择，拖动移动，白色控制点调整大小或端点。“添加绘图”创建新图形。"
+  ],
+  "編集する描画": [
+    "Drawing to edit",
+    "Dibujo a editar",
+    "Desenho a editar",
+    "要编辑的绘图"
+  ],
+  "この時刻で動かした位置・形を記録します。記録した時刻の間は滑らかに変化します。": [
+    "Record position and shape at this time; motion between keyframes is interpolated.",
+    "Registra posición y forma en este instante; el movimiento se interpola.",
+    "Registre posição e forma neste instante; o movimento é interpolado.",
+    "记录当前时间的位置和形状，记录点之间平滑插值。"
+  ],
+  "全時刻の図形をまとめて調整します。時刻ごとに変える場合は上のチェックを入れてください。": [
+    "Adjust the shape at all times. Enable time-specific editing for changes over time.",
+    "Ajusta la figura en todos los instantes. Activa edición temporal para cambios por tiempo.",
+    "Ajuste a forma em todos os instantes. Ative edição por tempo para variações.",
+    "统一调整所有时间的图形。如需逐时变化，请启用按时间编辑。"
+  ],
+  "現在：クリップ内": [
+    "Current clip time:",
+    "Tiempo actual del clip:",
+    "Tempo atual do clipe:",
+    "当前片段时间："
+  ],
+  "秒（完成動画": [
+    "s (output",
+    "s (vídeo final",
+    "s (vídeo final",
+    "秒（成片"
+  ],
+  "秒）": [
+    "s)",
+    "s)",
+    "s)",
+    "秒）"
+  ],
+  "再生位置を変えて図形を動かすと、位置・大きさ・リンクの各選手位置を記録できます。": [
+    "Change playback time and move shapes to record position, size and linked player positions.",
+    "Cambia el tiempo y mueve figuras para registrar posición, tamaño y enlaces.",
+    "Altere o tempo e mova formas para registrar posição, tamanho e ligações.",
+    "改变播放位置并移动图形，可记录位置、大小及链接球员的位置。"
+  ],
+  "映像上の選手の中心をクリック／タップしてください。": [
+    "Click or tap the player's center in the video.",
+    "Toca el centro del jugador en el vídeo.",
+    "Toque no centro do jogador no vídeo.",
+    "点击视频中球员的中心。"
+  ],
+  "再生位置を変え、X・Yを調整して追従点を登録。登録点の間は自動補間します。表示終了で追従を止められます。": [
+    "Change time and X/Y to record tracking points. Positions interpolate; tracking stops at the display end.",
+    "Cambia tiempo y X/Y para registrar puntos. Se interpolan; el seguimiento termina al final de visualización.",
+    "Altere tempo e X/Y para registrar pontos. Há interpolação; o rastreamento para no fim da exibição.",
+    "改变时间和X/Y并记录跟随点。点间插值，在显示结束时停止跟随。"
+  ],
+  "描画付きの静止画": [
+    "Annotated still image",
+    "Imagen con anotaciones",
+    "Imagem com anotações",
+    "带绘图的静止图像"
+  ],
+  "画像を長押し／右クリックでも保存できます。": [
+    "Long-press or right-click the image to save it.",
+    "Mantén pulsada la imagen o haz clic derecho para guardarla.",
+    "Pressione a imagem ou clique com o botão direito para salvar.",
+    "也可长按或右键点击图像保存。"
+  ],
+  "未選択の素材：": [
+    "Missing sources:",
+    "Fuentes sin seleccionar:",
+    "Fontes não selecionadas:",
+    "未选择的素材："
+  ],
+  "件。「クリップ」で元動画を選択してください。": [
+    ". Select source videos under Clips.",
+    ". Selecciona los originales en Clips.",
+    ". Selecione os originais em Clipes.",
+    "个。请在“片段”中选择原视频。"
+  ],
+  "素材は端末内で処理します。端末に保存済みの元動画は、同じブラウザーで再開すると自動復元します。JSONバックアップには動画本体を含みません。未保存・削除済みの素材だけ選び直してください。通常再生とMP4は元音声を保持し、静止部分は無音です。": [
+    "Media is processed locally. Saved sources restore in the same browser. JSON excludes video; reselect unsaved or deleted sources. Playback and MP4 retain original audio; still sections are silent.",
+    "Los vídeos se procesan localmente y se restauran en el mismo navegador. JSON no incluye vídeo. Vuelve a elegir fuentes no guardadas o borradas. Se conserva el audio; las imágenes fijas son mudas.",
+    "Os vídeos são processados localmente e restaurados no mesmo navegador. JSON não inclui vídeo. Selecione fontes não salvas ou excluídas. O áudio é mantido; trechos estáticos são silenciosos.",
+    "素材在本机处理，已保存原视频可在同一浏览器恢复。JSON不含视频，未保存或已删除的素材需重选。播放和MP4保留原音频，静止片段无声。"
+  ],
+  "試合が見つかりません。試合一覧から選択してください。": [
+    "Match not found. Select a match from the list.",
+    "Partido no encontrado. Elígelo en la lista.",
+    "Partida não encontrada. Selecione na lista.",
+    "找不到比赛，请从列表选择。"
+  ],
+  "行": [
+    "rows",
+    "filas",
+    "linhas",
+    "行"
+  ],
+  "選択した記録点を削除": [
+    "Delete selected keyframe",
+    "Eliminar punto seleccionado",
+    "Excluir ponto selecionado",
+    "删除所选记录点"
+  ],
+  "帯の両端：表示開始・終了　帯：全体移動　◆：位置の変更時刻。記録点を選んでDelキーまたは「選択した記録点を削除」で、その時刻だけ削除できます。細かい調整は時間軸を拡大。背景を指で横に送れます。": [
+    "Drag track edges for start/end, the band to move it, and keys for timing. Select a key and press Delete to remove only that key. Zoom the timeline for detail; swipe the background horizontally.",
+    "Arrastra extremos para inicio/fin, la banda para mover y puntos para tiempos. Selecciona un punto y pulsa Supr para borrarlo. Amplía la escala para precisión; desliza el fondo horizontalmente.",
+    "Arraste bordas para início/fim, a faixa para mover e pontos para tempos. Selecione um ponto e pressione Delete para apagá-lo. Amplie a escala para precisão; deslize o fundo horizontalmente.",
+    "拖动条带两端调整起止，拖动条带移动整体，拖动记录点调整时间。选点后按Delete仅删除该点。放大时间轴可精调，横向滑动背景可移动。"
+  ],
+  "描画または時間指定のズームを追加すると、ここに表示されます。": [
+    "Add a drawing or timed zoom to display it here.",
+    "Añade un dibujo o zoom temporal para verlo aquí.",
+    "Adicione um desenho ou zoom temporal para exibi-lo aqui.",
+    "添加绘图或定时缩放后将在此显示。"
+  ],
+  "追加を受け付けました。ホーム画面・アプリ一覧を確認してください。": [
+    "Install accepted. Check your home screen or app list.",
+    "Instalación aceptada. Revisa inicio o la lista de apps.",
+    "Instalação aceita. Confira a tela inicial ou a lista de apps.",
+    "已接受添加，请查看主屏幕或应用列表。"
+  ],
+  "追加をキャンセルしました。ブラウザーのメニューからも追加できます。": [
+    "Install cancelled. You can also use the browser menu.",
+    "Instalación cancelada. También puedes usar el menú del navegador.",
+    "Instalação cancelada. Também pode usar o menu do navegador.",
+    "已取消添加，也可从浏览器菜单添加。"
+  ],
+  "ホーム画面・QR": [
+    "Home screen · QR",
+    "Inicio · QR",
+    "Tela inicial · QR",
+    "主屏幕 · QR"
+  ],
+  "ホーム画面に追加・QRコード": [
+    "Add to home screen · QR code",
+    "Añadir a inicio · QR",
+    "Adicionar à tela inicial · QR",
+    "添加到主屏幕 · 二维码"
+  ],
+  "追加案内を閉じる": [
+    "Close install guide",
+    "Cerrar guía",
+    "Fechar guia",
+    "关闭添加说明"
+  ],
+  "PC・スマホ・タブレットで利用できます。ホーム画面に追加すると、アイコンからすぐに開けます。": [
+    "Use on computers, phones and tablets. Add to the home screen for quick access.",
+    "Úsala en PC, móviles y tabletas. Añádela a inicio para acceso rápido.",
+    "Use no computador, celular ou tablet. Adicione à tela inicial para acesso rápido.",
+    "支持电脑、手机和平板。添加到主屏幕后可快速打开。"
+  ],
+  "この端末に追加されています。ホーム画面・アプリ一覧のアイコンから開けます。": [
+    "Already added on this device. Open using the home screen or app list icon.",
+    "Ya añadida. Ábrela desde el icono de inicio o la lista de apps.",
+    "Já adicionada. Abra pelo ícone na tela inicial ou lista de apps.",
+    "已添加到此设备，可从主屏幕或应用列表图标打开。"
+  ],
+  "追加画面を開いています…": [
+    "Opening install screen…",
+    "Abriendo instalación…",
+    "Abrindo instalação…",
+    "正在打开添加界面…"
+  ],
+  "この端末に追加": [
+    "Add to this device",
+    "Añadir a este dispositivo",
+    "Adicionar neste dispositivo",
+    "添加到此设备"
+  ],
+  "iPhone・iPad": [
+    "iPhone · iPad",
+    "iPhone · iPad",
+    "iPhone · iPad",
+    "iPhone · iPad"
+  ],
+  "Safariでこのサイトを開きます。": [
+    "Open this site in Safari.",
+    "Abre este sitio en Safari.",
+    "Abra este site no Safari.",
+    "请用 Safari 打开本站。"
+  ],
+  "共有メニューから「ホーム画面に追加」を選びます。": [
+    "Select Add to Home Screen from Share.",
+    "Elige Añadir a pantalla de inicio en Compartir.",
+    "Selecione Adicionar à Tela de Início em Compartilhar.",
+    "在分享菜单中选择“添加到主屏幕”。"
+  ],
+  "「Webアプリとして開く」が表示された場合はオンにして追加します。": [
+    "Enable Open as Web App if shown, then add.",
+    "Activa Abrir como app web si aparece y añade.",
+    "Ative Abrir como app web, se aparecer, e adicione.",
+    "如显示“作为Web应用打开”，请开启后添加。"
+  ],
+  "Chromeのメニューから「アプリをインストール」または「ホーム画面に追加」を選びます。": [
+    "In Chrome, select Install App or Add to Home Screen.",
+    "En Chrome, elige Instalar app o Añadir a inicio.",
+    "No Chrome, escolha Instalar app ou Adicionar à tela inicial.",
+    "在 Chrome 菜单中选择“安装应用”或“添加到主屏幕”。"
+  ],
+  "Chrome・Edgeのアドレスバーのインストールボタン、またはブラウザーのメニューから追加できます。通常のブラウザー表示でも利用できます。": [
+    "Use the Chrome/Edge address-bar install button or browser menu. Regular browser use is also supported.",
+    "Usa el botón de instalación de Chrome/Edge o su menú. También funciona en el navegador normal.",
+    "Use o botão de instalação do Chrome/Edge ou o menu. Também funciona no navegador normal.",
+    "可通过Chrome/Edge地址栏安装按钮或浏览器菜单添加，也支持普通浏览器使用。"
+  ],
+  "FOOTBALL ANALYZERの公開URLを開くQRコード": [
+    "QR code for the public FOOTBALL ANALYZER URL",
+    "QR de la URL pública de FOOTBALL ANALYZER",
+    "QR da URL pública do FOOTBALL ANALYZER",
+    "打开 FOOTBALL ANALYZER 公开网址的二维码"
+  ],
+  "スマホ・タブレットのカメラで読み取り": [
+    "Scan with a phone or tablet camera",
+    "Escanea con el móvil o tableta",
+    "Leia com a câmera do celular ou tablet",
+    "使用手机或平板摄像头扫描"
+  ],
+  "QRコードを保存": [
+    "Save QR code",
+    "Guardar QR",
+    "Salvar QR",
+    "保存二维码"
+  ],
+  "公開URLをコピー": [
+    "Copy public URL",
+    "Copiar URL pública",
+    "Copiar URL pública",
+    "复制公开网址"
+  ],
+  "QRコードはアプリを開くためのものです。試合・選手・録画などのデータは端末ごとに保存されます。": [
+    "QR opens the app. Matches, players and recordings are stored separately on each device.",
+    "El QR abre la app. Partidos, jugadores y grabaciones se guardan por dispositivo.",
+    "O QR abre o app. Partidas, jogadores e gravações são salvos por dispositivo.",
+    "二维码仅用于打开应用，比赛、球员及录像等数据分别保存在各设备中。"
+  ],
+  "ライブ撮影": [
+    "Live recording",
+    "Grabación en directo",
+    "Gravação ao vivo",
+    "实时拍摄"
+  ],
+  "ライブ撮影・タグ付け": [
+    "Live recording and tagging",
+    "Grabación y etiquetas en directo",
+    "Gravação e marcação ao vivo",
+    "实时拍摄与标记"
+  ],
+  "スマホを横向きで固定し、撮影しながら気づいた場面を記録。": [
+    "Fix your phone horizontally and tag moments while recording.",
+    "Fija el móvil en horizontal y etiqueta mientras grabas.",
+    "Fixe o celular na horizontal e marque durante a gravação.",
+    "横向固定手机，拍摄时标记关键片段。"
+  ],
+  "録画時間": [
+    "Recording duration",
+    "Duración de grabación",
+    "Duração da gravação",
+    "录像时长"
+  ],
+  "一時停止": [
+    "Pause",
+    "Pausa",
+    "Pausa",
+    "暂停"
+  ],
+  "カメラプレビュー": [
+    "Camera preview",
+    "Vista de cámara",
+    "Prévia da câmera",
+    "摄像头预览"
+  ],
+  "保存した録画を確認中…": [
+    "Checking saved recordings…",
+    "Comprobando grabaciones…",
+    "Verificando gravações…",
+    "正在检查已保存录像…"
+  ],
+  "マイク音声も録音する": [
+    "Record microphone audio",
+    "Grabar micrófono",
+    "Gravar microfone",
+    "录制麦克风音频"
+  ],
+  "カメラを準備中…": [
+    "Preparing camera…",
+    "Preparando cámara…",
+    "Preparando câmera…",
+    "准备摄像头中…"
+  ],
+  "カメラを起動": [
+    "Start camera",
+    "Abrir cámara",
+    "Abrir câmera",
+    "开启摄像头"
+  ],
+  "この試合には映像またはタグがあります。新しい撮影は、試合一覧から別の試合を登録してください。": [
+    "This match already contains video or tags. Create another match for a new recording.",
+    "Este partido ya tiene vídeo o etiquetas. Crea otro para una nueva grabación.",
+    "Esta partida já tem vídeo ou marcas. Crie outra para uma nova gravação.",
+    "此比赛已有视频或标签，新拍摄请另建比赛。"
+  ],
+  "録画を開始": [
+    "Start recording",
+    "Empezar grabación",
+    "Iniciar gravação",
+    "开始录像"
+  ],
+  "カメラを閉じる": [
+    "Close camera",
+    "Cerrar cámara",
+    "Fechar câmera",
+    "关闭摄像头"
+  ],
+  "一時停止（ハーフタイム）": [
+    "Pause for halftime",
+    "Pausa del descanso",
+    "Pausar no intervalo",
+    "暂停（中场休息）"
+  ],
+  "録画を再開": [
+    "Resume recording",
+    "Reanudar grabación",
+    "Retomar gravação",
+    "继续录像"
+  ],
+  "録画を終了して分析": [
+    "Finish recording and analyze",
+    "Terminar y analizar",
+    "Encerrar e analisar",
+    "结束录像并分析"
+  ],
+  "録画を準備中…": [
+    "Preparing recording…",
+    "Preparando grabación…",
+    "Preparando gravação…",
+    "准备录像中…"
+  ],
+  "録画とタグを保存中… この画面を開いたままお待ちください。": [
+    "Saving video and tags. Keep this screen open.",
+    "Guardando vídeo y etiquetas. Mantén esta pantalla abierta.",
+    "Salvando vídeo e marcas. Mantenha esta tela aberta.",
+    "正在保存录像和标签，请保持此界面打开。"
+  ],
+  "撮影タグの対象チーム": [
+    "Recording tag team",
+    "Equipo de la etiqueta",
+    "Equipe da marca",
+    "拍摄标签所属球队"
+  ],
+  "撮影タグの時間帯": [
+    "Recording tag period",
+    "Período de la etiqueta",
+    "Período da marca",
+    "拍摄标签时段"
+  ],
+  "タグ前後の再生区間": [
+    "Playback before and after tag",
+    "Reproducción alrededor de la etiqueta",
+    "Reprodução ao redor da marca",
+    "标签前后播放区间"
+  ],
+  "撮影タグ前（秒）": [
+    "Before recording tag (s)",
+    "Antes de etiqueta (s)",
+    "Antes da marca (s)",
+    "拍摄标签前（秒）"
+  ],
+  "撮影タグ後（秒）": [
+    "After recording tag (s)",
+    "Después de etiqueta (s)",
+    "Após a marca (s)",
+    "拍摄标签后（秒）"
+  ],
+  "の場面": [
+    "moment",
+    "momento",
+    "momento",
+    "片段"
+  ],
+  "撮影用の自由タグ名": [
+    "Custom recording tag name",
+    "Nombre de etiqueta personalizada",
+    "Nome da marca personalizada",
+    "自定义拍摄标签名称"
+  ],
+  "撮影ボタンを追加": [
+    "Add recording button",
+    "Añadir botón de grabación",
+    "Adicionar botão de gravação",
+    "添加拍摄按钮"
+  ],
+  "撮影タグの背番号": [
+    "Recording tag shirt number",
+    "Dorsal de la etiqueta",
+    "Número da marca",
+    "拍摄标签球衣号码"
+  ],
+  "撮影タグの選手名": [
+    "Recording tag player name",
+    "Jugador de la etiqueta",
+    "Jogador da marca",
+    "拍摄标签球员姓名"
+  ],
+  "撮影タグの選手（任意）": [
+    "Recording tag player (optional)",
+    "Jugador (opcional)",
+    "Jogador (opcional)",
+    "拍摄标签球员（可选）"
+  ],
+  "撮影タグを登録": [
+    "Add recording tag",
+    "Registrar etiqueta",
+    "Registrar marca",
+    "登记拍摄标签"
+  ],
+  "撮影中のタグ：": [
+    "Tags during recording:",
+    "Etiquetas durante grabación:",
+    "Marcas durante gravação:",
+    "拍摄中的标签："
+  ],
+  "直前のタグを取り消す": [
+    "Undo last tag",
+    "Deshacer última etiqueta",
+    "Desfazer última marca",
+    "撤销上一标签"
+  ],
+  "画面を開いたまま撮影してください。休憩中は一時停止し、後半を選んで再開します。タグの時刻には休憩時間を含めません。": [
+    "Keep this screen open. Pause during breaks, select the second half and resume. Breaks are excluded from tag times.",
+    "Mantén esta pantalla abierta. Pausa en el descanso, elige segunda parte y reanuda. Las pausas no cuentan en los tiempos.",
+    "Mantenha a tela aberta. Pause no intervalo, escolha segundo tempo e retome. Pausas não contam nos tempos.",
+    "保持界面打开。休息时暂停，选择下半场后继续。标签时间不包含休息时长。"
+  ],
+  "保存済みの録画を復元": [
+    "Restore saved recording",
+    "Restaurar grabación",
+    "Restaurar gravação",
+    "恢复已保存录像"
+  ],
+  "保存済みデータをファイルに退避": [
+    "Export saved data to file",
+    "Exportar datos a archivo",
+    "Exportar dados para arquivo",
+    "将已保存数据导出到文件"
+  ],
+  "撮影動画をファイルに保存": [
+    "Save recorded video to file",
+    "Guardar vídeo grabado",
+    "Salvar vídeo gravado",
+    "将拍摄视频保存为文件"
+  ],
+  "撮影した映像を分析する": [
+    "Analyze recorded video",
+    "Analizar grabación",
+    "Analisar gravação",
+    "分析拍摄视频"
+  ],
+  "件の撮影タグ。下の「記録した場面」から再生できます。動画はJSONバックアップに含まれません。": [
+    "recording tags. Play them below under Recorded Moments. Video is not included in JSON backups.",
+    "etiquetas. Reprodúcelas en Momentos registrados. JSON no incluye vídeo.",
+    "marcas. Reproduza em Momentos registrados. JSON não inclui vídeo.",
+    "个拍摄标签。可在下方“已记录片段”播放。JSON备份不含视频。"
+  ],
+  "選手目線の確認": [
+    "Player perspective controls",
+    "Controles de vista del jugador",
+    "Controles de visão do jogador",
+    "球员视角控制"
+  ],
+  "選手目線で確認": [
+    "Player perspective",
+    "Vista del jugador",
+    "Visão do jogador",
+    "球员视角"
+  ],
+  "選手からの見え方": [
+    "What the player sees",
+    "Lo que ve el jugador",
+    "O que o jogador vê",
+    "球员所见"
+  ],
+  "俯瞰に戻る": [
+    "Back to overview",
+    "Volver a vista general",
+    "Voltar à visão geral",
+    "返回俯瞰"
+  ],
+  "この選手の目線へ": [
+    "View through this player",
+    "Ver desde este jugador",
+    "Ver por este jogador",
+    "切换到此球员视角"
+  ],
+  "目線の操作を表示": [
+    "Show perspective controls",
+    "Mostrar controles de vista",
+    "Mostrar controles de visão",
+    "显示视角操作"
+  ],
+  "操作を小さくする": [
+    "Compact controls",
+    "Reducir controles",
+    "Recolher controles",
+    "收起操作面板"
+  ],
+  "見る選手": [
+    "Player to view",
+    "Jugador a observar",
+    "Jogador a observar",
+    "观察球员"
+  ],
+  "目線にする選手": [
+    "Viewpoint player",
+    "Jugador de la vista",
+    "Jogador da visão",
+    "视角球员"
+  ],
+  "味方": [
+    "Home",
+    "Propio",
+    "Próprio",
+    "己方"
+  ],
+  "左を見回す": [
+    "Look left",
+    "Mirar a la izquierda",
+    "Olhar à esquerda",
+    "向左观察"
+  ],
+  "← 左を見る": [
+    "← Look left",
+    "← Mirar izquierda",
+    "← Olhar esquerda",
+    "← 向左看"
+  ],
+  "正面": [
+    "Forward",
+    "Al frente",
+    "À frente",
+    "正前方"
+  ],
+  "右を見回す": [
+    "Look right",
+    "Mirar a la derecha",
+    "Olhar à direita",
+    "向右观察"
+  ],
+  "右を見る →": [
+    "Look right →",
+    "Mirar derecha →",
+    "Olhar direita →",
+    "向右看 →"
+  ],
+  "ボールを見る": [
+    "Look at ball",
+    "Mirar el balón",
+    "Olhar a bola",
+    "看向球"
+  ],
+  "映像をドラッグして周囲を見回せます。": [
+    "Drag the view to look around.",
+    "Arrastra la vista para mirar alrededor.",
+    "Arraste a visão para olhar ao redor.",
+    "拖动画面可环顾周围。"
+  ],
+  "配置図・立ち位置": [
+    "Position map",
+    "Mapa de posiciones",
+    "Mapa de posições",
+    "位置示意图"
+  ],
+  "目線を選ぶ配置図": [
+    "Select viewpoint on map",
+    "Elegir vista en el mapa",
+    "Escolher visão no mapa",
+    "在位置图选择视角"
+  ],
+  "ボール": [
+    "Ball",
+    "Balón",
+    "Bola",
+    "球"
+  ],
+  "選手をタップすると、その選手の目線へ切り替わります。": [
+    "Tap a player to switch to their perspective.",
+    "Toca un jugador para ver desde su posición.",
+    "Toque num jogador para ver por sua posição.",
+    "点击球员即可切换到其视角。"
+  ],
+  "配置図で新しい立ち位置を指定": [
+    "Choose a new position on the map",
+    "Elige nueva posición en el mapa",
+    "Escolha nova posição no mapa",
+    "在位置图选择新位置"
+  ],
+  "立ち位置を調整する": [
+    "Adjust position",
+    "Ajustar posición",
+    "Ajustar posição",
+    "调整站位"
+  ],
+  "現在のフレームの配置が変わります。「元に戻す」で比較できます。再生中は移動できません。": [
+    "Changes the current frame. Use Undo to compare. Movement is disabled during playback.",
+    "Cambia el fotograma actual. Usa Deshacer para comparar. No se mueve durante la reproducción.",
+    "Altera o quadro atual. Use Desfazer para comparar. Movimento desativado na reprodução.",
+    "修改当前帧配置，可撤销以对比。播放中不能移动。"
+  ],
+  "位置を元に戻す": [
+    "Undo position change",
+    "Deshacer posición",
+    "Desfazer posição",
+    "撤销位置更改"
+  ],
+  "配置を保存": [
+    "Save positions",
+    "Guardar posiciones",
+    "Salvar posições",
+    "保存站位"
+  ],
+  "目の高さ1.75mの模式表示。配置の比較に使ってください。": [
+    "Schematic view at 1.75m eye height. Use to compare positions.",
+    "Vista esquemática a 1,75 m. Sirve para comparar posiciones.",
+    "Visão esquemática a 1,75 m. Use para comparar posições.",
+    "视点高度1.75米的示意显示，用于比较站位。"
+  ],
+  "次回のため元動画を端末に保存": [
+    "Store source video for next time",
+    "Guardar original para después",
+    "Guardar original para depois",
+    "保存原视频供下次使用"
+  ],
+  "端末内のアプリ専用領域にコピーします。保存完了まで画面を開いてください。元の動画はそのまま残り、サーバーには送信しません。": [
+    "Copies to app storage on this device. Keep the screen open until complete. The original remains; nothing is sent to a server.",
+    "Copia al almacenamiento local de la app. Mantén abierta la pantalla. Conserva el original; no se envía al servidor.",
+    "Copia ao armazenamento local do app. Mantenha a tela aberta. O original permanece; nada é enviado ao servidor.",
+    "复制到本机应用专用存储。完成前请保持界面打开，原视频保留，不会发送到服务器。"
+  ],
+  "保存を準備中": [
+    "Preparing save",
+    "Preparando guardado",
+    "Preparando salvamento",
+    "准备保存"
+  ],
+  "今回だけ使用": [
+    "Use this time only",
+    "Usar solo esta vez",
+    "Usar só desta vez",
+    "仅本次使用"
+  ],
+  "動画の保存を再試行": [
+    "Retry video save",
+    "Reintentar guardado",
+    "Tentar salvar novamente",
+    "重试保存视频"
+  ],
+  "保存済みのコピーは「設定」で削除できます。チェックを外しても保存済みの動画は残ります。": [
+    "Delete saved copies in Settings. Unchecking does not remove existing saved videos.",
+    "Borra las copias en Ajustes. Desmarcar no elimina vídeos ya guardados.",
+    "Exclua cópias em Configurações. Desmarcar não remove vídeos já salvos.",
+    "可在设置中删除已保存副本，取消勾选不会删除已保存视频。"
+  ],
+  "端末に保存中…": [
+    "Saving on device…",
+    "Guardando en dispositivo…",
+    "Salvando no dispositivo…",
+    "正在保存到本机…"
+  ],
+  "保存できません（詳細を確認）": [
+    "Unable to save (see details)",
+    "No se pudo guardar (detalles)",
+    "Não foi possível salvar (detalhes)",
+    "无法保存（查看详情）"
+  ],
+  "自動保存 OFF": [
+    "Autosave OFF",
+    "Guardado automático OFF",
+    "Salvamento automático OFF",
+    "自动保存关闭"
+  ],
+  "動画を選ぶと自動保存": [
+    "Autosave selected videos",
+    "Guardar vídeos automáticamente",
+    "Salvar vídeos automaticamente",
+    "选择视频后自动保存"
+  ],
+  "動画の端末保存": [
+    "Local video storage",
+    "Vídeos en dispositivo",
+    "Vídeos no dispositivo",
+    "视频本地保存"
+  ],
+  "編集用の保存動画": [
+    "Saved editing sources",
+    "Fuentes guardadas",
+    "Fontes salvas",
+    "已保存编辑原视频"
+  ],
+  "このブラウザーに保存した元動画のコピー：": [
+    "Source video copies in this browser:",
+    "Copias en este navegador:",
+    "Cópias neste navegador:",
+    "本浏览器中的原视频副本："
+  ],
+  "件 ·": [
+    "items ·",
+    "elementos ·",
+    "itens ·",
+    "个 ·"
+  ],
+  "コピーを削除しても、写真・ファイルアプリの元動画や編集内容は残ります。次回は元動画の再選択が必要になります。JSONバックアップに動画本体は含まれません。": [
+    "Deleting copies keeps originals in Photos/Files and your edits. You must reselect sources next time. JSON backups exclude video.",
+    "Borrar copias conserva originales y ediciones. Tendrás que elegir las fuentes de nuevo. JSON no incluye vídeo.",
+    "Excluir cópias mantém originais e edições. Será preciso selecionar fontes novamente. JSON não inclui vídeo.",
+    "删除副本会保留照片／文件中的原视频及编辑内容。下次需重选原视频，JSON备份不含视频。"
+  ],
+  "動画のコピーを削除": [
+    "Delete video copy",
+    "Borrar copia",
+    "Excluir cópia",
+    "删除视频副本"
+  ],
+  "同じ端末・同じブラウザーで復元できます。ブラウザーのデータ削除や空き容量の不足により消える場合があるため、元動画は保管してください。": [
+    "Restore on the same device and browser. Browser data deletion or low storage can remove copies; keep the original.",
+    "Restaura en el mismo dispositivo y navegador. Borrar datos o poco espacio puede eliminar copias; conserva el original.",
+    "Restaure no mesmo dispositivo e navegador. Apagar dados ou falta de espaço pode remover cópias; guarde o original.",
+    "可在同设备、同浏览器恢复。清除浏览器数据或存储不足可能导致丢失，请保留原视频。"
+  ],
+  "前の検出処理の終了を待っています…": [
+    "Waiting for previous detection to finish…",
+    "Esperando detección anterior…",
+    "Aguardando detecção anterior…",
+    "等待上一次检测结束…"
+  ],
+  "映像とピッチ図の対応する4点を指定してください。": [
+    "Select four corresponding points in the video and pitch map.",
+    "Elige cuatro puntos correspondientes en vídeo y campo.",
+    "Escolha quatro pontos correspondentes no vídeo e campo.",
+    "请在视频和球场图中指定四组对应点。"
+  ],
+  "候補を検出できませんでした。検出のしきい値を下げるか、足元をタップして手動追加できます。": [
+    "No candidates detected. Lower the threshold or tap feet to add manually.",
+    "Sin candidatos. Baja el umbral o toca los pies para añadir manualmente.",
+    "Sem candidatos. Reduza o limiar ou toque nos pés para adicionar manualmente.",
+    "未检测到候选对象，请降低阈值或点击脚部手动添加。"
+  ],
+  "再現する静止映像": [
+    "Still frame to reconstruct",
+    "Imagen a reconstruir",
+    "Imagem a reconstruir",
+    "要还原的静止画面"
+  ],
+  "再現元の試合映像": [
+    "Source match video",
+    "Vídeo original del partido",
+    "Vídeo original da partida",
+    "还原来源比赛视频"
+  ],
+  "再現する戦術ボードの配置": [
+    "Reconstructed board positions",
+    "Posiciones reconstruidas",
+    "Posições reconstruídas",
+    "还原的战术板配置"
+  ],
+  "この場面を戦術ボードで再現": [
+    "Recreate this moment on the board",
+    "Recrear momento en la pizarra",
+    "Recriar momento no quadro",
+    "在战术板还原此片段"
+  ],
+  "一場面を戦術ボードで再現": [
+    "Recreate a moment on the board",
+    "Recrear un momento",
+    "Recriar um momento",
+    "在战术板还原片段"
+  ],
+  "/ 静止した場面を編集中": [
+    "/ Editing a still frame",
+    "/ Editando imagen fija",
+    "/ Editando imagem fixa",
+    "／正在编辑静止画面"
+  ],
+  "映像は端末内で処理します。画面外の選手は補いません。ボールの高さ・身体の向き・背番号は自動では確定しません。": [
+    "Video stays local. Off-screen players are not inferred. Ball height, body direction and shirt numbers are not determined automatically.",
+    "El vídeo es local. No se añaden jugadores fuera de pantalla. Altura del balón, orientación y dorsales no se determinan solos.",
+    "Vídeo local. Jogadores fora da tela não são inferidos. Altura da bola, orientação e números não são determinados automaticamente.",
+    "视频在本机处理，不补充画面外球员，不自动确定球高、身体朝向及号码。"
+  ],
+  "配置する選手・ボール": [
+    "Players and ball to place",
+    "Jugadores y balón a colocar",
+    "Jogadores e bola a posicionar",
+    "待配置的球员和球"
+  ],
+  "候補を選択": [
+    "Select candidate",
+    "Seleccionar candidato",
+    "Selecionar candidato",
+    "选择候选对象"
+  ],
+  "候補": [
+    "Candidate",
+    "Candidato",
+    "Candidato",
+    "候选对象"
+  ],
+  "未分類": [
+    "Unclassified",
+    "Sin clasificar",
+    "Não classificado",
+    "未分类"
+  ],
+  "（未配置）": [
+    "(not placed)",
+    "(sin colocar)",
+    "(não posicionado)",
+    "（未配置）"
+  ],
+  "味方を配置": [
+    "Place home player",
+    "Colocar jugador propio",
+    "Posicionar jogador próprio",
+    "配置己方球员"
+  ],
+  "相手を配置": [
+    "Place opponent",
+    "Colocar rival",
+    "Posicionar adversário",
+    "配置对方球员"
+  ],
+  "ボールを配置": [
+    "Place ball",
+    "Colocar balón",
+    "Posicionar bola",
+    "配置球"
+  ],
+  "映像": [
+    "Video",
+    "Vídeo",
+    "Vídeo",
+    "视频"
+  ],
+  "ピッチ · タップ／ドラッグで配置": [
+    "Pitch · tap or drag to position",
+    "Campo · tocar o arrastrar",
+    "Campo · tocar ou arrastar",
+    "球场 · 点击或拖动配置"
+  ],
+  "① ピッチの位置合わせ": [
+    "1. Align pitch",
+    "1. Alinear campo",
+    "1. Alinhar campo",
+    "① 球场对齐"
+  ],
+  "配置方法": [
+    "Placement method",
+    "Método de colocación",
+    "Método de posicionamento",
+    "配置方法"
+  ],
+  "範囲の四隅で位置合わせ": [
+    "Align using four corners",
+    "Alinear con cuatro esquinas",
+    "Alinhar com quatro cantos",
+    "使用范围四角对齐"
+  ],
+  "見えるラインの交点で位置合わせ": [
+    "Align using visible line intersections",
+    "Alinear con cruces visibles",
+    "Alinhar com cruzamentos visíveis",
+    "使用可见场线交点对齐"
+  ],
+  "4点を使わず手動配置": [
+    "Place manually without four points",
+    "Colocar sin cuatro puntos",
+    "Posicionar sem quatro pontos",
+    "不使用四点手动配置"
+  ],
+  "位置を自動変換せず、映像を見ながら右側（スマホでは下）のピッチへ配置します。「味方を手動追加」などを選んでピッチをタップしてください。自動検出した候補は、1人ずつ選んでピッチ上に配置できます。": [
+    "Without automatic conversion, place items on the pitch beside/below the video. Choose a manual-add tool, then tap the pitch. Detected candidates can be placed individually.",
+    "Sin conversión automática, coloca en el campo junto/debajo del vídeo. Elige añadir manualmente y toca el campo. Los candidatos se colocan individualmente.",
+    "Sem conversão automática, posicione no campo ao lado/abaixo do vídeo. Escolha adicionar manualmente e toque no campo. Candidatos podem ser posicionados um a um.",
+    "不进行自动位置换算。选择手动添加后，在视频右侧（手机为下方）的球场点击配置。检测候选可逐个配置。"
+  ],
+  "番号ごとに、ピッチ図の地点を選び、映像の同じ地点をタップします。四隅でなくても構いません。同じ点や一直線上の3点を避け、離れた4点を選んでください。": [
+    "For each number, pick a pitch point and its video equivalent. Corners are optional. Use four separated points, with no duplicates or three collinear points.",
+    "Por número, elige un punto y su equivalente en vídeo. No tienen que ser esquinas. Usa cuatro puntos separados, sin repetidos ni tres alineados.",
+    "Para cada número, escolha o ponto no campo e no vídeo. Cantos são opcionais. Use quatro pontos separados, sem repetidos nem três alinhados.",
+    "按编号选择球场点及对应视频点。不必是四角。选取四个分散点，避免重复点或三点共线。"
+  ],
+  "対応点": [
+    "Correspondence point",
+    "Punto correspondiente",
+    "Ponto correspondente",
+    "对应点"
+  ],
+  "ピッチの地点を選択": [
+    "Select pitch point",
+    "Elegir punto del campo",
+    "Escolher ponto do campo",
+    "选择球场点"
+  ],
+  "対応するラインの交点を選択": [
+    "Select matching line intersection",
+    "Elegir cruce correspondiente",
+    "Escolher cruzamento correspondente",
+    "选择对应的场线交点"
+  ],
+  "現在は対応点": [
+    "Currently selecting point",
+    "Seleccionando punto",
+    "Selecionando ponto",
+    "当前正在指定对应点"
+  ],
+  "を指定中です。小さい画面では上の地点メニューでも選択できます。": [
+    ". On small screens, you can use the point menu above.",
+    ". En pantallas pequeñas usa el menú superior.",
+    ". Em telas pequenas use o menu acima.",
+    "。小屏幕也可使用上方地点菜单选择。"
+  ],
+  "基準にする範囲": [
+    "Reference area",
+    "Zona de referencia",
+    "Área de referência",
+    "基准范围"
+  ],
+  "再現の基準範囲": [
+    "Reconstruction reference area",
+    "Zona base de reconstrucción",
+    "Área base da reconstrução",
+    "还原基准范围"
+  ],
+  "基準点の番号を示すピッチ図": [
+    "Numbered reference pitch map",
+    "Mapa con puntos numerados",
+    "Mapa com pontos numerados",
+    "基准点编号球场图"
+  ],
+  "図の①→②→③→④と同じ交点を、下の映像で順に選択します。映像の向きが逆でも、図と同じ場所を指定してください。できるだけ広い範囲を選ぶと、遠方の位置誤差を抑えられます。": [
+    "Select intersections in the video in order 1–4, matching the map even if the video direction is reversed. A larger reference area reduces distant position errors.",
+    "Elige cruces 1–4 según el mapa, incluso con vídeo invertido. Una zona amplia reduce errores lejanos.",
+    "Escolha cruzamentos 1–4 conforme o mapa, mesmo com vídeo invertido. Uma área ampla reduz erros distantes.",
+    "按图中①～④依次选择视频中相同交点，视频方向相反也应对应相同位置。范围越广可降低远处位置误差。"
+  ],
+  "保存した位置合わせを再利用中です。カメラの位置・ズームが変わった場合は指定し直してください。": [
+    "Using saved alignment. Recalibrate if camera position or zoom changes.",
+    "Usando alineación guardada. Recalibra si cambia cámara o zoom.",
+    "Usando alinhamento salvo. Recalibre se a câmera ou zoom mudar.",
+    "正在使用已保存对齐。摄像头位置或缩放变化后请重新指定。"
+  ],
+  "丸の数字は候補番号で、背番号ではありません。マウス・タッチで動かし、選手の丸を足元に合わせます。": [
+    "Circle numbers identify candidates, not shirt numbers. Drag markers to align them with players' feet.",
+    "Los números indican candidatos, no dorsales. Arrastra los círculos hasta los pies.",
+    "Os números identificam candidatos, não camisas. Arraste os círculos até os pés.",
+    "圆内数字是候选编号而非球衣号码。拖动圆形标记至球员脚部。"
+  ],
+  "4点を指定し直す": [
+    "Reset four points",
+    "Reiniciar cuatro puntos",
+    "Redefinir quatro pontos",
+    "重新指定四点"
+  ],
+  "位置合わせを保存": [
+    "Save alignment",
+    "Guardar alineación",
+    "Salvar alinhamento",
+    "保存对齐"
+  ],
+  "基準点を数値で微調整": [
+    "Fine-tune reference coordinates",
+    "Ajustar coordenadas",
+    "Ajustar coordenadas",
+    "微调基准点坐标"
+  ],
+  "② 選手の検出・手直し": [
+    "2. Detect and correct players",
+    "2. Detectar y corregir jugadores",
+    "2. Detectar e corrigir jogadores",
+    "② 检测并修正球员"
+  ],
+  "検出のしきい値（低いほど候補が増えます）": [
+    "Detection threshold (lower detects more)",
+    "Umbral (más bajo detecta más)",
+    "Limiar (menor detecta mais)",
+    "检测阈值（越低候选越多）"
+  ],
+  "選手検出のしきい値": [
+    "Player detection threshold",
+    "Umbral de jugadores",
+    "Limiar de jogadores",
+    "球员检测阈值"
+  ],
+  "選手・ボールを自動検出": [
+    "Detect players and ball",
+    "Detectar jugadores y balón",
+    "Detectar jogadores e bola",
+    "自动检测球员和球"
+  ],
+  "検出を中止": [
+    "Stop detection",
+    "Detener detección",
+    "Parar detecção",
+    "停止检测"
+  ],
+  "配置先のピッチをタップしてください。": [
+    "Tap the destination pitch location.",
+    "Toca el destino en el campo.",
+    "Toque no destino no campo.",
+    "请点击目标球场位置。"
+  ],
+  "ボールの位置": [
+    "Ball position",
+    "Posición del balón",
+    "Posição da bola",
+    "球的位置"
+  ],
+  "選手の足元": [
+    "Player's feet",
+    "Pies del jugador",
+    "Pés do jogador",
+    "球员脚部"
+  ],
+  "味方を手動追加": [
+    "Add home player manually",
+    "Añadir propio manualmente",
+    "Adicionar próprio manualmente",
+    "手动添加己方球员"
+  ],
+  "相手を手動追加": [
+    "Add opponent manually",
+    "Añadir rival manualmente",
+    "Adicionar adversário manualmente",
+    "手动添加对方球员"
+  ],
+  "ボールを手動追加": [
+    "Add ball manually",
+    "Añadir balón manualmente",
+    "Adicionar bola manualmente",
+    "手动添加球"
+  ],
+  "検出した人物が審判・観客の場合は除外してください。小さな選手やボールは見落とすことがあります。": [
+    "Exclude referees and spectators. Small players and balls may be missed.",
+    "Excluye árbitros y espectadores. Puede omitir jugadores pequeños y balones.",
+    "Exclua árbitros e espectadores. Pode ignorar jogadores pequenos e bolas.",
+    "请排除裁判和观众，小球员和球可能被漏检。"
+  ],
+  "選択した選手を味方の色見本に": [
+    "Use selected player as home color sample",
+    "Usar como muestra del equipo propio",
+    "Usar como amostra da equipe própria",
+    "将所选球员作为己方颜色样本"
+  ],
+  "選択した選手を相手の色見本に": [
+    "Use selected player as opponent color sample",
+    "Usar como muestra rival",
+    "Usar como amostra adversária",
+    "将所选球员作为对方颜色样本"
+  ],
+  "2つの色見本でチームを推定": [
+    "Estimate teams from two samples",
+    "Estimar equipos con dos muestras",
+    "Estimar equipes com duas amostras",
+    "使用两个颜色样本推测球队"
+  ],
+  "味方の色見本：": [
+    "Home color sample:",
+    "Muestra propia:",
+    "Amostra própria:",
+    "己方颜色样本："
+  ],
+  "未指定": [
+    "Not set",
+    "Sin definir",
+    "Não definido",
+    "未指定"
+  ],
+  "/ 相手：": [
+    "/ Opponent:",
+    "/ Rival:",
+    "/ Adversário:",
+    "／对方："
+  ],
+  "。背番号・氏名は必要に応じて入力してください。": [
+    ". Enter shirt numbers and names as needed.",
+    ". Introduce dorsales y nombres si hace falta.",
+    ". Insira números e nomes se necessário.",
+    "。请根据需要输入号码和姓名。"
+  ],
+  "ピッチ範囲外の候補を除外": [
+    "Exclude candidates outside pitch",
+    "Excluir candidatos fuera del campo",
+    "Excluir candidatos fora do campo",
+    "排除球场外候选"
+  ],
+  "未分類の候補を除外": [
+    "Exclude unclassified candidates",
+    "Excluir candidatos sin clasificar",
+    "Excluir candidatos não classificados",
+    "排除未分类候选"
+  ],
+  "チーム": [
+    "Team",
+    "Equipo",
+    "Equipe",
+    "球队"
+  ],
+  "除外": [
+    "Exclude",
+    "Excluir",
+    "Excluir",
+    "排除"
+  ],
+  "登録選手から選ぶ": [
+    "Choose registered player",
+    "Elegir jugador registrado",
+    "Escolher jogador cadastrado",
+    "从已登记球员中选择"
+  ],
+  "手動追加": [
+    "Add manually",
+    "Añadir manualmente",
+    "Adicionar manualmente",
+    "手动添加"
+  ],
+  "除外済み": [
+    "Excluded",
+    "Excluido",
+    "Excluído",
+    "已排除"
+  ],
+  "未配置": [
+    "Not placed",
+    "Sin colocar",
+    "Não posicionado",
+    "未配置"
+  ],
+  "ピッチ内": [
+    "Inside pitch",
+    "Dentro del campo",
+    "Dentro do campo",
+    "球场内"
+  ],
+  "範囲外": [
+    "Outside area",
+    "Fuera de zona",
+    "Fora da área",
+    "范围外"
+  ],
+  "③ 戦術ボードの配置を確認": [
+    "3. Verify board positions",
+    "3. Revisar posiciones",
+    "3. Conferir posições",
+    "③ 确认战术板配置"
+  ],
+  "一覧で選手を選び、下のピッチをタップ／ドラッグすると位置を直接補正できます。空中のボールは推定位置を確認して直してください。": [
+    "Select a player in the list, then tap or drag on the pitch to correct their position. Check airborne ball estimates manually.",
+    "Selecciona un jugador y toca o arrastra en el campo. Revisa manualmente los balones aéreos.",
+    "Selecione um jogador e toque ou arraste no campo. Confira manualmente bolas aéreas.",
+    "在列表选择球员，再点击或拖动球场修正位置。请人工核对空中球的估计位置。"
+  ],
+  "/ 相手": [
+    "/ Opponent",
+    "/ Rival",
+    "/ Adversário",
+    "／对方"
+  ],
+  "/ ボール": [
+    "/ Ball",
+    "/ Balón",
+    "/ Bola",
+    "／球"
+  ],
+  "/ 未分類": [
+    "/ Unclassified",
+    "/ Sin clasificar",
+    "/ Não classificado",
+    "／未分类"
+  ],
+  "/ 範囲外": [
+    "/ Outside area",
+    "/ Fuera de zona",
+    "/ Fora da área",
+    "／范围外"
+  ],
+  "/ 未配置": [
+    "/ Not placed",
+    "/ Sin colocar",
+    "/ Não posicionado",
+    "／未配置"
+  ],
+  "位置・チーム・人数を確認しました": [
+    "I checked positions, teams and player counts",
+    "Revisé posiciones, equipos y cantidades",
+    "Conferi posições, equipes e quantidades",
+    "已确认位置、球队和人数"
+  ],
+  "戦術ボードへ進むには": [
+    "To open the tactics board",
+    "Para abrir la pizarra",
+    "Para abrir o quadro",
+    "进入战术板前"
+  ],
+  "保存できます。": [
+    "can be saved.",
+    "se pueden guardar.",
+    "podem ser salvos.",
+    "可以保存。"
+  ],
+  "保存して戦術ボードへ": [
+    "Save and open board",
+    "Guardar y abrir pizarra",
+    "Salvar e abrir quadro",
+    "保存并进入战术板"
+  ],
+  "元の試合・タグを変更せず、新しい戦術プロジェクトとして保存します。保存後は3D表示や次のフレームの編集ができます。": [
+    "Saves a new tactical project without changing the match or tags. Then use 3D or edit the next frame.",
+    "Guarda un proyecto nuevo sin modificar partido ni etiquetas. Después usa 3D o edita el siguiente fotograma.",
+    "Salva um projeto novo sem alterar partida ou marcas. Depois use 3D ou edite o próximo quadro.",
+    "不修改原比赛和标签，另存为新战术项目。保存后可使用3D及编辑下一帧。"
+  ],
+  "場面からの戦術検討": [
+    "Tactical review from a moment",
+    "Revisión de una jugada",
+    "Revisão de uma jogada",
+    "基于片段的战术分析"
+  ],
+  "新しい戦術プロジェクト": [
+    "New tactical project",
+    "Nuevo proyecto táctico",
+    "Novo projeto tático",
+    "新战术项目"
+  ],
+  "描画を修正": [
+    "Edit drawing",
+    "Editar dibujo",
+    "Editar desenho",
+    "修改绘图"
+  ],
+  "この場所に追加": [
+    "Add at this location",
+    "Añadir aquí",
+    "Adicionar aqui",
+    "在此处添加"
+  ],
+  "3Dドラッグ操作": [
+    "3D drag action",
+    "Acción al arrastrar en 3D",
+    "Ação ao arrastar em 3D",
+    "3D拖动操作"
+  ],
+  "触れた位置を軸に回す": [
+    "Rotate around touched point",
+    "Girar alrededor del punto",
+    "Girar ao redor do ponto",
+    "围绕触点旋转"
+  ],
+  "背景を移動する": [
+    "Pan background",
+    "Desplazar fondo",
+    "Mover fundo",
+    "平移背景"
+  ],
+  "配置を編集": [
+    "Edit positions",
+    "Editar posiciones",
+    "Editar posições",
+    "编辑配置"
+  ],
+  "回転の中心": [
+    "Rotation center",
+    "Centro de giro",
+    "Centro de rotação",
+    "旋转中心"
+  ],
+  "指定した位置": [
+    "Chosen location",
+    "Lugar elegido",
+    "Local escolhido",
+    "指定位置"
+  ],
+  "ピッチ中心": [
+    "Pitch center",
+    "Centro del campo",
+    "Centro do campo",
+    "球场中心"
+  ],
+  "ボールを追う": [
+    "Follow ball",
+    "Seguir balón",
+    "Seguir bola",
+    "跟随球"
+  ],
+  "選択した選手を追う": [
+    "Follow selected player",
+    "Seguir jugador seleccionado",
+    "Seguir jogador selecionado",
+    "跟随所选球员"
+  ],
+  "視点を戻す": [
+    "Reset view",
+    "Restablecer vista",
+    "Redefinir visão",
+    "重置视角"
+  ],
+  "戦術の再生時刻": [
+    "Tactical playback time",
+    "Tiempo de reproducción táctica",
+    "Tempo de reprodução tática",
+    "战术播放时间"
+  ],
+  "戦術再生速度": [
+    "Tactical playback speed",
+    "Velocidad táctica",
+    "Velocidade tática",
+    "战术播放速度"
+  ],
+  "理想の動きを描き、選手の位置から見直す。手動配置から作る仮想視野です。": [
+    "Explore positioning and movement from players' perspectives using a manually arranged virtual pitch.",
+    "Explora posiciones y movimientos desde los jugadores en un campo virtual manual.",
+    "Explore posições e movimentos pela visão dos jogadores num campo virtual manual.",
+    "从球员视角观察手动配置的虚拟球场，推敲位置与移动。"
+  ],
+  "の基本フォーメーション": [
+    "base formation",
+    "formación base",
+    "formação base",
+    "基本阵型"
+  ],
+  "戦術ボード作業画面": [
+    "Tactics workspace",
+    "Área táctica",
+    "Área tática",
+    "战术板工作区"
+  ],
+  "再生・操作を表示": [
+    "Show playback and controls",
+    "Mostrar reproducción y controles",
+    "Mostrar reprodução e controles",
+    "显示播放和操作"
+  ],
+  "ピッチだけ表示": [
+    "Pitch only",
+    "Solo campo",
+    "Somente campo",
+    "仅显示球场"
+  ],
+  "操作を隠す": [
+    "Hide controls",
+    "Ocultar controles",
+    "Ocultar controles",
+    "隐藏操作"
+  ],
+  "操作を表示": [
+    "Show controls",
+    "Mostrar controles",
+    "Mostrar controles",
+    "显示操作"
+  ],
+  "ピッチ上の再生操作": [
+    "Pitch playback controls",
+    "Controles de reproducción",
+    "Controles de reprodução",
+    "球场播放操作"
+  ],
+  "表示切替": [
+    "View mode",
+    "Modo de vista",
+    "Modo de visão",
+    "视图切换"
+  ],
+  "選手目線": [
+    "Player view",
+    "Vista del jugador",
+    "Visão do jogador",
+    "球员视角"
+  ],
+  "フレーム間のボール軌道": [
+    "Ball path between frames",
+    "Trayectoria entre fotogramas",
+    "Trajetória entre quadros",
+    "帧间球轨迹"
+  ],
+  "なし": [
+    "None",
+    "Ninguno",
+    "Nenhum",
+    "无"
+  ],
+  "軌道：グラウンダー": [
+    "Path: ground pass",
+    "Trayectoria: pase raso",
+    "Trajetória: passe rasteiro",
+    "轨迹：地滚球"
+  ],
+  "軌道：ロブ": [
+    "Path: lob",
+    "Trayectoria: globo",
+    "Trajetória: bola alta",
+    "轨迹：高球"
+  ],
+  "軌道：ドリブル": [
+    "Path: dribble",
+    "Trayectoria: regate",
+    "Trajetória: drible",
+    "轨迹：带球"
+  ],
+  "軌道は次のフレームへの動きに使います。「＋ フレーム登録」で次を作り、ボールを動かしてください。": [
+    "Paths use movement to the next frame. Add a frame, then move the ball.",
+    "Las trayectorias van al siguiente fotograma. Añade un fotograma y mueve el balón.",
+    "Trajetórias usam o movimento ao próximo quadro. Adicione um quadro e mova a bola.",
+    "轨迹由当前帧到下一帧的移动生成。请添加帧并移动球。"
+  ],
+  "編集フレーム": [
+    "Editing frame",
+    "Fotograma editado",
+    "Quadro em edição",
+    "编辑帧"
+  ],
+  "フレーム": [
+    "Frame",
+    "Fotograma",
+    "Quadro",
+    "帧"
+  ],
+  "＋ フレーム登録": [
+    "＋ Add frame",
+    "＋ Añadir fotograma",
+    "＋ Adicionar quadro",
+    "＋ 添加帧"
+  ],
+  "適用中：味方": [
+    "Applied: home",
+    "Aplicado: propio",
+    "Aplicado: próprio",
+    "已应用：己方"
+  ],
+  "人・相手": [
+    "players · opponent",
+    "jugadores · rival",
+    "jogadores · adversário",
+    "人·对方"
+  ],
+  "の配置フォーメーション（": [
+    "formation (",
+    "formación (",
+    "formação (",
+    "的配置阵型（"
+  ],
+  "名）": [
+    "players)",
+    "jugadores)",
+    "jogadores)",
+    "人）"
+  ],
+  "の配置を適用": [
+    "apply formation",
+    "aplicar formación",
+    "aplicar formação",
+    "应用阵型"
+  ],
+  "GK1名＋プルダウンの並びです。配置の適用は現在のフレームだけに反映します。": [
+    "Formation is one goalkeeper plus the listed arrangement. Applies only to the current frame.",
+    "Un portero más la formación indicada. Solo afecta al fotograma actual.",
+    "Um goleiro mais a formação indicada. Afeta só o quadro atual.",
+    "阵型为1名门将加下拉框排列，仅应用于当前帧。"
+  ],
+  "人数変更は全フレームに適用されます。減らした選手の動きは削除されます。": [
+    "Player count changes apply to every frame. Movements of removed players are deleted.",
+    "El número cambia en todos los fotogramas. Se eliminan movimientos de jugadores retirados.",
+    "A quantidade muda em todos os quadros. Movimentos de jogadores removidos são excluídos.",
+    "人数修改应用于所有帧，被移除球员的移动记录将删除。"
+  ],
+  "名前・背番号はすべてのフレームに反映します。": [
+    "Names and shirt numbers apply to all frames.",
+    "Nombres y dorsales se aplican a todos los fotogramas.",
+    "Nomes e números se aplicam a todos os quadros.",
+    "姓名和球衣号码应用于所有帧。"
+  ],
+  "戦術ボードの編集メニュー": [
+    "Tactics editing menu",
+    "Menú de edición táctica",
+    "Menu de edição tática",
+    "战术编辑菜单"
+  ],
+  "戦術ボードの操作": [
+    "Tactics controls",
+    "Controles tácticos",
+    "Controles táticos",
+    "战术板操作"
+  ],
+  "選手を選び、向けたい位置をクリック／タップ。選手からドラッグしても向きを変えられます。": [
+    "Select a player, then tap a facing direction, or drag from the player.",
+    "Elige un jugador y toca hacia dónde mirar, o arrastra desde él.",
+    "Escolha um jogador e toque a direção, ou arraste a partir dele.",
+    "选择球员后点击朝向位置，也可从球员处拖动调整。"
+  ],
+  "始点から終点までドラッグ。選手・ボールを始点や終点にすると、そのコマに追従します。": [
+    "Drag start to end. Anchoring to players or ball makes the effect follow them.",
+    "Arrastra de inicio a fin. Anclar a jugadores o balón hace que los siga.",
+    "Arraste do início ao fim. Ancorar em jogadores ou bola faz o efeito acompanhá-los.",
+    "从起点拖向终点。端点指定为球员或球时，效果会跟随对象。"
+  ],
+  "円の中心から外側にドラッグ。選手・ボールを中心にすると追従します。": [
+    "Drag out from the circle center. A center on a player or ball follows them.",
+    "Arrastra desde el centro. Si se centra en un jugador o balón, lo sigue.",
+    "Arraste a partir do centro. Se estiver num jogador ou bola, ele acompanha o objeto.",
+    "从圆心向外拖动。以球员或球为中心时会跟随对象。"
+  ],
+  "2つ目の選手・ボールをクリック／タップしてください。": [
+    "Tap the second player or ball.",
+    "Toca el segundo jugador o balón.",
+    "Toque no segundo jogador ou bola.",
+    "点击第二个球员或球。"
+  ],
+  "結びたい2つの選手・ボールを順にクリック／タップしてください。": [
+    "Tap the two players or ball to connect, in order.",
+    "Toca los dos jugadores o balón a unir, en orden.",
+    "Toque nos dois jogadores ou bola a ligar, em ordem.",
+    "依次点击要连接的两个球员或球。"
+  ],
+  "選手・ボール、またはピッチ上をクリック／タップして強調します。": [
+    "Tap a player, ball or pitch location to highlight it.",
+    "Toca jugador, balón o campo para resaltar.",
+    "Toque num jogador, bola ou campo para destacar.",
+    "点击球员、球或球场位置以强调。"
+  ],
+  "このフレームから次のフレームまでの球種です。最後のフレームでは軌道は発生しません。高さは戦術用の模式表現です。": [
+    "Ball motion applies until the next frame. No path is produced on the last frame. Height is schematic.",
+    "La trayectoria llega al siguiente fotograma. El último no genera trayectoria. La altura es esquemática.",
+    "O movimento vai ao próximo quadro. O último não gera trajetória. A altura é esquemática.",
+    "球路类型用于当前帧到下一帧，最后一帧不生成轨迹，高度为示意值。"
+  ],
+  "このフレームの演出（": [
+    "Effects in this frame (",
+    "Efectos de este fotograma (",
+    "Efeitos deste quadro (",
+    "此帧的效果（"
+  ],
+  "演出はフレームごとに保存され、次の配置にコピーされます。リンク・強調はコマに追従します。": [
+    "Effects are saved per frame and copied to the next position. Links and highlights follow their anchors.",
+    "Los efectos se guardan por fotograma y se copian al siguiente. Enlaces y resaltados siguen a sus anclas.",
+    "Efeitos são salvos por quadro e copiados ao próximo. Ligações e destaques seguem suas âncoras.",
+    "效果按帧保存并复制到下一配置。链接和强调效果跟随其绑定对象。"
+  ],
+  "3D拡大（選択した対象を中心に表示）": [
+    "3D zoom around selection",
+    "Zoom 3D sobre la selección",
+    "Zoom 3D na seleção",
+    "以所选对象为中心的3D缩放"
+  ],
+  "選択フレームの時刻": [
+    "Selected frame time",
+    "Tiempo del fotograma",
+    "Tempo do quadro",
+    "所选帧时间"
+  ],
+  "フレームを選び、2D・3D（斜め／サイド／ゴール裏）で選手・ボール・コーンをドラッグできます。「触れた位置を軸に回す」ではドラッグ開始位置を回転軸にでき、「背景を移動する」ではピッチ全体を平行移動できます。選択した選手の矢印の先端をドラッグすると向きを変えられます。上下ドラッグで見下ろす角度を変えられます。再生中も回転でき、「ボールを追う」で動きに追従します。選手を動かす場合は「配置を編集」に切り替えてください。2本指のピンチで拡大・縮小できます。パソコンではホイールでも拡大・縮小できます。選手目線・ボール視点ではドラッグで見回せます。同じ視点ボタンを押すと視点位置をリセットします。「演出なし」は位置だけを移動し、軌道を表示しません。水色の実線はグラウンダー、黄色の破線は浮き球、オレンジの点線はドリブルです。「演出」でボールを選択し「ドリブル」と選手を指定して、次のフレームでその選手を動かすとボールが追従します。軌道は隣り合うフレームのボール位置から作ります。": [
+    "Select a frame to edit positions in 2D or 3D. Drag to rotate/pan, or choose Edit Positions to move pieces. Drag a selected player's arrow tip to turn them. Pinch or use the mouse wheel to zoom. Player and ball views allow looking around. Reset view to restore direction. None shows movement without a path; ground passes are cyan, lobs yellow dashed, dribbles orange dotted. Choose a dribbler and move them in the next frame to carry the ball. Paths connect adjacent frames.",
+    "Elige un fotograma para editar en 2D o 3D. Arrastra para girar/desplazar o elige Editar posiciones para mover fichas. Arrastra la punta de la flecha para orientar. Pellizca o usa la rueda para ampliar. Las vistas de jugador y balón permiten mirar alrededor. Restablecer vista recupera la dirección. Ninguno mueve sin trayectoria; pase raso cian, globo amarillo discontinuo y regate naranja punteado. Elige un regateador y muévelo en el siguiente fotograma para llevar el balón. Las trayectorias unen fotogramas vecinos.",
+    "Escolha um quadro para editar em 2D ou 3D. Arraste para girar/mover ou escolha Editar posições para mover peças. Arraste a ponta da seta para orientar. Use pinça ou roda para ampliar. Visões de jogador e bola permitem olhar ao redor. Redefinir visão restaura a direção. Nenhum move sem trajetória; passe rasteiro ciano, bola alta amarela tracejada e drible laranja pontilhado. Escolha um condutor e mova-o no próximo quadro para levar a bola. Trajetórias ligam quadros vizinhos.",
+    "选择帧后可在2D或3D编辑配置。拖动可旋转或平移，移动棋子请选“编辑配置”。拖动球员箭头端点调整朝向。双指或滚轮缩放。球员及球视角可环顾四周，重置视角恢复方向。“无”仅移动而不显示轨迹；青色实线为地滚球、黄色虚线为高球、橙色点线为带球。选择带球球员，在下一帧移动该球员即可带动球。轨迹连接相邻帧。"
+  ],
+  "コーン": [
+    "Cone",
+    "Cono",
+    "Cone",
+    "标志锥"
+  ],
+  "動画化中": [
+    "Rendering video",
+    "Generando vídeo",
+    "Gerando vídeo",
+    "生成视频中"
+  ],
+  "% / このタブを開いたままお待ちください。": [
+    "% / Keep this tab open.",
+    "% / Mantén esta pestaña abierta.",
+    "% / Mantenha esta aba aberta.",
+    "%／请保持此标签页打开。"
+  ],
+  "生成動画（": [
+    "Generated video (",
+    "Vídeo generado (",
+    "Vídeo gerado (",
+    "生成的视频（"
+  ],
+  "/ 映像のみ）": [
+    "/ video only)",
+    "/ solo vídeo)",
+    "/ apenas vídeo)",
+    "／仅画面）"
+  ],
+  "保存した動画は、試合の動画編集画面で元動画として選択できます。複数動画素材の混合は初期版では未対応です。": [
+    "Use the saved video as a source in match editing. Mixing multiple sources is not supported in the initial editor.",
+    "Usa el vídeo guardado como fuente. El editor inicial no mezcla varias fuentes.",
+    "Use o vídeo salvo como fonte. O editor inicial não mistura várias fontes.",
+    "保存后可在比赛编辑中作为原视频使用，初版编辑器暂不支持混合多段素材。"
+  ],
+  "プレーの意図を、見える形に。": [
+    "Make your playing intentions visible.",
+    "Haz visible la intención del juego.",
+    "Torne a intenção de jogo visível.",
+    "让比赛意图可视化。"
+  ],
+  "新規プロジェクトを作成し、配置と5秒ごとの動きを編集できます。": [
+    "Create a project to edit positions and movement in five-second frames.",
+    "Crea un proyecto para editar posiciones y movimientos cada cinco segundos.",
+    "Crie um projeto para editar posições e movimentos a cada cinco segundos.",
+    "创建项目后，可编辑配置及每5秒的移动。"
+  ],
+  "3エリア×5レーン": [
+    "3 areas × 5 lanes",
+    "3 zonas × 5 carriles",
+    "3 áreas × 5 corredores",
+    "3区域×5通道"
+  ],
+  "左・右は攻撃方向基準。W＝ワイド、HS＝ハーフスペース。外側の境界はペナルティーエリア、中央の境界はゴールエリアの側線を延長（105×68m基準）。": [
+    "Left/right follow attack direction. W = wide, HS = half-space. Lane edges extend penalty/goal-area sidelines on a 105×68m reference pitch.",
+    "Izquierda/derecha siguen el ataque. W = banda, HS = medio espacio. Límites prolongan laterales de áreas en campo de referencia 105×68 m.",
+    "Esquerda/direita seguem o ataque. W = lateral, HS = meio-espaço. Limites prolongam linhas laterais das áreas num campo de referência 105×68 m.",
+    "左右以进攻方向为准。W为边路，HS为半空间。边界由罚球区及球门区侧线延长，基准场地105×68米。"
+  ],
+  "自動追跡・距離計測": [
+    "Tracking and distance",
+    "Seguimiento y distancia",
+    "Rastreamento e distância",
+    "追踪与距离测量"
+  ],
+  "選択した1人の短区間追跡と、基準点を使ったピッチ平面上の距離推定。": [
+    "Short tracking of one player and ground-plane distance estimates using reference points.",
+    "Seguimiento breve de un jugador y distancias sobre el césped con puntos de referencia.",
+    "Rastreamento curto de um jogador e distâncias no plano do campo com referências.",
+    "单名球员短时追踪及通过基准点估算球场平面距离。"
+  ],
+  "分析する試合": [
+    "Match to analyze",
+    "Partido a analizar",
+    "Partida a analisar",
+    "待分析比赛"
+  ],
+  "試合を登録してください": [
+    "Create a match first",
+    "Primero crea un partido",
+    "Crie uma partida primeiro",
+    "请先创建比赛"
+  ],
+  "試合・映像分析で登録した試合を選んで使えます。": [
+    "Select a match registered under Match Analysis.",
+    "Selecciona un partido de Análisis.",
+    "Selecione uma partida de Análise.",
+    "请选择在比赛分析中登记的比赛。"
+  ],
+  "動画を操作": [
+    "Video controls",
+    "Controles de vídeo",
+    "Controles de vídeo",
+    "视频操作"
+  ],
+  "1人を自動追跡（試験機能）": [
+    "Track one player (experimental)",
+    "Seguir un jugador (experimental)",
+    "Rastrear um jogador (experimental)",
+    "追踪单名球员（实验功能）"
+  ],
+  "固定カメラの短い場面向けです。選手の見た目を照合します。遮蔽・カメラ移動・同じユニフォームの交差では誤追跡があります。結果は必ず映像で確認してください。": [
+    "For short clips from fixed cameras. Matches player appearance; occlusion, camera movement and similar kits can cause errors. Verify results in video.",
+    "Para clips cortos con cámara fija. Compara apariencia; oclusión, movimiento y uniformes similares causan errores. Verifica en vídeo.",
+    "Para trechos curtos com câmera fixa. Compara aparência; oclusão, movimento e uniformes parecidos causam erros. Confira no vídeo.",
+    "适用于固定机位的短片段。通过外观匹配，遮挡、镜头移动和相似球衣交叉会导致误追踪。请核对视频结果。"
+  ],
+  "追跡する選手を囲む": [
+    "Draw a box around the target player",
+    "Rodea al jugador objetivo",
+    "Cerque o jogador-alvo",
+    "框选目标球员"
+  ],
+  "追跡秒数": [
+    "Tracking duration (s)",
+    "Duración de seguimiento (s)",
+    "Duração do rastreamento (s)",
+    "追踪秒数"
+  ],
+  "自動追跡を開始": [
+    "Start tracking",
+    "Iniciar seguimiento",
+    "Iniciar rastreamento",
+    "开始自动追踪"
+  ],
+  "追跡を停止": [
+    "Stop tracking",
+    "Detener seguimiento",
+    "Parar rastreamento",
+    "停止追踪"
+  ],
+  "記録": [
+    "Records",
+    "Registros",
+    "Registros",
+    "记录"
+  ],
+  "点 ／照合スコア": [
+    "points / match score",
+    "puntos / puntuación",
+    "pontos / pontuação",
+    "点／匹配分数"
+  ],
+  "（正解確率ではありません）": [
+    "(not a probability of correctness)",
+    "(no es probabilidad de acierto)",
+    "(não é probabilidade de acerto)",
+    "（不是正确概率）"
+  ],
+  "追跡CSVを保存": [
+    "Save tracking CSV",
+    "Guardar CSV",
+    "Salvar CSV",
+    "保存追踪CSV"
+  ],
+  "ピッチ上の2点間距離": [
+    "Distance between two pitch points",
+    "Distancia entre dos puntos",
+    "Distância entre dois pontos",
+    "球场两点间距离"
+  ],
+  "映像を停止し、実寸が分かる長方形の四隅を周囲順にクリックします。1→2を横、2→3を縦として入力してください。例：ペナルティーエリアはゴールライン側の隅から順に指定し、実際の競技場寸法を確認します。足元など地面上の点だけを測定してください。": [
+    "Pause video and click the four corners of a rectangle of known size, in perimeter order. Enter width from 1→2 and height from 2→3. Confirm real pitch dimensions; measure ground-level points only.",
+    "Pausa y marca cuatro esquinas de un rectángulo conocido en orden perimetral. Introduce ancho 1→2 y alto 2→3. Verifica dimensiones reales; mide solo puntos del suelo.",
+    "Pause e marque quatro cantos de um retângulo conhecido na ordem do perímetro. Informe largura 1→2 e altura 2→3. Confira dimensões reais; meça só pontos no chão.",
+    "暂停视频，按周边顺序点击已知尺寸矩形的四角。1→2为横向、2→3为纵向，请核实实际球场尺寸，仅测量地面上的点。"
+  ],
+  "横の実寸（m）": [
+    "Reference width (m)",
+    "Ancho real (m)",
+    "Largura real (m)",
+    "基准实际宽度（米）"
+  ],
+  "縦の実寸（m）": [
+    "Reference height (m)",
+    "Alto real (m)",
+    "Altura real (m)",
+    "基准实际高度（米）"
+  ],
+  "基準の4点を指定": [
+    "Set four reference points",
+    "Definir cuatro puntos",
+    "Definir quatro pontos",
+    "指定四个基准点"
+  ],
+  "/4 点": [
+    "/4 points",
+    "/4 puntos",
+    "/4 pontos",
+    "／4点"
+  ],
+  "基準を確定して2点を測る": [
+    "Confirm reference and measure two points",
+    "Confirmar y medir dos puntos",
+    "Confirmar e medir dois pontos",
+    "确认基准并测量两点"
+  ],
+  "基準時刻で測り直す": [
+    "Measure again at reference time",
+    "Volver al instante de referencia",
+    "Voltar ao instante de referência",
+    "返回基准时间重新测量"
+  ],
+  "基準を設定した同じフレーム内だけで計測します。カメラ移動やズーム後は再設定が必要です。選択誤差・レンズ歪みにより値は推定です。": [
+    "Only measure within the calibrated frame. Recalibrate after camera movement or zoom. Selection error and lens distortion make results approximate.",
+    "Mide solo en el fotograma calibrado. Recalibra tras movimiento o zoom. Errores de selección y distorsión hacen el resultado aproximado.",
+    "Meça só no quadro calibrado. Recalibre após movimento ou zoom. Erros de seleção e distorção tornam o resultado aproximado.",
+    "仅在标定的同一帧测量。镜头移动或缩放后需重新标定。选点误差和镜头畸变会影响估算结果。"
+  ],
+  "推定距離：": [
+    "Estimated distance:",
+    "Distancia estimada:",
+    "Distância estimada:",
+    "估算距离："
+  ],
+  "基準時刻": [
+    "Reference time",
+    "Instante de referencia",
+    "Instante de referência",
+    "基准时间"
+  ],
+  "に戻して計測してください。": [
+    "to measure.",
+    "para medir.",
+    "para medir.",
+    "后进行测量。"
+  ],
+  "追跡・計測を保存": [
+    "Save tracking and measurements",
+    "Guardar seguimiento y medidas",
+    "Salvar rastreamento e medidas",
+    "保存追踪与测量"
+  ],
+  "試合ごとに保存し、設定のJSONバックアップにも含めます。追跡は画面上の軌跡とCSV出力に対応。追跡アニメーションのMP4書き出しには未対応です。": [
+    "Saved per match and included in JSON backups. Tracking supports on-screen paths and CSV, not animated MP4 export.",
+    "Se guarda por partido y en JSON. Admite trayectorias y CSV, no MP4 animado.",
+    "Salvo por partida e no JSON. Suporta trajetórias e CSV, não MP4 animado.",
+    "按比赛保存并包含在JSON备份中。支持屏幕轨迹和CSV，暂不支持追踪动画MP4导出。"
+  ],
+  "試合が見つかりません": [
+    "Match not found",
+    "Partido no encontrado",
+    "Partida não encontrada",
+    "找不到比赛"
+  ],
+  "試合一覧から選択してください。": [
+    "Select a match from the list.",
+    "Selecciona un partido de la lista.",
+    "Selecione uma partida na lista.",
+    "请从比赛列表选择。"
+  ],
+  "保存したカスタム項目で分析。": [
+    "Analyze with saved custom criteria.",
+    "Analiza con criterios guardados.",
+    "Analise com critérios salvos.",
+    "使用已保存的自定义项目分析。"
+  ],
+  "撮影・タグ付けから試合を振り返る。": [
+    "Review matches through recording and tagging.",
+    "Revisa partidos grabando y etiquetando.",
+    "Reveja partidas com gravação e marcas.",
+    "通过拍摄和标签回顾比赛。"
+  ],
+  "この端末で撮影する・録画を復元する": [
+    "Record on device or restore recording",
+    "Grabar o restaurar en el dispositivo",
+    "Gravar ou restaurar no dispositivo",
+    "在本机拍摄或恢复录像"
+  ],
+  "映像とタグ付け": [
+    "Video and tagging",
+    "Vídeo y etiquetas",
+    "Vídeo e marcas",
+    "视频与标记"
+  ],
+  "動画を再選択": [
+    "Reselect video",
+    "Volver a elegir vídeo",
+    "Selecionar vídeo novamente",
+    "重新选择视频"
+  ],
+  "動画を読み込む": [
+    "Load video",
+    "Cargar vídeo",
+    "Carregar vídeo",
+    "加载视频"
+  ],
+  "MP4 / WebM など、ブラウザーが再生できる動画に対応。動画は外部送信されません。": [
+    "Supports MP4/WebM and other browser-playable video. Videos are not uploaded.",
+    "Admite MP4/WebM y formatos del navegador. No se suben vídeos.",
+    "Suporta MP4/WebM e formatos do navegador. Vídeos não são enviados.",
+    "支持MP4/WebM等浏览器可播放格式，视频不会上传。"
+  ],
+  "キーボード：Spaceで再生・停止、左右キーで5秒移動。": [
+    "Keyboard: Space to play/pause; left/right arrows seek 5 seconds.",
+    "Teclado: Espacio reproduce/pausa; flechas avanzan o retroceden 5 s.",
+    "Teclado: Espaço reproduz/pausa; setas avançam ou voltam 5 s.",
+    "键盘：空格播放／暂停，左右方向键跳转5秒。"
+  ],
+  "描画はタグと一緒に保存されます。": [
+    "Drawings are saved with the tag.",
+    "Los dibujos se guardan con la etiqueta.",
+    "Desenhos são salvos com a marca.",
+    "绘图与标签一同保存。"
+  ],
+  "タグの編集": [
+    "Edit tag",
+    "Editar etiqueta",
+    "Editar marca",
+    "编辑标签"
+  ],
+  "動画を見ながらタグ付け": [
+    "Tag while watching video",
+    "Etiquetar viendo el vídeo",
+    "Marcar enquanto vê o vídeo",
+    "观看视频并标记"
+  ],
+  "イベントを選んだ時刻を記録します。次にエリア・評価を選び「タグを登録」。エリア・評価は任意です。": [
+    "Selecting an event records its time. Then optionally select area and rating, and save the tag.",
+    "Elegir un evento registra su instante. Zona y valoración son opcionales; guarda la etiqueta.",
+    "Escolher um evento registra o instante. Área e avaliação são opcionais; salve a marca.",
+    "选择事件时记录时间，再可选填写区域与评价，最后登记标签。"
+  ],
+  "選択した時刻：": [
+    "Selected time:",
+    "Instante elegido:",
+    "Instante escolhido:",
+    "所选时间："
+  ],
+  "入力を削除": [
+    "Remove entry",
+    "Quitar entrada",
+    "Remover entrada",
+    "删除输入"
+  ],
+  "選手入力を追加": [
+    "Add player entry",
+    "Añadir jugador",
+    "Adicionar jogador",
+    "添加球员输入"
+  ],
+  "登録されていない選手や相手選手も入力できます。名前・背番号のどちらかだけでも保存できます。": [
+    "You can enter unregistered players or opponents. A name or shirt number alone is enough.",
+    "Puedes introducir jugadores no registrados o rivales. Basta nombre o dorsal.",
+    "Pode inserir jogadores não cadastrados ou adversários. Basta nome ou número.",
+    "可输入未登记球员或对方球员，仅填写姓名或号码也可保存。"
+  ],
+  "描画を終了": [
+    "Finish drawing",
+    "Terminar dibujo",
+    "Concluir desenho",
+    "结束绘图"
+  ],
+  "ツールを選び、映像上をドラッグして配置。文字はクリックでも置けます。手動の固定表示で、タグ区間の動画にも反映されます。": [
+    "Choose a tool and drag on video. Text can be placed with a click. These are fixed manual annotations and appear in the tag's video interval.",
+    "Elige herramienta y arrastra. El texto admite clic. Son anotaciones fijas manuales y aparecen en el intervalo de la etiqueta.",
+    "Escolha a ferramenta e arraste. Texto aceita clique. São anotações fixas manuais e aparecem no intervalo da marca.",
+    "选择工具并在视频上拖动，文字也可点击放置。这是手动固定注释，也会反映在标签区间视频中。"
+  ],
+  "例：10 山田 / パスコース": [
+    "e.g. 10 Smith / passing lane",
+    "p. ej. 10 Pérez / línea de pase",
+    "ex.: 10 Silva / linha de passe",
+    "例：10 张三／传球路线"
+  ],
+  "配置した注釈（タグ保存で確定）": [
+    "Placed annotations (confirmed with tag)",
+    "Anotaciones (confirmadas con etiqueta)",
+    "Anotações (confirmadas com marca)",
+    "已放置注释（保存标签时确认）"
+  ],
+  "場面を検索": [
+    "Search moments",
+    "Buscar momentos",
+    "Buscar momentos",
+    "搜索片段"
+  ],
+  "対象チームで絞り込み": [
+    "Filter by team",
+    "Filtrar por equipo",
+    "Filtrar por equipe",
+    "按球队筛选"
+  ],
+  "時間帯で絞り込み": [
+    "Filter by period",
+    "Filtrar por período",
+    "Filtrar por período",
+    "按时段筛选"
+  ],
+  "イベントで絞り込み": [
+    "Filter by event",
+    "Filtrar por evento",
+    "Filtrar por evento",
+    "按事件筛选"
+  ],
+  "エリアで絞り込み": [
+    "Filter by area",
+    "Filtrar por zona",
+    "Filtrar por área",
+    "按区域筛选"
+  ],
+  "レーンで絞り込み": [
+    "Filter by lane",
+    "Filtrar por carril",
+    "Filtrar por corredor",
+    "按通道筛选"
+  ],
+  "評価で絞り込み": [
+    "Filter by rating",
+    "Filtrar por valoración",
+    "Filtrar por avaliação",
+    "按评价筛选"
+  ],
+  "イベントタイムライン": [
+    "Event timeline",
+    "Línea temporal de eventos",
+    "Linha do tempo de eventos",
+    "事件时间轴"
+  ],
+  "気づいた場面を記録しましょう": [
+    "Record moments you notice",
+    "Registra lo que observes",
+    "Registre o que observar",
+    "记录值得注意的片段"
+  ],
+  "動画を再生して、イベントを選んで保存します。": [
+    "Play video, select an event and save.",
+    "Reproduce, elige un evento y guarda.",
+    "Reproduza, escolha um evento e salve.",
+    "播放视频，选择事件并保存。"
+  ],
+  "キャンセルしました": [
+    "Cancelled",
+    "Cancelado",
+    "Cancelado",
+    "已取消"
+  ],
+  "編集プロジェクト名": [
+    "Editing project name",
+    "Nombre del proyecto de edición",
+    "Nome do projeto de edição",
+    "编辑项目名称"
+  ],
+  "空欄の字幕にタグ名を入れる": [
+    "Use tag names for empty subtitles",
+    "Usar etiquetas en subtítulos vacíos",
+    "Usar marcas em legendas vazias",
+    "将标签名填入空白字幕"
+  ],
+  "保存した編集に戻す": [
+    "Restore saved edit",
+    "Restaurar edición guardada",
+    "Restaurar edição salva",
+    "恢复已保存编辑"
+  ],
+  "試合ごとに編集を保存できます。区間・順序・速度・字幕をJSONバックアップにも含めます。": [
+    "Save edits per match. Ranges, order, speed and subtitles are included in JSON backups.",
+    "Guarda ediciones por partido. Intervalos, orden, velocidad y subtítulos se incluyen en JSON.",
+    "Salve edições por partida. Intervalos, ordem, velocidade e legendas entram no JSON.",
+    "可按比赛保存编辑，区间、顺序、速度和字幕均包含在JSON备份中。"
+  ],
+  "焼き込む字幕を入力（空欄なら字幕なし）": [
+    "Subtitle to burn in (blank for none)",
+    "Subtítulo incrustado (vacío: ninguno)",
+    "Legenda embutida (vazio: nenhuma)",
+    "输入要烧录的字幕（留空则无字幕）"
+  ],
+  "字幕付き動画を生成": [
+    "Generate subtitled video",
+    "Generar vídeo subtitulado",
+    "Gerar vídeo legendado",
+    "生成带字幕视频"
+  ],
+  "書き出し中": [
+    "Exporting",
+    "Exportando",
+    "Exportando",
+    "导出中"
+  ],
+  "% — 端末内で変換中です。区間完了ごとに進捗が更新されます。": [
+    "% — Converting locally; progress updates after each segment.",
+    "% — Convirtiendo localmente; se actualiza tras cada segmento.",
+    "% — Convertendo localmente; atualiza após cada trecho.",
+    "% — 正在本机转换，每个区间完成后更新进度。"
+  ],
+  "・元動画に音声がある場合は音声付き）": [
+    "· Includes original audio when present)",
+    "· Con audio original si existe)",
+    "· Com áudio original, se houver)",
+    "· 原视频有音频时保留音频）"
+  ],
+  "スロー再生と2本の映像比較。推定値は身体の正確な計測や医学的判定ではありません。": [
+    "Slow motion and two-video comparison. Estimates are not precise body measurements or medical assessments.",
+    "Cámara lenta y comparación de dos vídeos. No son medidas corporales precisas ni evaluaciones médicas.",
+    "Câmera lenta e comparação de dois vídeos. Não são medidas corporais precisas nem avaliações médicas.",
+    "慢放与双视频对比。估计值不属于精确身体测量或医学判断。"
+  ],
+  "動画": [
+    "Video",
+    "Vídeo",
+    "Vídeo",
+    "视频"
+  ],
+  "を選択": [
+    "select",
+    "seleccionar",
+    "selecionar",
+    "选择"
+  ],
+  "フォーム再生速度": [
+    "Technique playback speed",
+    "Velocidad de técnica",
+    "Velocidade da técnica",
+    "动作回放速度"
+  ],
+  "+5秒": [
+    "+5 s",
+    "+5 s",
+    "+5 s",
+    "+5秒"
+  ],
+  "フォーム動画のタイムライン": [
+    "Technique video timeline",
+    "Línea temporal de técnica",
+    "Linha do tempo de técnica",
+    "动作视频时间轴"
+  ],
+  "軸足の位置、膝の曲がり、振り抜きを同じタイミングで比較します。": [
+    "Compare support-foot position, knee bend and follow-through at matching times.",
+    "Compara apoyo, flexión de rodilla y continuación en el mismo instante.",
+    "Compare apoio, flexão do joelho e continuação no mesmo instante.",
+    "在相同时刻比较支撑脚位置、膝盖弯曲及随摆动作。"
+  ],
+  "ボールタッチ時の姿勢、重心移動、左右の切替を観察します。": [
+    "Observe posture at ball contact, weight transfer and changes of side.",
+    "Observa postura al tocar, transferencia de peso y cambios de lado.",
+    "Observe postura no toque, transferência de peso e trocas de lado.",
+    "观察触球姿势、重心转移与左右切换。"
+  ],
+  "接地時の膝、腕振り、左右のリズムを比較します。": [
+    "Compare knee position at ground contact, arm swing and left/right rhythm.",
+    "Compara rodilla al apoyar, brazos y ritmo izquierdo/derecho.",
+    "Compare joelho no apoio, braços e ritmo esquerdo/direito.",
+    "比较触地膝盖、摆臂及左右节奏。"
+  ],
+  "フォーム観察メモ": [
+    "Technique observation notes",
+    "Notas de técnica",
+    "Notas de técnica",
+    "动作观察笔记"
+  ],
+  "標準の MediaPipe Pose Landmarker Lite モデルを同梱しています。動画とモデルをサーバーへ送信しません。遠距離・遮蔽・複数選手の映像では推定が不安定です。": [
+    "Includes MediaPipe Pose Landmarker Lite. Video and model stay local. Estimates are unstable with distance, occlusion or multiple players.",
+    "Incluye MediaPipe Pose Landmarker Lite. Vídeo y modelo son locales. Distancia, oclusión o varios jugadores reducen estabilidad.",
+    "Inclui MediaPipe Pose Landmarker Lite. Vídeo e modelo ficam locais. Distância, oclusão ou vários jogadores reduzem estabilidade.",
+    "内置MediaPipe Pose Landmarker Lite。视频与模型不上传服务器。远距离、遮挡或多球员画面中估计不稳定。"
+  ],
+  "観察フレーム": [
+    "Observed frame",
+    "Fotograma observado",
+    "Quadro observado",
+    "观察帧"
+  ],
+  "/ 左膝": [
+    "/ Left knee",
+    "/ Rodilla izquierda",
+    "/ Joelho esquerdo",
+    "／左膝"
+  ],
+  "° / 右膝": [
+    "° / Right knee",
+    "° / Rodilla derecha",
+    "° / Joelho direito",
+    "°／右膝"
+  ],
+  "左右の膝角度の推移": [
+    "Left/right knee angles over time",
+    "Ángulos de rodillas en el tiempo",
+    "Ângulos dos joelhos ao longo do tempo",
+    "左右膝角度变化"
+  ],
+  "速度調整": [
+    "Speed",
+    "Velocidad",
+    "Velocidade",
+    "速度调整"
+  ],
+  "拡大/縮小": [
+    "Zoom",
+    "Zoom",
+    "Zoom",
+    "放大／缩小"
+  ],
+  "リング": [
+    "Ring",
+    "Anillo",
+    "Anel",
+    "圆环"
+  ],
+  "チームを登録する": [
+    "Register a team",
+    "Registrar equipo",
+    "Cadastrar equipe",
+    "登记球队"
+  ],
+  "位置を変更": [
+    "Change position",
+    "Cambiar posición",
+    "Alterar posição",
+    "更改位置"
+  ],
+  "終点・大きさを変更": [
+    "Change endpoint / size",
+    "Cambiar extremo / tamaño",
+    "Alterar ponta / tamanho",
+    "更改终点／大小"
+  ],
+  "選択した描画を削除": [
+    "Delete selected drawing",
+    "Borrar dibujo seleccionado",
+    "Excluir desenho selecionado",
+    "删除所选绘图"
+  ],
+  "移動先をタップしてください": [
+    "Tap the new location",
+    "Toca el nuevo lugar",
+    "Toque no novo local",
+    "请点击新位置"
+  ],
+  "終点・大きさを指定してください": [
+    "Tap the endpoint or size",
+    "Toca el extremo o tamaño",
+    "Toque na ponta ou tamanho",
+    "请指定终点或大小"
+  ],
+  "ドラッグは移動・見回し、タップや長押しはメニューです。": [
+    "Drag to move or look around; tap or hold for the menu.",
+    "Arrastra para mover o mirar; toca o mantén para el menú.",
+    "Arraste para mover ou olhar; toque ou segure para o menu.",
+    "拖动以移动或环顾，点击或长按打开菜单。"
+  ],
+  "位置・形を調整": [
+    "Adjust position / shape",
+    "Ajustar posición / forma",
+    "Ajustar posição / forma",
+    "调整位置／形状"
+  ],
+  "選択した描画の色": [
+    "Selected drawing color",
+    "Color seleccionado",
+    "Cor selecionada",
+    "所选绘图颜色"
+  ],
+  "拡大率": [
+    "Zoom level",
+    "Nivel de zoom",
+    "Nível de zoom",
+    "缩放倍率"
+  ],
+  "この位置を中心に拡大": [
+    "Zoom around this point",
+    "Ampliar sobre este punto",
+    "Ampliar neste ponto",
+    "以此位置为中心放大"
+  ],
+  "時間・位置の詳細を編集": [
+    "Edit timing and position",
+    "Editar tiempo y posición",
+    "Editar tempo e posição",
+    "编辑时间和位置详情"
+  ],
+  "選手・強調": [
+    "Players and highlights",
+    "Jugadores y resaltado",
+    "Jogadores e destaques",
+    "球员与强调"
+  ],
+  "線・エリア": [
+    "Lines and areas",
+    "Líneas y zonas",
+    "Linhas e áreas",
+    "线与区域"
+  ],
+  "2D / 配置編集": [
+    "2D / positions",
+    "2D / posiciones",
+    "2D / posições",
+    "2D／配置编辑"
+  ],
+  "3D / 斜め": [
+    "3D / overview",
+    "3D / general",
+    "3D / geral",
+    "3D／俯瞰"
+  ],
+  "サイド": [
+    "Side view",
+    "Vista lateral",
+    "Vista lateral",
+    "侧面"
+  ],
+  "ゴール裏": [
+    "Behind goal",
+    "Detrás de portería",
+    "Atrás do gol",
+    "球门后方"
+  ],
+  "ボール視点": [
+    "Ball view",
+    "Vista del balón",
+    "Visão da bola",
+    "球视角"
+  ],
+  "登録済み": [
+    "Registered",
+    "Registrado",
+    "Cadastrado",
+    "已登记"
+  ],
+  "録画を終了してから移動してください。": [
+    "Finish recording before navigating.",
+    "Termina la grabación antes de navegar.",
+    "Encerre a gravação antes de navegar.",
+    "请结束录像后再切换页面。"
+  ],
+  "アプリ内録画を削除しました。分析記録は残しています。": [
+    "Recordings deleted. Analysis records remain.",
+    "Grabaciones borradas. Se conservan los análisis.",
+    "Gravações excluídas. As análises permanecem.",
+    "已删除应用录像，分析记录保留。"
+  ],
+  "録画を終了してからチームを変更してください。": [
+    "Finish recording before changing teams.",
+    "Termina la grabación antes de cambiar equipo.",
+    "Encerre a gravação antes de trocar equipe.",
+    "请结束录像后再切换球队。"
+  ],
+  "バックアップを検証し、重複しないデータを復元しました。": [
+    "Backup verified; non-duplicate data restored.",
+    "Copia verificada; datos sin duplicados restaurados.",
+    "Backup verificado; dados sem duplicação restaurados.",
+    "已验证备份并恢复不重复的数据。"
+  ],
+  "この試合と関連するタグ・クリップ編集・レポートを削除します。関連する戦術ボードと元の動画ファイルは残ります。よろしいですか？": [
+    "Delete this match, its tags, clip edits and reports? Related boards and original video files will remain.",
+    "¿Borrar este partido, etiquetas, ediciones e informes? Se conservan pizarras relacionadas y vídeos originales.",
+    "Excluir esta partida, marcas, edições e relatórios? Quadros relacionados e vídeos originais permanecem.",
+    "删除此比赛及相关标签、片段编辑和报告？相关战术板及原视频文件将保留。"
+  ],
+  "編集案は1試合100件までです。既存の編集案を選んでください。": [
+    "Maximum 100 edits per match. Select an existing edit.",
+    "Máximo 100 ediciones por partido. Elige una existente.",
+    "Máximo de 100 edições por partida. Escolha uma existente.",
+    "每场最多100个编辑方案，请选择已有方案。"
+  ],
+  "削除する記録点をタイムラインで選択してください。": [
+    "Select a timeline keyframe to delete.",
+    "Selecciona el punto a borrar en la línea temporal.",
+    "Selecione o ponto a excluir na linha do tempo.",
+    "请在时间轴选择要删除的记录点。"
+  ],
+  "この時刻に記録点はありません。描画全体は削除していません。": [
+    "No keyframe at this time. The drawing was not deleted.",
+    "No hay punto en este instante. El dibujo no fue borrado.",
+    "Sem ponto neste instante. O desenho não foi excluído.",
+    "此时刻没有记录点，未删除整个绘图。"
+  ],
+  "選択した時刻の記録点を削除しました。": [
+    "Selected keyframe deleted.",
+    "Punto seleccionado eliminado.",
+    "Ponto selecionado excluído.",
+    "已删除所选时刻的记录点。"
+  ],
+  "MP4を書き出しました": [
+    "MP4 exported.",
+    "MP4 exportado.",
+    "MP4 exportado.",
+    "已导出MP4。"
+  ],
+  "描画は1クリップ100個までです": [
+    "Maximum 100 drawings per clip.",
+    "Máximo 100 dibujos por clip.",
+    "Máximo de 100 desenhos por clipe.",
+    "每片段最多100个绘图。"
+  ],
+  "端末の横向き表示をご利用ください": [
+    "Use landscape orientation on your device.",
+    "Usa orientación horizontal.",
+    "Use a orientação horizontal.",
+    "请使用设备横屏。"
+  ],
+  "動画を読み込めません": [
+    "Unable to load video.",
+    "No se puede cargar el vídeo.",
+    "Não foi possível carregar o vídeo.",
+    "无法加载视频。"
+  ],
+  "ズームの時間帯を保存しました": [
+    "Zoom time range saved.",
+    "Intervalo de zoom guardado.",
+    "Intervalo de zoom salvo.",
+    "已保存缩放时间区间。"
+  ],
+  "同じ時刻に記録があります": [
+    "A keyframe already exists at this time.",
+    "Ya hay un punto en este instante.",
+    "Já existe um ponto neste instante.",
+    "此时刻已有记录点。"
+  ],
+  "現在の選手配置を検出結果で置き換えます。よろしいですか？": [
+    "Replace current player positions with detection results?",
+    "¿Reemplazar posiciones con los resultados de detección?",
+    "Substituir posições pelos resultados da detecção?",
+    "将当前球员配置替换为检测结果？"
+  ],
+  "演出は1フレームに100個までです。": [
+    "Maximum 100 effects per frame.",
+    "Máximo 100 efectos por fotograma.",
+    "Máximo de 100 efeitos por quadro.",
+    "每帧最多100个效果。"
+  ],
+  "先に選手を選んでください。": [
+    "Select a player first.",
+    "Selecciona primero un jugador.",
+    "Selecione um jogador primeiro.",
+    "请先选择球员。"
+  ],
+  "結ぶ選手またはボールを順にタップしてください。": [
+    "Tap the players or ball to connect, in order.",
+    "Toca en orden los jugadores o balón a unir.",
+    "Toque em ordem nos jogadores ou bola a ligar.",
+    "请依次点击要连接的球员或球。"
+  ],
+  "戦術動画を生成し、映像フレームを確認しました。": [
+    "Tactical video generated and frames verified.",
+    "Vídeo táctico generado y fotogramas verificados.",
+    "Vídeo tático gerado e quadros verificados.",
+    "已生成战术视频并验证画面帧。"
+  ],
+  "未保存の編集を破棄して開きますか？": [
+    "Discard unsaved changes and open?",
+    "¿Descartar cambios sin guardar y abrir?",
+    "Descartar alterações não salvas e abrir?",
+    "放弃未保存的编辑并打开？"
+  ],
+  "立ち位置を保存しました": [
+    "Positions saved.",
+    "Posiciones guardadas.",
+    "Posições salvas.",
+    "已保存站位。"
+  ],
+  "戦術プロジェクトを保存しました": [
+    "Tactical project saved.",
+    "Proyecto táctico guardado.",
+    "Projeto tático salvo.",
+    "已保存战术项目。"
+  ],
+  "追跡と計測設定を記録しました。端末への保存完了を確認してください。": [
+    "Tracking and measurement settings recorded. Confirm that local saving has finished.",
+    "Seguimiento y medidas registrados. Confirma el guardado local.",
+    "Rastreamento e medidas registrados. Confira o salvamento local.",
+    "已记录追踪和测量设置，请确认已完成本地保存。"
+  ],
+  "動画内の有効な開始・終了時刻を指定してください。": [
+    "Choose valid start and end times within the video.",
+    "Elige inicio y fin válidos dentro del vídeo.",
+    "Escolha início e fim válidos dentro do vídeo.",
+    "请指定视频内有效的起止时间。"
+  ],
+  "動画を再生できません。形式・コーデックを確認して、別のファイルを選択してください。": [
+    "Cannot play video. Check format and codec, or choose another file.",
+    "No se puede reproducir. Revisa formato y códec o elige otro archivo.",
+    "Não é possível reproduzir. Verifique formato e codec ou escolha outro arquivo.",
+    "无法播放视频。请检查格式及编码或选择其他文件。"
+  ],
+  "このタグと描画を削除しますか？": [
+    "Delete this tag and its drawings?",
+    "¿Borrar esta etiqueta y sus dibujos?",
+    "Excluir esta marca e seus desenhos?",
+    "删除此标签及绘图？"
+  ],
+  "関連する戦術盤があるため削除できません。": [
+    "Cannot delete: a related tactics board exists.",
+    "No se puede borrar: existe una pizarra relacionada.",
+    "Não é possível excluir: existe um quadro relacionado.",
+    "存在相关战术板，无法删除。"
+  ],
+  "MP4動画を生成しました。プレビューで確認して保存できます。": [
+    "MP4 generated. Check the preview, then save.",
+    "MP4 generado. Revisa la vista previa y guarda.",
+    "MP4 gerado. Confira a prévia e salve.",
+    "已生成MP4，请预览确认后保存。"
+  ],
+  "有効なクリップ区間を指定してください": [
+    "Choose a valid clip range.",
+    "Elige un intervalo válido.",
+    "Escolha um intervalo válido.",
+    "请指定有效片段区间。"
+  ],
+  "編集内容を保存しました。元動画を選び直して再開できます。": [
+    "Edits saved. Reselect the source video to resume.",
+    "Edición guardada. Elige el original para continuar.",
+    "Edição salva. Selecione o original para continuar.",
+    "已保存编辑，可重新选择原视频继续。"
+  ],
+  "観察メモを端末に保存しました。": [
+    "Observation notes saved on this device.",
+    "Notas guardadas en este dispositivo.",
+    "Notas salvas neste dispositivo.",
+    "已将观察笔记保存到本机。"
+  ],
+  "メニューを移動": [
+    "Move menu",
+    "Mover menú",
+    "Mover menu",
+    "移动菜单"
+  ],
+  "フレーム・再生パネルを閉じる": [
+    "Close frames and playback",
+    "Cerrar fotogramas y reproducción",
+    "Fechar quadros e reprodução",
+    "关闭帧和播放面板"
+  ],
+  "フレーム・再生を表示": [
+    "Show frames and playback",
+    "Mostrar fotogramas y reproducción",
+    "Mostrar quadros e reprodução",
+    "显示帧和播放"
+  ]
+}

@@ -1,0 +1,40 @@
+<!doctype html><html lang="ja"><meta charset="utf-8"><title>Football Analyzer 決済接続手順</title>
+<style>body{font:16px/1.8 system-ui;max-width:900px;margin:32px auto;padding:20px}code{overflow-wrap:anywhere}table{border-collapse:collapse}td,th{padding:10px;border:1px solid #bbb}</style>
+<h1>決済接続手順（運営者向け・非公開）</h1>
+<p>現在の本番設定は BILLING_ENABLED=false。既存の編集機能は無料のままで、決済・ログイン・通知受信は利用できません。コードはテスト環境のみ有効化可能です。本番の課金開始には別途検証と切り替えが必要です。</p>
+<h2>1. 利用者の認証サービス</h2>
+<p>OpenID Connectの認可コードフロー、PKCE S256、署名付きIDトークン（RS256またはES256）に対応するサービスを接続します。アプリ側でパスワードは保存しません。設定は実際のサービスを選定・登録した後に取得してください。</p>
+<ul><li>OIDC_ISSUER：Discovery文書のissuerと完全一致する値</li><li>OIDC_CLIENT_ID：登録したアプリのクライアントID</li><li>OIDC_CLIENT_SECRET：必要な場合のみ。client_secret_postを利用できるアプリ設定が必要</li><li>許可するコールバック：テスト用APP_ORIGIN + /api/auth/callback</li><li>スコープ：openid。メール・動画・選手情報は認証データベースへ保存しません。</li></ul>
+<h2>2. テスト用のCloudflare構成</h2>
+<p>wrangler.billing.example.jsoncを非公開のテスト用設定として複製し、専用のD1データベースとテストホストを設定します。schema.sqlをそのテスト用データベースに適用します。設定例のREPLACE_WITHを残したまま有効化しないでください。本番アプリのデータベース・元動画には触れません。</p>
+<p>秘密情報はCloudflareの暗号化されたSecretsまたはSecrets Storeへ設定し、ソースコード・公開ファイル・チャットに記載しないでください。</p>
+<table><tr><th>設定名</th><th>用途</th></tr>
+<tr><td>STRIPE_SECRET_KEY</td><td>Football Analyzer テスト専用の制限付きAPIキーを推奨。Customer作成・取得、Checkout Session作成・取得、Subscription/Price/Chargeの読取、Portal Session作成に必要な権限のみ。</td></tr>
+<tr><td>STRIPE_WEBHOOK_SECRET</td><td>テスト用Webhookエンドポイントの署名シークレット。</td></tr>
+<tr><td>OIDC_CLIENT_SECRET</td><td>認証サービスが必要とする場合のみ。</td></tr></table>
+<h2>3. Stripe通知</h2>
+<p>通知先：テスト用APP_ORIGIN + /api/stripe/webhook。APIバージョン2026-09-30.endiveを前提とした実装です。登録後に実際のAPIレスポンス形状も確認してください。</p>
+<pre>checkout.session.completed
+checkout.session.async_payment_succeeded
+customer.subscription.created
+customer.subscription.updated
+customer.subscription.deleted
+invoice.paid
+invoice.payment_failed
+charge.dispute.created
+charge.refunded
+radar.early_fraud_warning.created</pre>
+<p>通知は生の本文とタイムスタンプ付き署名を確認し、イベントIDで重複を除外します。契約状態はStripeの最新状態を照会するため、古い通知を受けても有料状態を再付与しません。返金・異議申立・不正検知では該当顧客を確認待ちとし、運営者が確認するまで自動解除しません。解除のための一般公開APIはありません。</p>
+<h2>4. 検証してから有効化</h2>
+<p>テスト用の設定がそろった後、BILLING_ENABLED=trueにし、テストカードでログイン→500円の申込→有料状態確認→支払失敗→期間終了時の解約→返金を検証します。APIキーはtest環境のみ許可し、live環境では常に受付を停止します。</p>
+<p>自動テスト：<code>node --test server/billing.test.mjs</code>。モックによる検証であり、実サービス間の接続テストの代わりではありません。</p>
+<h2>5. 公開前に残る作業</h2>
+<h3>2026年11月9日：認証環境の準備状況</h3>
+<p>事業主の明示承認に基づき、Auth0 Freeを日本リージョン指定で作成しました。Projectsでプラン「auth-free」とアプリ「football-login」のFree／completeを確認済みです。有料プランや支払方法は追加していません。実ログインは未検証です。</p>
+<p>既存のサーバー側セッション方式に合わせ、Auth0のアプリ種別はregular_web、grant_typesはauthorization_code、token_endpoint_auth_methodはclient_secret_post、署名はRS256としました。Auth0公式OpenAPIのUpdateClientRequestContentで項目を確認し、Projectsのupdateで設定、statusで保存内容を照合しました。</p>
+<p>本番コールバックはhttps://football-analyzer-hk-20261105.football-analyzer.workers.dev/api/auth/callback、ログアウト後の許可URLは同ホストの/settingsです。ローカル用はhttps://localhost:8787/api/auth/callbackとhttps://localhost:8787/settings。ステージングのホスト確定後はそのURLも追加します。設定コマンドと全JSONは.build-tools/configure-auth-client.cjsに記録しています。</p>
+<p>接続情報の変数名はAUTH0_DOMAIN、AUTH0_CLIENT_ID、AUTH0_CLIENT_SECRETです。Projects公式CLIで同期し、実行時に読み込んでOIDC_ISSUER、OIDC_CLIENT_ID、OIDC_CLIENT_SECRETとして既存Workerの暗号化Secretsに登録しました。認証メタデータのissuer一致とPKCE S256対応も確認済みです。秘密情報は記載していません。公開先の課金受付が無効であることを再確認済みです。専用データベース・Stripeテスト接続・実ログイン・決済連携テストは別途必要です。</p>
+<p>決済受付の有効化前に、採用した認証サービスとStripeへの接続を許可するContent-Security-Policyを設定し、既存の動画・Canvas・WebAssembly処理に影響しないことを検証します。</p>
+<ul><li>利用者向け認証サービスの選定・接続と、実機ログイン検証</li><li>専用D1・秘密情報・通知先の設定</li><li>実際のStripeテスト決済・更新・解約を通した検証</li><li>無料／有料の機能制限と既存データの閲覧維持を実装・検証</li><li>プライバシーポリシーに認証サービス・処理地域・保持期間を反映</li><li>本番専用のキー、商品、料金、通知先を準備し、テストと分離して切り替え</li></ul>
+<p>現在の契約セッションは最大1時間、認証開始情報は10分で失効します。定期処理で失効情報を削除します。イベント履歴は90日、リスク確認待ちと契約者の対応情報は別途運営上の削除手続が必要です。アプリ内の端末データ削除では解約・サーバー側の記録削除はされません。</p>
+</html>
