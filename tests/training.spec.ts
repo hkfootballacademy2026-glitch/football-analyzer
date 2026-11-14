@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 for(const width of [390,1440])test('training library, diagram, session and persistence at '+width,async({page})=>{
- await page.setViewportSize({width,height:1000});await page.goto('/training');
+ await page.addInitScript(()=>localStorage.setItem('fa-guide','off'));await page.setViewportSize({width,height:1000});await page.goto('/training');
  await page.getByText('サンプルから始める',{exact:true}).click();await page.getByRole('button',{name:'4対2 パス・サポート',exact:true}).click();
  await expect(page.getByLabel('メニュー名',{exact:true})).toHaveValue('パスの角度をつくる 4対2');
  await page.getByLabel('メニュー名',{exact:true}).fill('週末のパス練習');
