@@ -1,3 +1,4 @@
+import {drillSchema,sessionSchema} from './training-model';
 import {kitIds} from './tactic-kits';
 import { z } from 'zod';
 export const uid = () => crypto.randomUUID();
@@ -34,7 +35,7 @@ const tacticEffectSchema=z.object({id,kind:z.enum(['arrow','circle','link','spot
 export type TacticEffect=z.infer<typeof tacticEffectSchema>;
 const tacticSchema=z.object({kits:z.object({home:z.enum(kitIds).optional(),away:z.enum(kitIds).optional()}).optional(),court:z.enum(['football','futsal']).optional(),id,teamId:z.union([id,z.literal('')]),name,display:z.object({names:z.boolean(),numbers:z.boolean(),lanes:z.boolean().optional(),thirds:z.boolean().optional()}).optional(),revisionId:z.string(),principleId:z.string(),criterionId:z.string().default(''),tagId:z.string(),frames:z.array(z.object({time:z.number().finite().nonnegative(),pieces:z.array(pieceSchema),effects:z.array(tacticEffectSchema).max(100).optional()})).min(1),notes:text});
 const reportSchema=z.object({id,teamId:z.union([id,z.literal('')]),matchId:id,issue:text,hypothesis:text,practice:text,observe:text});
-const schema=z.object({schemaVersion:z.literal(1),teams:z.array(teamSchema),models:z.array(modelSchema),revisions:z.array(revisionSchema),matches:z.array(matchSchema),tags:z.array(tagSchema),tactics:z.array(tacticSchema),reports:z.array(reportSchema)});
+const schema=z.object({schemaVersion:z.literal(1),teams:z.array(teamSchema),models:z.array(modelSchema),revisions:z.array(revisionSchema),matches:z.array(matchSchema),tags:z.array(tagSchema),tactics:z.array(tacticSchema),reports:z.array(reportSchema),drills:z.array(drillSchema).default([]),trainingSessions:z.array(sessionSchema).default([])});
 export type State=z.infer<typeof schema>;
 export type Team=State['teams'][number];
 export type Revision=State['revisions'][number];
@@ -47,7 +48,7 @@ export type Drawing=Tag['drawings'][number];
 export type Tactic=State['tactics'][number];
 export type Piece=Tactic['frames'][number]['pieces'][number];
 export type Rating=keyof typeof ratings;
-export const emptyState=():State=>({schemaVersion:1,teams:[],models:[],revisions:[],matches:[],tags:[],tactics:[],reports:[]});
+export const emptyState=():State=>({schemaVersion:1,teams:[],models:[],revisions:[],matches:[],tags:[],tactics:[],reports:[],drills:[],trainingSessions:[]});
 export const newCriterion=(behavior='新しい行動基準'):Criterion=>({id:uid(),behavior,goodExample:'',improveExample:'',archived:false});
 export const newPrinciple=(name='新しい原則'):Principle=>({id:uid(),name,description:'',conditions:'',color:'#28664e',archived:false,criteria:[]});
 export const newPhase=(name='新しい局面'):Phase=>({id:uid(),name,archived:false,principles:[]});
@@ -74,7 +75,7 @@ export function stats(tags:Tag[]){const count={good:0,improve:0,undecided:0,not_
 export function validate(input:unknown):State{
  const s=schema.parse(input);
  const unique=(items:{id:string}[])=>{if(new Set(items.map(i=>i.id)).size!==items.length)throw Error('重複IDがあります');};
- unique([...s.teams,...s.models,...s.revisions,...s.matches,...s.tags,...s.tactics,...s.reports,...s.teams.flatMap(t=>t.players)]);
+ unique([...s.teams,...s.models,...s.revisions,...s.matches,...s.tags,...s.tactics,...s.reports,...s.drills,...s.trainingSessions,...s.teams.flatMap(t=>t.players)]);
  for(const m of s.models)if(!s.teams.some(t=>t.id===m.teamId))throw Error('モデルのチーム参照が不正です');
  for(const r of s.revisions){if(!s.models.some(m=>m.id===r.modelId))throw Error('版のモデル参照が不正です');unique([...r.phases,...r.phases.flatMap(p=>p.principles),...r.phases.flatMap(p=>p.principles.flatMap(q=>q.criteria))]);if(r.basedOn&&!s.revisions.some(o=>o.id===r.basedOn&&o.modelId===r.modelId))throw Error('元の版が不正です');}
  for(const m of s.models){const versions=s.revisions.filter(r=>r.modelId===m.id).map(r=>r.version);if(new Set(versions).size!==versions.length)throw Error('版番号が重複しています');}
@@ -83,11 +84,14 @@ export function validate(input:unknown):State{
  for(const t of s.tags){const m=s.matches.find(m=>m.id===t.matchId);if(!m||m.teamId!==t.teamId||m.revisionId!==t.revisionId)throw Error('タグの試合参照が不正です');const r=analysisDefinition(s,m);const p=r.phases.find(p=>p.id===t.phaseId)?.principles.find(p=>p.id===t.principleId);if(!p||(t.criterionId&&!p.criteria.some(c=>c.id===t.criterionId)))throw Error('タグの原則・基準が不正です');if(t.start>t.time||t.end<t.time||t.end<=t.start)throw Error('クリップ区間が不正です');if(t.playerIds.some(id=>!s.teams.find(team=>team.id===t.teamId)?.players.some(p=>p.id===id)))throw Error('選手参照が不正です');}
  for(const t of s.tactics){if(t.teamId&&!s.teams.some(a=>a.id===t.teamId))throw Error('戦術盤のチーム参照が不正です');if(t.revisionId){const r=revisionFor(t.teamId,t.revisionId);const p=r.phases.flatMap(ph=>ph.principles).find(p=>p.id===t.principleId);if(t.principleId&&!p)throw Error('戦術盤の原則参照が不正です');if(t.criterionId&&!p?.criteria.some(c=>c.id===t.criterionId))throw Error('戦術盤の基準参照が不正です');}else if(t.principleId||t.criterionId)throw Error('戦術盤の版を指定してください');if(t.tagId&&!s.tags.some(tag=>tag.id===t.tagId&&tag.teamId===t.teamId&&tag.revisionId===t.revisionId&&(!t.revisionId||tag.principleId===t.principleId)))throw Error('戦術盤のタグ参照が不正です');for(let i=0;i<t.frames.length;i++){unique(t.frames[i].pieces);unique(t.frames[i].effects??[]);for(const effect of t.frames[i].effects??[]){for(const anchor of [effect.fromId,effect.toId])if(anchor&&!t.frames[i].pieces.some(p=>p.id===anchor))throw Error('演出の選手参照が不正です');if(effect.kind==='link'&&(!effect.fromId||!effect.toId||effect.fromId===effect.toId))throw Error('リンクには異なる2つのコマを指定してください');}if((i===0&&t.frames[i].time!==0)||(i>0&&t.frames[i].time<=t.frames[i-1].time))throw Error('キーフレーム時刻が不正です');if(i&&t.frames[i].pieces.map(p=>p.id).sort().join()!==t.frames[0].pieces.map(p=>p.id).sort().join())throw Error('キーフレームの選手が一致しません');}}
  for(const r of s.reports)if(!s.matches.some(m=>m.id===r.matchId&&m.teamId===r.teamId))throw Error('レポートの試合参照が不正です');
+ for(const d of [...s.drills,...s.trainingSessions])if(d.teamId&&!s.teams.some(t=>t.id===d.teamId))throw Error('トレーニングのチーム参照が不正です');
+ for(const d of s.drills)unique(d.pieces);
+ for(const session of s.trainingSessions){unique(session.items);for(const item of session.items)unique(item.drill.pieces);}
  return s;
 }
 export function mergeBackup(current:State,incoming:unknown):State{
  const other=validate(incoming);const result=structuredClone(current);
- for(const key of ['teams','models','revisions','matches','tags','tactics','reports'] as const){for(const entity of other[key]){const existing=(result[key] as {id:string}[]).find(e=>e.id===entity.id);if(existing){if(JSON.stringify(existing)!==JSON.stringify(entity))throw Error('同じIDに異なるデータがあります。上書きせず中止しました。空のブラウザーに復元してください。');}else (result[key] as unknown[]).push(entity);}}
+ for(const key of ['teams','models','revisions','matches','tags','tactics','reports','drills','trainingSessions'] as const){for(const entity of other[key]){const existing=(result[key] as {id:string}[]).find(e=>e.id===entity.id);if(existing){if(JSON.stringify(existing)!==JSON.stringify(entity))throw Error('同じIDに異なるデータがあります。上書きせず中止しました。空のブラウザーに復元してください。');}else (result[key] as unknown[]).push(entity);}}
  return validate(result);
 }
 export function interpolate(frames:Tactic['frames'],time:number):Piece[]{
