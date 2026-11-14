@@ -1,3 +1,4 @@
+import type {Court} from './pitch-markings';
 import {playerFigure,footballFigure} from './tactic-figures';
 import * as THREE from 'three';
 import {type Piece,type Tactic,syncDribbles} from './domain';
@@ -16,14 +17,14 @@ export function ballPaths(frames:Tactic['frames']){frames=syncDribbles(frames);r
 export function pathModel(frames:Tactic['frames']){const g=new THREE.Group();for(const {p,q,air,dribble,shot,height} of ballPaths(frames)){const points=Array.from({length:41},(_,i)=>{const t=i/40;return new THREE.Vector3(p.x+(q.x-p.x)*t-50,.12+(air?4*height*t*(1-t):0),p.y+(q.y-p.y)*t-32)});const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints(points),dribble?new THREE.LineDashedMaterial({color:'#ffad66',dashSize:.3,gapSize:.4}):air?new THREE.LineDashedMaterial({color:'#ffd76c',dashSize:1,gapSize:.6}):new THREE.LineBasicMaterial({color:shot?'#ff6262':'#85eaff'}));line.computeLineDistances();g.add(line);const end=points.at(-1)!,direction=end.clone().sub(points.at(-2)!).normalize();g.add(new THREE.ArrowHelper(direction,end.clone().addScaledVector(direction,-1.2),1.2,shot?0xff6262:dribble?0xffad66:air?0xffd76c:0x85eaff,shot?1.2:.8,shot?.8:.5))}return g}
 export function disposeObject(g:THREE.Object3D){g.traverse(o=>{const m=o as THREE.Mesh;m.geometry?.dispose();if(m.material)for(const mat of Array.isArray(m.material)?m.material:[m.material]){(mat as THREE.MeshStandardMaterial).map?.dispose();mat.dispose()}})}
 
-export function goalModel(){
+export function goalModel(court?:Court){
  const goals=new THREE.Group();goals.name='goals';
  for(const side of [-1,1]){
- const x=side*50,back=x+side*2,half=3.66,height=2.44;
+ const x=side*50,back=x+side*2,half=court==='futsal'?4.8:3.66,height=court==='futsal'?5:2.44;
  const post=(a:THREE.Vector3,b:THREE.Vector3)=>{const mesh=new THREE.Mesh(new THREE.CylinderGeometry(.09,.09,a.distanceTo(b),12),new THREE.MeshStandardMaterial({color:'#ffffff'}));mesh.position.copy(a).add(b).multiplyScalar(.5);mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),b.clone().sub(a).normalize());goals.add(mesh)};
  post(new THREE.Vector3(x,0,-half),new THREE.Vector3(x,height,-half));post(new THREE.Vector3(x,0,half),new THREE.Vector3(x,height,half));post(new THREE.Vector3(x,height,-half),new THREE.Vector3(x,height,half));
  const points:THREE.Vector3[]=[];const net=(a:number[],b:number[])=>points.push(new THREE.Vector3(a[0],a[1],a[2]),new THREE.Vector3(b[0],b[1],b[2]));
- for(let z=-half;z<=half+.001;z+=7.32/24){net([back,0,z],[back,height,z]);net([x,height,z],[back,height,z])}
+ for(let z=-half;z<=half+.001;z+=half*2/24){net([back,0,z],[back,height,z]);net([x,height,z],[back,height,z])}
  for(let y=0;y<=height+.001;y+=height/8){net([back,y,-half],[back,y,half]);for(const z of [-half,half])net([x,y,z],[back,y,z])}
  for(let depth=0;depth<=2.001;depth+=.25){const nx=x+side*depth;net([nx,height,-half],[nx,height,half]);for(const z of [-half,half])net([nx,0,z],[nx,height,z])}
  goals.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(points),new THREE.LineBasicMaterial({color:'#ffffff',transparent:true,opacity:.55})));
