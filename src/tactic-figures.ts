@@ -1,11 +1,12 @@
+import {kitPalette} from './tactic-kits';
 import * as THREE from 'three';
 import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
 import type {Piece} from './domain';
 
 // Batch the anatomy by material: detail without a draw call for every limb.
 export function playerFigure(p:Piece,numbers:boolean){
- const group=new THREE.Group(),home=p.side==='home';
- const palette={shirt:home?'#c9e894':'#f09a78',trim:home?'#294d38':'#633d48',skin:'#d3a17d',hair:'#302a25',boot:'#202a30',sole:'#d7dedb',white:'#f7f8ed'};
+ const group=new THREE.Group(),kit=kitPalette(p);
+ const palette={shirt:kit.shirt,trim:kit.trim,skin:'#d3a17d',hair:'#302a25',boot:'#202a30',sole:'#d7dedb',white:'#f7f8ed'};
  const bins=new Map<string,THREE.BufferGeometry[]>();
  const add=(geometry:THREE.BufferGeometry,key:keyof typeof palette,position:THREE.Vector3,scale=new THREE.Vector3(1,1,1),rotation=new THREE.Quaternion())=>{geometry.applyMatrix4(new THREE.Matrix4().compose(position,rotation,scale));const list=bins.get(key)??[];list.push(geometry);bins.set(key,list)};
  const ellipsoid=(key:keyof typeof palette,x:number,y:number,z:number,rx:number,ry:number,rz:number)=>add(new THREE.SphereGeometry(1,12,8),key,new THREE.Vector3(x,y,z),new THREE.Vector3(rx,ry,rz));
@@ -38,7 +39,7 @@ export function playerFigure(p:Piece,numbers:boolean){
  }
  for(const [key,geometries] of bins){const merged=mergeGeometries(geometries,false);geometries.forEach(g=>g.dispose());if(merged)group.add(new THREE.Mesh(merged,new THREE.MeshStandardMaterial({color:palette[key as keyof typeof palette],roughness:key==='boot'?.55:.88})));}
  const canvas=document.createElement('canvas');canvas.width=128;canvas.height=128;const ctx=canvas.getContext('2d')!;
- ctx.fillStyle=home?'#294d38':'#633d48';ctx.textAlign='center';ctx.textBaseline='middle';ctx.font='bold 80px sans-serif';if(numbers)ctx.fillText(p.number,64,68,110);
+ ctx.fillStyle=kit.trim;ctx.textAlign='center';ctx.textBaseline='middle';ctx.font='bold 80px sans-serif';if(numbers)ctx.fillText(p.number,64,68,110);
  const texture=new THREE.CanvasTexture(canvas);texture.colorSpace=THREE.SRGBColorSpace;
  const number=new THREE.Mesh(new THREE.PlaneGeometry(.34,.36),new THREE.MeshStandardMaterial({map:texture,transparent:true,depthWrite:false,roughness:1}));number.rotation.y=-Math.PI/2;number.position.set(-.201,1.43,0);number.name='jersey-number';number.visible=numbers;group.add(number);
  const crest=new THREE.Mesh(new THREE.CircleGeometry(.045,5),new THREE.MeshStandardMaterial({color:palette.trim,roughness:1}));crest.rotation.y=Math.PI/2;crest.position.set(.185,1.53,-.13);group.add(crest);

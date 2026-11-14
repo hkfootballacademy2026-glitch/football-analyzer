@@ -1,3 +1,4 @@
+import {kitPalette} from './tactic-kits';
 import {pitchMarkings,type Court} from './pitch-markings';
 import {tr} from './workspace-tools';
 import {useState} from 'react';
@@ -21,7 +22,7 @@ export function PlayerPerspective({court,pieces,observer,active,busy,playing,onS
     {pitchMarkings(court).lines.map((line,i)=><polyline key={i} points={line.map(p=>p.join(',')).join(' ')} fill="none" stroke="#ffffffb0" strokeWidth=".6"/>)}
 
     {pieces.filter(p=>p.side!=='cone').map(p=><g key={p.id} role={p.side==='ball'?undefined:'button'} tabIndex={p.side==='ball'?-1:0} aria-label={p.side==='ball'?tr("ボール"):`${p.side==='home'?tr("味方"):tr("相手")} ${p.number}の目線`} onClick={e=>{e.stopPropagation();if(p.side!=='ball'&&!busy)onSelect(p.id)}} onKeyDown={e=>{if((e.key==='Enter'||e.key===' ')&&p.side!=='ball'&&!busy){e.preventDefault();onSelect(p.id)}}}>
-     <circle cx={p.x} cy={p.y} r="4" fill="transparent"/>{p.id===observer?.id&&<circle cx={p.x} cy={p.y} r="4" fill="none" stroke="#ffe16b" strokeWidth="1"/>}<circle cx={p.x} cy={p.y} r={p.side==='ball'?1.1*(p.ballScale??1):2.2} fill={p.side==='home'?'#d8f197':p.side==='away'?'#f5a885':'white'}/>{p.side!=='ball'&&<text x={p.x} y={p.y+.9} textAnchor="middle" fontSize="2.5" fill="#10291e" pointerEvents="none">{p.number}</text>}
+     <circle cx={p.x} cy={p.y} r="4" fill="transparent"/>{p.id===observer?.id&&<circle cx={p.x} cy={p.y} r="4" fill="none" stroke="#ffe16b" strokeWidth="1"/>}<circle cx={p.x} cy={p.y} r={p.side==='ball'?1.1*(p.ballScale??1):2.2} fill={p.side==='ball'?'white':kitPalette(p).board}/>{p.side!=='ball'&&<text x={p.x} y={p.y+.9} textAnchor="middle" fontSize="2.5" fill={kitPalette(p).number} pointerEvents="none">{p.number}</text>}
     </g>)}
    </svg>
    <p>{tr("選手をタップすると、その選手の目線へ切り替わります。")}</p>
