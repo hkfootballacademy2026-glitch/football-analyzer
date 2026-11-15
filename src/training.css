@@ -6,3 +6,5 @@
 @media print{.training-workspace> :not(.training-print-sheet){display:none!important}.training-workspace>.training-print-sheet{display:block!important}.training-print-sheet p{white-space:pre-wrap;overflow-wrap:anywhere}.training-print-sheet section{break-before:page}.training-print-sheet h3{break-after:avoid}.training-print-sheet .training-pitch{break-inside:avoid}}
 
 .training-three{margin-top:16px}.training-three-host{height:clamp(300px,52vw,580px);width:100%;overflow:hidden;border-radius:12px;margin-top:12px;touch-action:none}.training-three-host canvas{display:block;width:100%;height:100%}.training-three .actions{flex-wrap:wrap}.training-three .field{max-width:360px}
+
+.training-drawing-actions{margin-top:10px}.training-drawing-inspector{padding:16px;border:1px solid #8caa9566;border-radius:12px;margin:12px 0}.training-drawing-inspector>b{display:block;margin-bottom:12px}.training-drawing-inspector input[type=color]{padding:4px;width:100%;min-height:44px}.training-drawing-inspector .form-grid{align-items:start}

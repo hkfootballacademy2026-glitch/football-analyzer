@@ -1,7 +1,7 @@
 import {z} from 'zod';
 
 const text=z.string().max(10000);
-export const trainingPieceSchema=z.object({id:z.string().min(1),kind:z.enum(['home','away','ball','cone','goal','arrow']),x:z.number().min(0).max(100),y:z.number().min(0).max(64),ex:z.number().min(0).max(100),ey:z.number().min(0).max(64),label:z.string().max(30)});
+export const trainingPieceSchema=z.object({id:z.string().min(1),kind:z.enum(['home','away','ball','cone','goal','arrow','line','circle','rect','triangle','trapezoid','text']),x:z.number().min(0).max(100),y:z.number().min(0).max(64),ex:z.number().min(0).max(100),ey:z.number().min(0).max(64),label:z.string().max(30),color:z.string().regex(/^#[0-9a-fA-F]{6}$/).optional(),style:z.enum(['solid','dashed','wave']).optional(),strokeWidth:z.number().min(.2).max(3).optional(),fill:z.boolean().optional(),text:z.string().max(500).optional(),fontSize:z.number().min(1).max(8).optional()});
 export const drillSchema=z.object({id:z.string().min(1),teamId:z.string(),name:z.string().trim().min(1).max(200),theme:text,age:z.string().max(100),minutes:z.number().int().min(1).max(240),players:z.number().int().min(1).max(100),equipment:text,organization:text,rules:text,coaching:text,progression:text,favorite:z.boolean(),matchId:z.string(),tacticId:z.string(),pieces:z.array(trainingPieceSchema).max(200)});
 export const sessionSchema=z.object({id:z.string().min(1),teamId:z.string(),name:z.string().trim().min(1).max(200),date:z.string(),objective:text,targetMinutes:z.number().int().min(1).max(480),items:z.array(z.object({id:z.string().min(1),drill:drillSchema,minutes:z.number().int().min(1).max(240)})).max(50),good:text,improve:text,next:text});
 export type Drill=z.infer<typeof drillSchema>;
