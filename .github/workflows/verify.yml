@@ -43,7 +43,7 @@ jobs:
       - name: Install Chromium for board interaction tests
         run: npx playwright install --with-deps chromium
       - name: Board and training interaction tests
-        run: npx playwright test tests/tactics-ball-drawing.spec.ts tests/training.spec.ts tests/tactics-drawing-tools.spec.ts tests/training-animation.spec.ts tests/shared-drawing.spec.ts
+        run: npx playwright test tests/tactics-ball-drawing.spec.ts tests/training.spec.ts tests/tactics-drawing-tools.spec.ts tests/training-animation.spec.ts tests/shared-drawing.spec.ts tests/highlight-speed.spec.ts
       - name: Keep the verified app build
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
         with:

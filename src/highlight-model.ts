@@ -10,8 +10,12 @@ export function cutClip(c:StudioClip,from:number,to:number):StudioClip{
  const duration=to-from;
  const overlays=c.overlays.filter(o=>o.end>from&&o.start<to).map(o=>{
   const at=(time:number)=>overlayAt({...c,overlays:[{...o,start:0,end:Number.MAX_VALUE}]},time)[0];
-  const a=at(from),b=at(to);
-  return {...o,start:Math.max(0,o.start-from),end:Math.min(duration,o.end-from),keys:o.keys.length?[{time:0,x:a.x,y:a.y,drawing:a},...o.keys.filter(k=>k.time>from&&k.time<to).map(k=>({...k,time:k.time-from})),{time:duration,x:b.x,y:b.y,drawing:b}]:[]};
+  const a=at(from),b=at(to),first=Math.min(...o.keys.map(k=>k.time)),last=Math.max(...o.keys.map(k=>k.time));
+  const keys=o.keys.filter(k=>k.time>from&&k.time<to).map(k=>({...k,time:k.time-from}));
+  if(from>=first&&from<last)keys.unshift({time:0,x:a.x,y:a.y,drawing:a});
+  if(to>first&&to<=last)keys.push({time:duration,x:b.x,y:b.y,drawing:b});
+  if(o.keys.length&&!keys.length)keys.push({time:0,x:a.x,y:a.y,drawing:a});
+  return {...o,start:Math.max(0,o.start-from),end:Math.min(duration,o.end-from),keys};
  });
  return {...c,start:c.freeze?c.start:c.start+from*c.speed,end:c.freeze?c.end:c.start+to*c.speed,freeze:c.freeze?duration:0,overlays,...(c.effects?{effects:c.effects.filter(e=>e.end>from&&e.start<to).map(e=>{const active=[...e.keys].sort((a,b)=>b.time-a.time).find(k=>k.time<=from);return {...e,...(active?{zoom:active.zoom,cx:active.cx,cy:active.cy}:{}),start:Math.max(0,e.start-from),end:Math.min(duration,e.end-from),keys:e.keys.filter(k=>k.time>from&&k.time<to).map(k=>({...k,time:k.time-from}))}})}:{})};
 }
