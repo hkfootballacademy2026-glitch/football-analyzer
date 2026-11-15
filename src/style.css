@@ -10,3 +10,5 @@
 .pitch-ball-size{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem}.pitch-ball-size input[type=range]{width:110px;max-width:35vw;min-height:36px}.pitch-ball-size output{min-width:3.3em;font-variant-numeric:tabular-nums}
 
 .tactic-group-tools{border-top:1px solid #78958255;margin-top:16px;padding-top:16px}.tactic-group-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;max-height:220px;overflow:auto;margin-top:12px}.tactic-group-list label{display:flex;align-items:center;gap:8px}.tactic-drawing-options{margin:12px 0}.tactic-group-tools .actions{flex-wrap:wrap}
+
+.shared-pitch-three{overflow:auto!important;display:block!important}.shared-pitch-three .training-three{height:100%;display:flex;flex-direction:column;background:#122b23}.shared-pitch-three .training-three-host{flex:1;min-height:250px}.shared-pitch-three .training-three>.actions{padding:8px;position:relative;z-index:2}.shared-pitch-three .training-three>.hint{padding:0 12px}.tactics-workspace.is-expanded .shared-pitch-three .training-three>.actions{padding-top:64px}

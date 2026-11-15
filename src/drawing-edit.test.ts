@@ -1,5 +1,5 @@
 import {describe,it,expect} from 'vitest';
-import {handles,hitDrawing,hitHandle,transformDrawing} from './drawing-edit';
+import {moveDrawingSelection,handles,hitDrawing,hitHandle,transformDrawing} from './drawing-edit';
 import type {Drawing} from './domain';
 const d:Drawing={id:'test',kind:'arrow',x:.2,y:.2,ex:.6,ey:.6,color:'#fff'};
 describe('図形の直接操作',()=>{
@@ -11,3 +11,5 @@ it('文字は保存可能なサイズに制限する',()=>{const n=transformDraw
 });
 
 it('複数選手リンクの各輪を個別に動かせる',()=>{const link={...d,kind:'link' as const,nodes:[{x:.2,y:.3},{x:.5,y:.4},{x:.8,y:.3}]};expect(handles(link).map(h=>h.id)).toEqual(['node:0','node:1','node:2']);const moved=transformDrawing(link,'node:1',.1,.2);expect(moved.nodes?.[0]).toEqual(link.nodes[0]);expect(moved.nodes?.[1].x).toBeCloseTo(.6);expect(moved.nodes?.[1].y).toBeCloseTo(.6);expect(moved.nodes?.[2]).toEqual(link.nodes[2]);});
+
+it('keeps multi-selection spacing at image boundaries',()=>{const a={...d,id:'a',x:.1,ex:.3},b={...d,id:'b',x:.7,ex:.9};const moved=moveDrawingSelection([a,b],['a','b'],.5,0);expect(moved[1].ex).toBeCloseTo(1);expect(moved[1].x-moved[0].x).toBeCloseTo(.6);expect(moved[0].ex-moved[0].x).toBeCloseTo(.2);});

@@ -1,5 +1,5 @@
 ﻿[CmdletBinding()]
-param([string]$Message = ('Save source ' + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')), [switch]$Preview)
+param([string]$Message = ('Save source ' + (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')), [switch]$Preview, [string[]]$SourcePaths)
 $ErrorActionPreference = 'Stop'
 $expectedRemote = 'https://github.com/hkfootballacademy2026-glitch/football-analyzer.git'
 Set-Location -LiteralPath (Split-Path $PSScriptRoot -Parent)
@@ -13,7 +13,12 @@ $branch = & git branch --show-current
 if ($LASTEXITCODE -ne 0 -or $branch -ne 'main') { throw 'Switch to main before saving source' }
 if ($Preview) { Git-Checked status --short; return }
 $paths = @('.github','src','server','scripts','tests','public','.gitignore','.env.example','AGENTS.md','README.md','CHANGELOG.md','FEATURE_STATUS.md','LICENSES.md','index.html','package.json','package-lock.json','eslint.config.js','tsconfig.json','vite.config.ts','vitest.config.ts','playwright.config.ts','wrangler.jsonc','wrangler.billing.example.jsonc','MOBILE_WORKSPACE_VALIDATION.md','MP4_SOURCE_VALIDATION.md','PITCH_WORKSPACE_VALIDATION.md','SAFARI_VALIDATION.md','SCENE_RECONSTRUCTION_VALIDATION.md','WORKSPACE_UPGRADE_VALIDATION.md','Save-source-to-GitHub.cmd')
-Git-Checked add -- @paths
+if ($SourcePaths) {
+ foreach ($sourcePath in $SourcePaths) {
+  if ($sourcePath -match '(^|/)\.\.(/|$)' -or [System.IO.Path]::IsPathRooted($sourcePath) -or (-not ($paths -contains $sourcePath) -and $sourcePath -notmatch '^(\.github|src|server|scripts|tests|public)/')) { throw ('Invalid source path: ' + $sourcePath) }
+ }
+ Git-Checked add -- @SourcePaths
+} else { Git-Checked add -- @paths }
 $staged = @(& git -c core.quotepath=false diff --cached --name-only)
 if ($LASTEXITCODE -ne 0) { throw 'Cannot inspect staged paths' }
 foreach ($file in $staged) {
