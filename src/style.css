@@ -8,3 +8,5 @@
 
 
 .pitch-ball-size{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;font-size:.85rem}.pitch-ball-size input[type=range]{width:110px;max-width:35vw;min-height:36px}.pitch-ball-size output{min-width:3.3em;font-variant-numeric:tabular-nums}
+
+.tactic-group-tools{border-top:1px solid #78958255;margin-top:16px;padding-top:16px}.tactic-group-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;max-height:220px;overflow:auto;margin-top:12px}.tactic-group-list label{display:flex;align-items:center;gap:8px}.tactic-drawing-options{margin:12px 0}.tactic-group-tools .actions{flex-wrap:wrap}
